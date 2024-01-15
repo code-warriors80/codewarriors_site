@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+https://itsulu-react.netlify.app/?storefront=envato-elements
 
-## Getting Started
+About
+https://itsulu-react.netlify.app/about
 
-First, run the development server:
+services
+https://itsulu-react.netlify.app/service-1
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SPARROW
+Team
+https://itsulu-react.netlify.app/team
+https://itsulu-react.netlify.app/team-single
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Solutions
+https://itsulu-react.netlify.app/solution-3
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contact
+https://itsulu-react.netlify.app/contact
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Portfolio
+https://itsulu-react.netlify.app/portfolio
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+JOSH
+Coming soon
+https://itsulu-react.netlify.app/coming-soon
+404
+https://itsulu-react.netlify.app/404
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+color
+#F57C00
+linear-gradient(180deg, rgba(255, 255, 255, 0.15)
+#121820CC
+#12182066
+#1218200D
+#121820
+#FFFFFF80
+rgba(18,24,32,.05)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Font Family
+Syne, sans-serif
+Sora
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Font Size
+60px
+15px
+42px
+16px
+22px
+18px

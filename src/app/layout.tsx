@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { Syne, Sora } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+const syne = Syne({ subsets: ['latin'] })
+const sora = Sora({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="dark">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" data-theme="emerald">
+      <body className={`${inter.className} ${syne.className} ${sora.className}`} >{children}</body>
     </html>
   )
 }
