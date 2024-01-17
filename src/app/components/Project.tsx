@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import React from 'react'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 
@@ -66,8 +67,11 @@ const Project = (props: Props) => {
                                 </div>
                         </div>
                     </div> 
+            </div>
 
-
+            <div className='flex justify-between items-center mt-20'>
+                <Link href='/' className='flex gap-3 items-center font-syne text-[16px]'>Learn More<div className='bg-[#F57C00] p-3 rounded-full'><BsArrowRight size={20} color='white'/></div></Link>   
+                <Link href='' className='border-2 border-[#F57C00] px-20 py-5 rounded-full font-sora text-[16px]'>How We Work</Link>
             </div>
     </div>
     </div>

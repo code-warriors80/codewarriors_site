@@ -8,6 +8,7 @@ import Services from './components/Services'
 import New from './components/New'
 import Testimonial from './components/Testimonial'
 import Project from './components/Project'
+import Discover from './components/Discover'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <Carousel />
       <Services />
       <Project />
-      <Training />
+      <Discover />
       <New />
       <Testimonial />
     </main>
