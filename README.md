@@ -40,6 +40,7 @@ rgba(18,24,32,.05)
 Font Family
 Syne, sans-serif
 Sora
+Satisfy, cursive
 
 Font Size
 60px

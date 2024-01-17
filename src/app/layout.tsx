@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Sora, Syne } from 'next/font/google'
+import '@fontsource/satisfy' // Import the Satisfy font
 import './globals.css'
-import { Syne, Sora } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 const syne = Syne({ subsets: ['latin'] })
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="emerald">
-      <body className={`${inter.className} ${syne.className} ${sora.className}`} >{children}</body>
+      <body className={`${inter.className} ${syne.className} ${sora.className} font-satisfy`}>{children}</body>
     </html>
   )
 }

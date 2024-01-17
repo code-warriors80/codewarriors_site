@@ -1,43 +1,93 @@
 import React from 'react'
+import { BsArrowRight, BsPlayFill } from 'react-icons/bs'
 
-type Props = {}
+type Props = {
+  
+}
 
 const Carousel = (props: Props) => {
   return (
-<div className="carousel w-full ">
-  <div id="slide1" className="carousel-item relative w-full h-[90vh] ">
-    <img src="https://t3.ftcdn.net/jpg/06/26/00/00/360_F_626000010_E0QNIHh0a7XjAQeodbUN4m2FgCgKkO7L.webp" className="w-full" />
-    <div className="absolute w-full  h-full flex items-center justify-center">
-        <div className='flex items-center justify-between w-[1000px]'>
-            <a href="#slide4" className="btn btn-circle  bg-[#FFFFFF1A]">❮</a> 
-            <div>
-                <h1 className='uppercase text-[60px] text-white text-center special-text'>The Freedom To Focus On Improving Your Business Or Idea</h1>
+<div className="carousel w-full h-screen">
+
+  <div id="slide1" className="carousel-item relative w-screen">
+        <img src="/bg6.jpg" className="w-full h-full object-cover" />
+        <div className='w-full h-full absolute bg-[#121820CC] flex justify-center'>
+            <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
+            <div className='flex items-center justify-center'>
+                <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
+                    <div className='lg:w-[75%] lg:px-20'>
+                        <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#F57C00]">Inspiration</span></p>
+                        <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
+                          <span>The</span> 
+                          <span className="font-satisfy text-[#F57C00]"> Freedom</span> 
+                          <span>To Focus On <br/> Improving</span> 
+                          <span className="font-satisfy text-[#F57C00]"> Your </span> 
+                          <span>Business Or Idea</span>
+                        </h1>
+                        <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
+                        <div className='flex items-center justify-center gap-10 lg:gap-20'>
+                          <button className="font-sora text-sm lg:text-lg bg-[#F57C00] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
+                          <div className='flex items-center gap-5'>
+                              <button className="border-2 border-[#F57C00] rounded-full  p-3 lg:p-4"><BsPlayFill size={30} color='white'/></button>
+                              <span className='font-sora text-white text-sm lg:text-sm'>Watch Video</span>
+                          </div>
+                        </div>
+                    </div>
+                <a href="#slide2" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❯</a>
             </div>
-            <a href="#slide2" className="btn btn-circle bg-[#FFFFFF1A]">❯</a>
         </div>
-    </div>
-  </div> 
-  <div id="slide2" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" className="btn btn-circle">❮</a> 
-      <a href="#slide3" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide3" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide2" className="btn btn-circle">❮</a> 
-      <a href="#slide4" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide4" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide3" className="btn btn-circle">❮</a> 
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
   </div>
+
+  <div id="slide2" className="carousel-item relative w-screen">
+        <img src="/bg5.jpg" className="w-full h-full object-cover" />
+        <div className='w-full h-full absolute bg-[#121820CC] flex justify-center '>
+            <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
+            <div className=' flex items-center justify-center'>
+                <a href="#slide1" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
+                <div className='lg:w-[75%] lg:px-20'>
+                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#F57C00]">Inspiration</span></p>
+                    <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
+                      <span>The</span> 
+                      <span className="font-satisfy text-[#F57C00]"> Freedom</span> 
+                      <span>To Focus On <br/> Improving</span> 
+                      <span className="font-satisfy text-[#F57C00]"> Your </span> 
+                      <span>Business Or Idea</span>
+                    </h1>
+                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
+                    <div className='flex items-center justify-center gap-10 lg:gap-20'>
+                      <button className="font-sora text-sm lg:text-lg bg-[#F57C00] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
+                    </div>
+                </div>
+                <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❯</a>
+            </div>
+        </div>
+  </div>
+
+  <div id="slide3" className="carousel-item relative w-screen">
+        <img src="/bg4.jpg" className="w-full h-full object-cover" />
+        <div className='w-full h-full absolute bg-[#121820CC] flex justify-center '>
+            <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
+            <div className=' flex items-center justify-center'>
+                <a href="#slide2" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
+                <div className='lg:w-[75%] lg:px-20'>
+                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#F57C00]">Inspiration</span></p>
+                    <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
+                      <span>The</span> 
+                      <span className="font-satisfy text-[#F57C00]"> Freedom</span> 
+                      <span>To Focus On <br/> Improving</span> 
+                      <span className="font-satisfy text-[#F57C00]"> Your </span> 
+                      <span>Business Or Idea</span>
+                    </h1>
+                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
+                    <div className='flex items-center justify-center gap-10 lg:gap-20'>
+                      <button className="font-sora text-sm lg:text-lg bg-[#F57C00] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
+                    </div>
+                </div>
+                <a href="#slide1" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❯</a>
+            </div>
+        </div>
+  </div>
+
 </div>
   )
 }
