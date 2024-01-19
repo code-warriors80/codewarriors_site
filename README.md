@@ -2,21 +2,17 @@ https://itsulu-react.netlify.app/?storefront=envato-elements
 https://itsulu-react.netlify.app/blog
 
 SADIX
-FOOTER
-HEADER
-Solutions
-https://itsulu-react.netlify.app/solution-3
+About
+https://itsulu-react.netlify.app/about
 Contact
 https://itsulu-react.netlify.app/contact
 
 
 NOX
-About
-https://itsulu-react.netlify.app/about
+FOOTER
+HEADER
 Services
 https://itsulu-react.netlify.app/service-1
-Portfolio
-https://itsulu-react.netlify.app/portfolio
 
 SPARROW
 Team
@@ -29,6 +25,13 @@ JOSH
 https://itsulu-react.netlify.app/404
 Coming soon
 https://itsulu-react.netlify.app/coming-soon
+
+
+
+
+
+Portfolio
+https://itsulu-react.netlify.app/portfolio
 
 color
 #F57C00
