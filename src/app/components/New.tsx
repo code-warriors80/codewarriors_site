@@ -6,7 +6,7 @@ type Props = {}
 
 const New = (props: Props) => {
   return (
-    <div className='relative'>
+    <div className='relative py-10'>
         <img
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[30%] lg:block absolute'

@@ -4,7 +4,7 @@ type Props = {}
 
 const Contact = (props: Props) => {
   return (
-    <div className='relative  bg-[#121820]'>
+    <div className='relative  bg-[#121820] py-10'>
                 <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 '>
                     <div className='lg:flex items-end justify-between'>
                             <div className='overflow-hidden lg:w-[40%]'>

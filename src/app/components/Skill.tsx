@@ -1,11 +1,20 @@
 import React from 'react'
-import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
+import SkillProgress from './SkillProgress'
 
 type Props = {}
 
+const skillsData = [
+  { skill: 'Software Development', progress: 65 },
+  { skill: 'Web Development', progress: 95 },
+  { skill: 'UI / UX Development', progress: 50 },
+  { skill: 'App Development', progress: 90 },
+  { skill: 'Database Administration', progress: 60 },
+];
+
+
 const Skill = (props: Props) => {
   return (
-    <div className='relative'>
+    <div className='relative py-10'>
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 '>
                     <div className='lg:flex items-end justify-between'>
                             <div className='overflow-hidden lg:w-[40%]'>
@@ -20,6 +29,12 @@ const Skill = (props: Props) => {
                                      content of a page when looking at its layout. The point of using Lorem Ipsum is 
                                      that it has a more-or-less normal distribution of letters, as opposed to using content here.</p>
                             </div>
+                    </div>
+
+                    <div className="lg:flex items-center justify-between space-y-5 lg:space-y-0 flex-wrap gap-7  my-24 gap-y-10">
+                        {skillsData.map((skill, index) => (
+                          <SkillProgress key={index} skill={skill.skill} progress={skill.progress} />
+                        ))}
                     </div>
 
                     <div className='mx-auto flex gap-2  mt-20'>
