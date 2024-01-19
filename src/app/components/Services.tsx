@@ -23,7 +23,7 @@ const Services = (props: Props) => {
                                     <div className='bg-[#F57C00] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] lg:text-[18px] font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>01</span> Dedicated Team</h5>
+                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>01</span> Dedicated Team</h5>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -41,7 +41,7 @@ const Services = (props: Props) => {
                                     <div className='bg-[#F57C00] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] lg:text-[18px] font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>02</span> QA and Testing</h5>
+                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>02</span> QA and Testing</h5>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -59,7 +59,7 @@ const Services = (props: Props) => {
                                     <div className='bg-[#F57C00] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] lg:text-[18px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>03</span> SaaS</h5>
+                                    <h5 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>03</span> SaaS</h5>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -80,7 +80,7 @@ const Services = (props: Props) => {
                                     <div className='bg-[#F57C00] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] lg:text-[18px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>04</span> Blockchain</h5>
+                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>04</span> Blockchain</h5>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -97,7 +97,7 @@ const Services = (props: Props) => {
                                     <div className='bg-[#F57C00] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] lg:text-[18px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>05</span> Artificial Intelligence</h5>
+                                    <h5 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>05</span> Artificial Intelligence</h5>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -114,7 +114,7 @@ const Services = (props: Props) => {
                                     <div className='bg-[#F57C00] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] lg:text-[18px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>06</span> Internet of Things</h5>
+                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#F57C00] text-sm'>06</span> Internet of Things</h5>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>

@@ -9,6 +9,8 @@ import New from './components/New'
 import Testimonial from './components/Testimonial'
 import Project from './components/Project'
 import Discover from './components/Discover'
+import Skill from './components/Skill'
+import Contact from './components/Contact'
 
 export default function Home() {
   return (
@@ -17,8 +19,11 @@ export default function Home() {
       <Services />
       <Project />
       <Discover />
+      <Skill />
+      <Training />
       <New />
       <Testimonial />
+      <Contact />
     </main>
   )
 }

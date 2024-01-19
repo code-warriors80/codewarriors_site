@@ -16,7 +16,7 @@ const Carousel = (props: Props) => {
             <div className='flex items-center justify-center'>
                 <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                     <div className='lg:w-[75%] lg:px-20'>
-                        <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#F57C00]">Inspiration</span></p>
+                        <p className='text-center mb-10 text-white text-[18px] font-syne'>The Next <span className=" text-[#F57C00]">Gen</span></p>
                         <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
                           <span>The</span> 
                           <span className="font-satisfy text-[#F57C00]"> Freedom</span> 

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
 
@@ -11,7 +12,7 @@ const Training = (props: Props) => {
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[40%] lg:block absolute'
                     alt='Decorative Element'
                 />
-            <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16'>
+            <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0'>
                         <div className='lg:flex items-end justify-between flex-wrap'>
                             <div className='overflow-hidden'>
                                     <div className='flex items-center gap-3 mb-5'>
@@ -34,8 +35,8 @@ const Training = (props: Props) => {
 
                         <div className="carousel carousel-center px-0 p-4 space-x-4 lg:space-x-10 rounded-box w-full mt-20  ">
                             <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
-                                <div className='overflow-hidden'>
-                                    <img src='/1.jpg' className='w-full rounded-xl tran_filter ease-in-out duration-300 h-[400px] lg:h-fit object-cover'/>
+                                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                    <img src='/1.jpg' className='w-full rounded-xl  h-[400px] lg:h-fit object-cover'/>
                                     <div className='flex  items-center justify-between gap-5 py-5 '>
                                         <div className='flex items-center justify-between w-full relative top-1'>
                                             <ul className='flex items-center gap-3'>
@@ -61,12 +62,12 @@ const Training = (props: Props) => {
                                     <h4 className='text-[21px] font-syne mt-5'>Cibersecurity Premium</h4>
                                     <p className='text-[14px] font-sora text-[#12182066] my-5'>John Stone</p>
                                     <div className='font-sora text-[20px] lg:text-[17px]'>$22.99 us</div>
-                                </div>
+                                </Link>
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
-                                 <div className='overflow-hidden'>
-                                    <img src='/2.jpg' className='w-full rounded-xl tran_filter ease-in-out duration-300 h-[400px] lg:h-fit object-cover'/>
+                                 <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                    <img src='/2.jpg' className='w-full rounded-xl h-[400px] lg:h-fit object-cover'/>
                                     <div className='flex  items-center justify-between gap-5 py-5 '>
                                         <div className='flex items-center justify-between w-full relative top-1'>
                                             <ul className='flex items-center gap-3'>
@@ -92,12 +93,12 @@ const Training = (props: Props) => {
                                     <h4 className='text-[21px] font-syne mt-5'>Cibersecurity Premium</h4>
                                     <p className='text-[14px] font-sora text-[#12182066] my-5'>John Stone</p>
                                     <div className='font-sora text-[20px] lg:text-[17px]'>$22.99 us</div>
-                                </div>
+                                </Link>
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%] group'>
-                            <div className='overflow-hidden'>
-                                    <img src='/3.jpg' className='w-full filter rounded-xl tran_filter ease-in-out duration-300 h-[400px] lg:h-fit object-cover'/>
+                            <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                    <img src='/3.jpg' className='w-full rounded-xl h-[400px] lg:h-fit object-cover'/>
                                     <div className='flex  items-center justify-between gap-5 py-5 '>
                                         <div className='flex items-center justify-between w-full relative top-1'>
                                             <ul className='flex items-center gap-3'>
@@ -123,7 +124,7 @@ const Training = (props: Props) => {
                                     <h4 className='text-[21px] font-syne mt-5'>Cibersecurity Premium</h4>
                                     <p className='text-[14px] font-sora text-[#12182066] my-5'>John Stone</p>
                                     <div className='font-sora text-[20px] lg:text-[17px]'>$22.99 us</div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                 </div>

@@ -1,31 +1,34 @@
 https://itsulu-react.netlify.app/?storefront=envato-elements
+https://itsulu-react.netlify.app/blog
 
+SADIX
+FOOTER
+HEADER
+Solutions
+https://itsulu-react.netlify.app/solution-3
+Contact
+https://itsulu-react.netlify.app/contact
+
+
+NOX
 About
 https://itsulu-react.netlify.app/about
-
-services
+Services
 https://itsulu-react.netlify.app/service-1
+Portfolio
+https://itsulu-react.netlify.app/portfolio
 
 SPARROW
 Team
 https://itsulu-react.netlify.app/team
 https://itsulu-react.netlify.app/team-single
 
-Solutions
-https://itsulu-react.netlify.app/solution-3
-
-Contact
-https://itsulu-react.netlify.app/contact
-
-Portfolio
-https://itsulu-react.netlify.app/portfolio
-
 
 JOSH
-Coming soon
-https://itsulu-react.netlify.app/coming-soon
 404
 https://itsulu-react.netlify.app/404
+Coming soon
+https://itsulu-react.netlify.app/coming-soon
 
 color
 #F57C00
