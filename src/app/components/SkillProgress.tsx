@@ -22,7 +22,8 @@ const SkillProgress: React.FC<SkillProgressProps> = ({ skill, progress }) => {
           <div
             style={{ width: `${progress}%` }}
             className="flex flex-col justify-center text-center  whitespace-nowrap bg-[#F57C00] shadow-none transition-all duration-300"
-          ></div>
+          >
+          </div>
         </div>
       </div>
     </div>
