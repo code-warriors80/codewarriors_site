@@ -25,6 +25,8 @@ JOSH
 https://itsulu-react.netlify.app/404
 Coming soon
 https://itsulu-react.netlify.app/coming-soon
+send mail function for Contact
+https://itsulu-react.netlify.app/contact
 
 
 
