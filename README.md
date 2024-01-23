@@ -1,9 +1,9 @@
 https://itsulu-react.netlify.app/?storefront=envato-elements
 https://itsulu-react.netlify.app/blog
-
-SADIX
 About
 https://itsulu-react.netlify.app/about
+
+SADIX
 Contact
 https://itsulu-react.netlify.app/contact
 
