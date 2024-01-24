@@ -1,7 +1,7 @@
-https://itsulu-react.netlify.app/?storefront=envato-elements
-https://itsulu-react.netlify.app/blog
+https://itsulu-react.netlify.app/?storefront=envato-elements    ---------------         done
+https://itsulu-react.netlify.app/blog    ---------------         done
 About
-https://itsulu-react.netlify.app/about
+https://itsulu-react.netlify.app/about    ---------------         done
 
 SADIX
 Contact
@@ -22,9 +22,9 @@ https://itsulu-react.netlify.app/team-single
 
 JOSH
 404
-https://itsulu-react.netlify.app/404
+https://itsulu-react.netlify.app/404    ---------------         done
 Coming soon
-https://itsulu-react.netlify.app/coming-soon
+https://itsulu-react.netlify.app/coming-soon    ---------------         done
 send mail function for Contact
 https://itsulu-react.netlify.app/contact
 

@@ -23,7 +23,7 @@ function page() {
                             </div>
 
                             <div className="rounded-full bg-white items-center justify-between w-full p-1 md:flex hidden">
-                                <input type="text" placeholder="Your email address" className=' text-[#121820]  rounded-full px-5 outline-none' />
+                                <input type="text" placeholder="Your email address" className=' text-[#121820]  rounded-full px-10 outline-none' />
                                 <button type="submit" className="bg-[#f57c00] text-[#121820]  rounded-full px-10 py-5">Subscribe Now</button>
                             </div>
                             <a className=" gap-2 items-center hidden md:flex mt-10" href="/contact">
