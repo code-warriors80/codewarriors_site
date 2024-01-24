@@ -11,6 +11,7 @@ import Project from './components/Project'
 import Discover from './components/Discover'
 import Skill from './components/Skill'
 import Contact from './components/Contact'
+import Header from '@/components/header'
 
 export default function Home() {
   return (
