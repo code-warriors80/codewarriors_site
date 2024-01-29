@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Landing from '../components/about/AboutLanding'
 import Expert from '../components/about/Expert'
 import Overview from '../components/about/Overview'
