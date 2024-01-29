@@ -1,13 +1,12 @@
-import Header from "../../components/header";
 import ServicesLanding from "../components/services/ServicesLanding";
-import Services from "../components/Services";
+import ServicesLearnmore from "../components/services/ServicesLearnmore";
+
 
 const Service = () => {
   return (
     <section>
-      <Header />
       <ServicesLanding/>
-      <Services/>
+      <ServicesLearnmore/>
     </section>
   );
 };
