@@ -123,9 +123,9 @@ const Services = (props: Props) => {
                 </div>
             </div>
             <div className='mx-auto flex gap-2  mt-20'>
-                                    <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
-                                    <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                                    <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
             </div>
         </div>
     </div>

@@ -1,12 +1,14 @@
-import Header from "../../components/header";
+import ServicesLanding from "../components/services/ServicesLanding";
+import ServicesLearnmore from "../components/services/ServicesLearnmore";
 
-const Services = () => {
+
+const Service = () => {
   return (
     <section>
-      <Header />
-      
+      <ServicesLanding/>
+      <ServicesLearnmore/>
     </section>
   );
 };
 
-export default Services;
+export default Service;
