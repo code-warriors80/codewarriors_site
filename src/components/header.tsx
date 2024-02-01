@@ -19,8 +19,8 @@ const navitem = [
     ],
   },
   {
-    item: "Case Studies",
-    sub_items: [],
+    item: "About Us",
+    path: '/about'
   },
   {
     item: "Services",
