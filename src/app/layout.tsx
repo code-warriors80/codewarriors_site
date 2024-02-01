@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="emerald">
       <head><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/></head>
-      <body className={`${inter.className} ${syne.className} ${sora.className} font-satisfy`}>{children}</body>
+      <body className={`${inter.className} ${syne.className} ${sora.className} font-satisfy`}>
+        {children}
+      </body>
     </html>
   )
 }
