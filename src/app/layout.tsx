@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Sora, Syne } from 'next/font/google'
 import '@fontsource/satisfy' // Import the Satisfy font
 import './globals.css'
+import Header from '@/components/header'
 
 const inter = Inter({ subsets: ['latin'] })
 const syne = Syne({ subsets: ['latin'] })
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en" data-theme="emerald">
       <head><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/></head>
       <body className={`${inter.className} ${syne.className} ${sora.className} font-satisfy`}>
+        <Header />
         {children}
       </body>
     </html>
