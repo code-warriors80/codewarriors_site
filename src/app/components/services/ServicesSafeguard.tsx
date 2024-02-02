@@ -6,15 +6,15 @@ const ServicesSafeguard = () => {
   return (
     <div className=''>
         <div className='font-syne mx-auto'>
-                <p className=' text-center'>
-                    Safeguard Modern
-                </p>
-                <p className='text-center font-bold text-4xl'>
-                    Ready To Take The Next Step?
-                </p>
+            <p className=' text-center'>
+                Safeguard Modern
+            </p>
+            <p className='text-center font-bold text-4xl'>
+                Ready To Take The Next Step?
+            </p>
         </div>
-        <div className='py-10 sm:py-20 mx-auto items-center justify-between max-w-4xl flex flex-row px-4 lg:px-6'>
-            <div className="mt-2 max-w-6xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:max-w-none">
+        <div className='py-10 sm:py-20 mx-auto items-center justify-between max-w-4xl md:flex flex-row px-4 lg:px-6'>
+            <div className="mt-2 max-w-6xl rounded-3xl ring-1 ring-[#F57C00] sm:mt-20 lg:mx-0 lg:max-w-none">
                 <div className="-mt-2 p-2 duration-200 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                     <div className="rounded-2xl py-10 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                         <div className="max-w-xs px-8">
@@ -34,7 +34,7 @@ const ServicesSafeguard = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-2 w-100 h-100  rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:max-w-none">
+            <div className="mt-2 w-100 h-100  rounded-3xl ring-1 ring-[#F57C00] sm:mt-20 lg:mx-0 lg:max-w-none">
                 <div className="-mt-2 p-2  lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                     <div className="rounded-2xl py-10 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                         <div className="max-w-xs px-8">
@@ -55,14 +55,14 @@ const ServicesSafeguard = () => {
                 </div>
             </div> 
         </div>
-        <div className='mx-auto w-[1030px] flex gap-2  mt-5'>
+        <div className='mx-auto w-[90%] flex gap-2  mt-5'>
             <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
             <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
             <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
         </div>
 
-        <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0'>
-        <div className='flex mt-16 '>
+        <div className='w-[90%] lg:mx-auto sm:items-center py-16 px-5 sm:px-16 md:px-0'>
+        <div className='flex mt-10 '>
                 <div>
                     <ul className='flex flex-row'>
                         <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
