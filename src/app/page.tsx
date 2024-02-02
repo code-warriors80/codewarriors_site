@@ -12,10 +12,13 @@ import Discover from './components/Discover'
 import Skill from './components/Skill'
 import Contact from './components/Contact'
 import Header from '@/components/header'
+import Footer from './components/Footer'
+
 
 export default function Home() {
   return (
     <main className="f">
+      <Header/>
       <Carousel />
       <Services />
       <Project />
@@ -25,6 +28,7 @@ export default function Home() {
       <New />
       <Testimonial />
       <Contact />
+      <Footer/>
     </main>
   )
 }
