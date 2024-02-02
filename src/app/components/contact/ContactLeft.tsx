@@ -55,7 +55,7 @@ const ContactLeft = (props: Props) => {
             <div>
                 <div className='w-full border-b-2 brder-gray-200'>
                     <label className='block font-syne text-[16px] mb-5'>Project Description</label>
-                    <textarea placeholder='Your Message' className='w-full h-[400px] font-sora font-sm outline-none'/>
+                    <textarea placeholder='Your Message' className='w-full h-[250px] font-sora font-sm outline-none'/>
                 </div>
 
                 <div className='w-[50%] border-b-2 brder-gray-200 mt-10'>
