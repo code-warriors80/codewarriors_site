@@ -6,54 +6,57 @@ const ServicesSafeguard = () => {
   return (
     <div className=''>
         <div className='font-syne mx-auto'>
-            <p className=' text-center'>
-                Safeguard Modern
-            </p>
-            <p className='text-center font-bold text-4xl'>
+            <p className='text-center font-bold text-5xl'>
                 Ready To Take The Next Step?
             </p>
         </div>
-        <div className='py-10 sm:py-20 mx-auto items-center justify-between max-w-4xl md:flex flex-row px-4 lg:px-6'>
-            <div className="mt-2 max-w-6xl rounded-3xl ring-1 ring-[#F57C00] sm:mt-20 lg:mx-0 lg:max-w-none">
-                <div className="-mt-2 p-2 duration-200 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                    <div className="rounded-2xl py-10 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-                        <div className="max-w-xs px-8">
-                            <p className="font-semibold text-3xl font-syne text-black">Get a Live Demo</p>
-                            <p className="mt-6 text-xs leading-5 font-syne text-gray-600">
-                                Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
-                                In on my jointure horrible margaret suitable he followed speedily.
-                                Indeed vanity excuse or mr lovers of on.
-                            </p>
-                            <Link href='/' className='flex gap-3 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>
-                                Request a Free Demo
-                                <div className='bg-[#F57C00] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
-                                    <BsArrowRight size={20} color='white'/>
-                                </div>
-                            </Link>
+        <div className='w-full lg:mx-auto py-16 mx-auto justify-center px-8 lg:flex flex-col-1 '>
+            <div className=' w-full py-10 sm:py-20 mx-auto items-center justify-between max-w-4xl md:flex flex-row px-4 lg:px-6'>
+                <div className="mt-3 w-10/12 lg:mr-2  ring-1 hover:ring-[#F57C00] duration-200 lg:mt-0 sm:mt-10 lg:mx-0 lg:max-w-none">
+                    <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-full lg:flex-shrink-0">
+                        <div className="max-w-lg px-8">
+                                <p className="font-semibold mt-10 text-3xl font-syne text-black">Get a Live Demo</p>
+                                <p className="mt-6 text-xs mb-5 leading-5 font-syne text-gray-600">
+                                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
+                                    In on my jointure horrible margaret suitable he followed speedily.
+                                    Indeed vanity excuse or mr lovers of on. <br/>
+                                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
+                                    In on my jointure horrible margaret suitable he followed speedily.
+                                    Indeed vanity excuse or mr lovers of on.
+                                </p>
+                                <Link href='/' className='flex gap-3 mb-5 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>
+                                    Request a Free Demo
+                                    <div className='bg-[#F57C00] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
+                                        <BsArrowRight size={20} color='white'/>
+                                    </div>
+                                </Link>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="mt-2 w-100 h-100  rounded-3xl ring-1 ring-[#F57C00] sm:mt-20 lg:mx-0 lg:max-w-none">
-                <div className="-mt-2 p-2  lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                    <div className="rounded-2xl py-10 ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-                        <div className="max-w-xs px-8">
-                            <p className="font-semibold text-3xl font-syne text-black">Start Now</p>
-                            <p className="mt-6 text-xs leading-5 font-syne text-gray-600">
-                                Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
-                                In on my jointure horrible margaret suitable he followed speedily.
-                                Indeed vanity excuse or mr lovers of on.
-                            </p>
-                            <Link href='/' className='flex gap-3 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>
-                                Get In Touch
-                                <div className='bg-[#F57C00] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
-                                    <BsArrowRight size={20} color='white'/>
-                                </div>
-                            </Link>
+            <div className=' w-full py-10 sm:py-20 mx-auto items-center justify-between max-w-4xl md:flex flex-row px-4 lg:px-6'>
+                <div className="mt-3 w-10/12 lg:mr-2 md:mr-2 ring-1 hover:ring-[#F57C00] duration-200 lg:mt-0 sm:mt-10 lg:mx-0 lg:max-w-none">
+                    <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-full lg:flex-shrink-0">
+                        <div className="max-w-lg px-8">
+                                <p className="font-semibold mt-10 text-3xl font-syne text-black">Start now</p>
+                                <p className="mt-6 text-xs mb-5 leading-5 font-syne text-gray-600">
+                                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
+                                    In on my jointure horrible margaret suitable he followed speedily.
+                                    Indeed vanity excuse or mr lovers of on. <br/>
+                                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
+                                    In on my jointure horrible margaret suitable he followed speedily.
+                                    Indeed vanity excuse or mr lovers of on.
+                                </p>
+                                <Link href='/' className='flex gap-3 mb-5 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>
+                                    Get in Touch
+                                    <div className='bg-[#F57C00] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
+                                        <BsArrowRight size={20} color='white'/>
+                                    </div>
+                                </Link>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
         <div className='mx-auto w-[90%] flex gap-2  mt-5'>
             <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
@@ -61,8 +64,8 @@ const ServicesSafeguard = () => {
             <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
         </div>
 
-        <div className='w-[90%] lg:mx-auto sm:items-center py-16 px-5 sm:px-16 md:px-0'>
-        <div className='flex mt-10 '>
+        <div className='w-[90%] lg:mx-auto sm:mx-auto sm:items-center py-16 px-5 sm:px-16 md:px-0'>
+            <div className='flex mt-10 '>
                 <div>
                     <ul className='flex flex-row'>
                         <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
