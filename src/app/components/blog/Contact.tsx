@@ -8,7 +8,7 @@ const Contact = (props: Props) => {
   return (
     <div>
         <div className='flex items-center gap-5 mt-10'>
-            <div className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></div>
+            <div className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></div>
             <h5 className='font-syne text-[18px] text-[#121820]'>Contact us</h5>
         </div>
 
@@ -16,7 +16,7 @@ const Contact = (props: Props) => {
 
         <Link href='' className='flex items-center gap-5  font-sora text-[16px]'>
             Send
-            <div className='bg-[#F57C00] p-2 rounded-full w-fit'><BsArrowRight size={15} color='white'/></div>
+            <div className='bg-[#92519c] p-2 rounded-full w-fit'><BsArrowRight size={15} color='white'/></div>
         </Link>
     </div>
   )

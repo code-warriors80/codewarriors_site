@@ -16,7 +16,7 @@ const New = (props: Props) => {
                         <div className='lg:flex items-end justify-between flex-wrap'>
                                 <div>
                                         <div className='flex items-center gap-3 mb-5'>
-                                            <div className='bg-[#F57C00] w-[7px] h-[7px] rounded-full'></div>
+                                            <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                                             <h2 className='font-syne text-[16px]'>Our Latest News</h2>
                                         </div>
                                         <h2 className='font-syne text-[29px] lg:text-[42px] text-[#121820] '>Latest Thinking</h2>
@@ -40,7 +40,7 @@ const New = (props: Props) => {
                                         <div className='lg:flex justify-between gap-10 my-5'>
                                             <div className='lg:w-[60%]'>
                                                 <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
-                                                <div className='font-sora text-[15px] my-2'>by: <span className='text-[#F57C00]'>Jane Meldrun</span></div>
+                                                <div className='font-sora text-[15px] my-2'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                             </div>
                                             <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] lg:w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                         </div>
@@ -75,7 +75,7 @@ const New = (props: Props) => {
                                         <div className='lg:flex justify-between gap-10 my-5'>
                                             <div className='lg:w-[60%]'>
                                                 <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
-                                                <div className='font-sora text-[15px]  my-3'>by: <span className='text-[#F57C00]'>Jane Meldrun</span></div>
+                                                <div className='font-sora text-[15px]  my-3'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                             </div>
                                             <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] lg:w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                         </div>
@@ -104,7 +104,7 @@ const New = (props: Props) => {
                                 </Link>
                             </div>
                         </div>
-                        <Link href='/' className='flex gap-3 items-center font-syne font mt-10 group'>View More Insight<div className='bg-[#F57C00] p-3 rounded-full relative group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>
+                        <Link href='/' className='flex gap-3 items-center font-syne font mt-10 group'>View More Insight<div className='bg-[#92519c] p-3 rounded-full relative group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>
         </div>
     </div>
   )

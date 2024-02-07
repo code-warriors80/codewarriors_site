@@ -14,12 +14,12 @@ const Mission = (props: Props) => {
         />
          <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto'>
         <div className='lg:flex items-center justify-between py-32'>
-                <div className='bg-[#F57C00] rounded-full lg:w-[40%] '>
+                <div className='bg-[#92519c] rounded-full lg:w-[40%] '>
                     <img src='/t2.png' className='w-full rounded-full '/>
                 </div>
                 <div className='space-y-10 lg:w-[47.50%]'>
                     <div className='flex items-center gap-3'>
-                        <div className='bg-[#F57C00] w-[7px] h-[7px] rounded-full'></div>
+                        <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                         <span className='font-syne text-[16px]'>IT Enterprise</span>
                     </div>
                     <h2 className='text-[42px] font-syne text-[#121820]'>Our Mission.</h2>

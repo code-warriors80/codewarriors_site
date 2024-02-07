@@ -16,10 +16,10 @@ const Discover = (props: Props) => {
                      <div className='lg:flex items-end justify-between flex-wrap'>
                             <div className='overflow-hidden'>
                                     <div className='flex items-center gap-3 mb-5'>
-                                        <div className='bg-[#F57C00] w-[7px] h-[7px] rounded-full'></div>
+                                        <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                                         <h2 className='font-syne text-[16px] text-[#121820]  font1'>Discover Our Company</h2>
                                     </div>
-                                    <h2 className='font-syne text-[29px] lg:text-[45.50px] text-[#121820]'>How We <span className='text-[#F57C00]'>Collaborate</span> With You</h2>
+                                    <h2 className='font-syne text-[29px] lg:text-[45.50px] text-[#121820]'>How We <span className='text-[#92519c]'>Collaborate</span> With You</h2>
                                 </div>
                                 <div className='flex items-center gap-5 mt-5 lg:mt-0'>
                                     <div className='flex items-center gap-3'>
@@ -38,7 +38,7 @@ const Discover = (props: Props) => {
                         <div className='flex items-center gap-5 py-5'>
                             <div className='relative w-fit'>
                             <img src='/s1.svg' className='relative z-10' alt='Main Image' />
-                            <div className='bg-[#F57C00] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
+                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                             </div>
                             <h6 className='font-syne text-[22px] text-[#121820]'>Thinking Big</h6>
                         </div>
@@ -49,7 +49,7 @@ const Discover = (props: Props) => {
                         <div className='flex items-center gap-5 py-5'>
                             <div className='relative w-fit'>
                             <img src='/s2.svg' className='relative z-10' alt='Main Image' />
-                            <div className='bg-[#F57C00] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
+                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                             </div>
                             <h6 className='font-syne text-[22px] text-[#121820]'>Starting Small</h6>
                         </div>
@@ -60,7 +60,7 @@ const Discover = (props: Props) => {
                         <div className='flex items-center gap-5 py-5'>
                             <div className='relative w-fit'>
                             <img src='/s3.svg' className='relative z-10' alt='Main Image' />
-                            <div className='bg-[#F57C00] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
+                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                             </div>
                             <h6 className='font-syne text-[22px] text-[#121820]'>Creating Fast</h6>
                         </div>
@@ -71,7 +71,7 @@ const Discover = (props: Props) => {
                         <div className='flex items-center gap-5 py-5'>
                             <div className='relative w-fit'>
                             <img src='/s4.svg' className='relative z-10' alt='Main Image' />
-                            <div className='bg-[#F57C00] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
+                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                             </div>
                             <h6 className='font-syne text-[22px] text-[#121820]'>Innovating Scale</h6>
                         </div>
@@ -80,8 +80,8 @@ const Discover = (props: Props) => {
                         </div>
 
                         <div className='flex justify-between items-center flex-wrap lg:mt-20'>
-                            <Link href='/' className='flex gap-3 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>View All Casses<div className='bg-[#F57C00] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
-                            <Link href='' className='border-2 border-[#F57C00] px-20 py-5 rounded-full font-sora text-[16px] hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>Get Started</Link>
+                            <Link href='/' className='flex gap-3 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>View All Casses<div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
+                            <Link href='' className='border-2 border-[#92519c] px-20 py-5 rounded-full font-sora text-[16px] hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>Get Started</Link>
                         </div>
         </div>
         <img

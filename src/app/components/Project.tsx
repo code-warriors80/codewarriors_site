@@ -36,7 +36,7 @@ const Project = (props: Props) => {
                                 <div className='lg:flex justify-between gap-10 my-5'>
                                     <div className='lg:w-[40%]'>
                                             <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
-                                            <div className='font-sora text-[15px] my-2'>by: <span className='text-[#F57C00]'>Jane Meldrun</span></div>
+                                            <div className='font-sora text-[15px] my-2'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                     </div>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                 </div>
@@ -49,7 +49,7 @@ const Project = (props: Props) => {
                                 <div className='lg:flex justify-between gap-10 my-5'>
                                     <div className='lg:w-[40%]'>
                                             <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
-                                            <div className='font-sora text-[15px] my-2'>by: <span className='text-[#F57C00]'>Jane Meldrun</span></div>
+                                            <div className='font-sora text-[15px] my-2'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                     </div>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                 </div>
@@ -62,7 +62,7 @@ const Project = (props: Props) => {
                                 <div className='lg:flex justify-between gap-10 my-5'>
                                     <div className='lg:w-[40%]'>
                                             <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
-                                            <div className='font-sora text-[15px] my-2'>by: <span className='text-[#F57C00]'>Jane Meldrun</span></div>
+                                            <div className='font-sora text-[15px] my-2'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                     </div>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                 </div>
@@ -71,8 +71,8 @@ const Project = (props: Props) => {
             </div>
 
             <div className='flex justify-between items-center lg:mt-20 flex-wrap'>
-                <Link href='/' className='flex gap-3 items-center font-syne text-[16px] font group'>Learn More<div className='bg-[#F57C00] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
-                <Link href='' className='border-2 border-[#F57C00] px-20 py-5 rounded-full font-sora text-[16px] my-5 hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>How We Work</Link>
+                <Link href='/' className='flex gap-3 items-center font-syne text-[16px] font group'>Learn More<div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
+                <Link href='' className='border-2 border-[#92519c] px-20 py-5 rounded-full font-sora text-[16px] my-5 hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>How We Work</Link>
             </div>
     </div>
     </div>

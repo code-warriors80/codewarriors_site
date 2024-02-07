@@ -11,7 +11,7 @@ const Landing = (props: Props) => {
               <div>
                   <ul className='flex items-center gap-5 font-sora'>
                     <li className='text-[15px]'>Home</li>
-                    <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
+                    <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
                     <li className='text-[15px]'>Blog</li>
                   </ul>
                     <h2 className='font-syne text-[42px] mt-10 uppercase'>Our Blog</h2>

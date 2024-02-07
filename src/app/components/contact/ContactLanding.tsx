@@ -11,7 +11,7 @@ const ContactLanding = (props: Props) => {
           <div>
               <ul className='flex items-center gap-5 font-sora'>
                 <li className='text-[15px]'><a href='/'>Home</a></li>
-                <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
+                <li className='w-[10px] h-[10px] rounded-full bg-[#6c4f98]'></li>
                 <li className='text-[15px]'>Contact Us</li>
               </ul>
                 <h2 className='font-syne text-[42px] mt-10 uppercase'>LET’S DISCUSS YOUR OPPORTUNITY</h2>

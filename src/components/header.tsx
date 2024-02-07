@@ -62,7 +62,7 @@ const Header = ({ transparent = false }) => {
       } fixed top-0 left-0 right-0 flex justify-between items-center px-4 lg:px-24 z-50`}
       style={{ fontFamily: "Sora", boxShadow: transparent?"none": "0 0 40px 0 rgba(18,24,32,.1)" }}
     >
-      <h1 className="text-lg font-medium  py-10">Code Warriors</h1>
+      <img src="logo.png" className="w-28"/>
 
       
       <div className="hidden lg:flex items-center gap-x-12">
@@ -71,7 +71,7 @@ const Header = ({ transparent = false }) => {
             <Link href={`${item.path}`} className={`flex items-start gap-x-1 text-sm`}>
               {item?.item}
               {item?.sub_items?.length > 0 && (
-                <div className="p-[2px] rounded-full border-2 border-[#F57C00]" />
+                <div className="p-[2px] rounded-full border-2 border-[#92519c]" />
               )}
             </Link>
             {item?.sub_items?.length > 0 && (

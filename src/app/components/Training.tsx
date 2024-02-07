@@ -16,7 +16,7 @@ const Training = (props: Props) => {
                         <div className='lg:flex items-end justify-between flex-wrap'>
                             <div className='overflow-hidden'>
                                     <div className='flex items-center gap-3 mb-5'>
-                                        <div className='bg-[#F57C00] w-[7px] h-[7px] rounded-full'></div>
+                                        <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                                         <h2 className='font-syne text-[16px]'>Unlimited Training</h2>
                                     </div>
                                     <h2 className='font-syne text-[29px] lg:text-[42px] text-[#121820] '>Latest Courses</h2>
@@ -47,15 +47,15 @@ const Training = (props: Props) => {
                                         </div>
                                             
                                             <div className='flex items-center gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                     <BsStarFill size={18} className='text-zinc-300'/>
                                         </div>
                                     </div>
                                     <div className='mx-auto flex gap-2  '>
-                                            <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                                             <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
                                     </div>
 
@@ -78,15 +78,15 @@ const Training = (props: Props) => {
                                         </div>
                                             
                                             <div className='flex items-center gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                     <BsStarFill size={18} className='text-zinc-300'/>
                                         </div>
                                     </div>
                                     <div className='mx-auto flex gap-2  '>
-                                            <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                                             <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
                                     </div>
 
@@ -109,15 +109,15 @@ const Training = (props: Props) => {
                                         </div>
                                             
                                             <div className='flex items-center gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                     <BsStarFill size={18} className='text-zinc-300'/>
                                         </div>
                                     </div>
                                     <div className='mx-auto flex gap-2  '>
-                                            <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                                             <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
                                     </div>
 

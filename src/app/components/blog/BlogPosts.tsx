@@ -14,7 +14,7 @@ const BlogPosts = (props: Props) => {
                     <div className='mb-5 lg:mb-0'>
                         <ul className='flex items-center gap-5 font-sora mb-5'>
                             <li className='text-[13px] text-[#12182066] '>Management</li>
-                            <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
+                            <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
                             <li className='text-[13px] text-[#12182066]'>29 Oct 2023</li>
                         </ul>
                         <h4 className='font-syne text-[22px]'>Easy &amp; Most Powerful Server Platform.</h4>
@@ -31,7 +31,7 @@ const BlogPosts = (props: Props) => {
                         <div className='mb-5 lg:mb-0'>
                             <ul className='flex items-center gap-5 font-sora mb-5'>
                                 <li className='text-[13px] text-[#12182066] '>Management</li>
-                                <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
+                                <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
                                 <li className='text-[13px] text-[#12182066]'>29 Oct 2023</li>
                             </ul>
                             <h4 className='font-syne text-[22px]'>Easy &amp; Most Powerful Server Platform.</h4>
@@ -48,7 +48,7 @@ const BlogPosts = (props: Props) => {
                     <div className='mb-5 lg:mb-0'>
                         <ul className='flex items-center gap-5 font-sora mb-5'>
                             <li className='text-[13px] text-[#12182066] '>Management</li>
-                            <li className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></li>
+                            <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
                             <li className='text-[13px] text-[#12182066]'>29 Oct 2023</li>
                         </ul>
                         <h4 className='font-syne text-[22px]'>Easy &amp; Most Powerful Server Platform.</h4>
@@ -59,9 +59,9 @@ const BlogPosts = (props: Props) => {
         </div>
 
         <div className='mx-auto flex gap-2  py-20'>
-                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                 <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
         </div>
 
         <div className='flex justify-between items-center gap-5 mt-5 lg:mt-0'>
@@ -70,7 +70,7 @@ const BlogPosts = (props: Props) => {
                                 <p className='font-syne'>Prev</p>
                             </div>
                             <ul className='flex items-center gap-5 mx-auto'>
-                                <li className='font-sora text-[15px] bg-[#F57C00] w-10 h-10 rounded-full  flex items-center justify-center text-white'><a href=''>1</a></li>
+                                <li className='font-sora text-[15px] bg-[#92519c] w-10 h-10 rounded-full  flex items-center justify-center text-white'><a href=''>1</a></li>
                                 <li className='font-sora text-[15px]  rounded-full  flex items-center justify-center text-black'><a href=''>2</a></li>
                                 <li className='font-sora text-[15px]   rounded-full  flex items-center justify-center text-black'><a href=''>3</a></li>
                             </ul>

@@ -15,10 +15,10 @@ const Testimonial = (props: Props) => {
         <div className='lg:flex items-end justify-between flex-wrap'>
                                 <div>
                                         <div className='flex items-center gap-3 mb-5'>
-                                            <div className='bg-[#F57C00] w-[7px] h-[7px] rounded-full'></div>
+                                            <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                                             <h2 className='font-syne text-[16px]'>Testimonial</h2>
                                         </div>
-                                        <h2 className='font-syne text-[29px] lg:text-[42px] text-[#121820] '>What Our <span className='text-[#F57C00]'>Clients</span> Say</h2>
+                                        <h2 className='font-syne text-[29px] lg:text-[42px] text-[#121820] '>What Our <span className='text-[#92519c]'>Clients</span> Say</h2>
                                     </div>
                                     <div className='flex items-center gap-5 mt-5 lg:mt-0'>
                                         <div className='flex items-center gap-3'>
@@ -38,11 +38,11 @@ const Testimonial = (props: Props) => {
                                         <div className='flex gap-5'>
                                                 <img src='/11.svg' className=''/>
                                                 <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                 </div>
                                             </div>
                                             <p className='font-sora text-[#12182066] py-5  text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -61,11 +61,11 @@ const Testimonial = (props: Props) => {
                                         <div className='flex gap-5'>
                                             <img src='/11.svg' className=''/>
                                             <div className='flex gap-2'>
-                                                <BsStarFill size={18} color='#F57C00'/>
-                                                <BsStarFill size={18} color='#F57C00'/>
-                                                <BsStarFill size={18} color='#F57C00'/>
-                                                <BsStarFill size={18} color='#F57C00'/>
-                                                <BsStarFill size={18} color='#F57C00'/>
+                                                <BsStarFill size={18} color='#92519c'/>
+                                                <BsStarFill size={18} color='#92519c'/>
+                                                <BsStarFill size={18} color='#92519c'/>
+                                                <BsStarFill size={18} color='#92519c'/>
+                                                <BsStarFill size={18} color='#92519c'/>
                                             </div>
                                         </div>
                                             <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -84,11 +84,11 @@ const Testimonial = (props: Props) => {
                                         <div className='flex gap-5'>
                                                 <img src='/11.svg' className=''/>
                                                 <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                 </div>
                                             </div>
                                             <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -107,11 +107,11 @@ const Testimonial = (props: Props) => {
                                             <div className='flex gap-5'>
                                                 <img src='/11.svg' className=''/>
                                                 <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                 </div>
                                             </div>
                                             <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -130,11 +130,11 @@ const Testimonial = (props: Props) => {
                                         <div className='flex gap-5'>
                                                 <img src='/11.svg' className=''/>
                                                 <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                 </div>
                                             </div>
                                             <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -153,11 +153,11 @@ const Testimonial = (props: Props) => {
                                         <div className='flex gap-5'>
                                                 <img src='/11.svg' className=''/>
                                                 <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
-                                                    <BsStarFill size={18} color='#F57C00'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
+                                                    <BsStarFill size={18} color='#92519c'/>
                                                 </div>
                                             </div>
                                             <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>

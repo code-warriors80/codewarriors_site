@@ -6,7 +6,7 @@ const RecentPost = (props: Props) => {
   return (
     <div className='my-10'>
         <div className='flex items-center gap-5 mb-10'>
-            <div className='w-[10px] h-[10px] rounded-full bg-[#F57C00]'></div>
+            <div className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></div>
             <h5 className='font-syne text-[18px] text-[#121820]'>Recent Posts</h5>
         </div>
 

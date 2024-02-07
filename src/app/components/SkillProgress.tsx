@@ -21,7 +21,7 @@ const SkillProgress: React.FC<SkillProgressProps> = ({ skill, progress }) => {
         <div className="flex h-[2px] mb-4 overflow-hidden text-xs  rounded-full bg-[#12182033]">
           <div
             style={{ width: `${progress}%` }}
-            className="flex flex-col justify-center text-center  whitespace-nowrap bg-[#F57C00] shadow-none transition-all duration-300"
+            className="flex flex-col justify-center text-center  whitespace-nowrap bg-[#92519c] shadow-none transition-all duration-300"
           >
           </div>
         </div>

@@ -16,19 +16,19 @@ const Carousel = (props: Props) => {
             <div className='flex items-center justify-center'>
                 <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                     <div className='lg:w-[75%] lg:px-20'>
-                        <p className='text-center mb-10 text-white text-[18px] font-syne'>The Next <span className=" text-[#F57C00]">Gen</span></p>
+                        <p className='text-center mb-10 text-white text-[18px] font-syne'>The Next <span className=" text-[#92519c]">Gen</span></p>
                         <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
                           <span>The</span> 
-                          <span className="font-satisfy text-[#F57C00]"> Freedom</span> 
+                          <span className="font-satisfy text-[#92519c]"> Freedom</span> 
                           <span>To Focus On <br/> Improving</span> 
-                          <span className="font-satisfy text-[#F57C00]"> Your </span> 
+                          <span className="font-satisfy text-[#92519c]"> Your </span> 
                           <span>Business Or Idea</span>
                         </h1>
                         <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
                         <div className='flex items-center justify-center gap-10 lg:gap-20'>
-                          <button className="font-sora text-sm lg:text-lg bg-[#F57C00] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
+                          <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                           <div className='flex items-center gap-5'>
-                              <button className="border-2 border-[#F57C00] rounded-full  p-3 lg:p-4"><BsPlayFill size={30} color='white'/></button>
+                              <button className="border-2 border-[#92519c] rounded-full  p-3 lg:p-4"><BsPlayFill size={30} color='white'/></button>
                               <span className='font-sora text-white text-sm lg:text-sm'>Watch Video</span>
                           </div>
                         </div>
@@ -45,17 +45,17 @@ const Carousel = (props: Props) => {
             <div className=' flex items-center justify-center'>
                 <a href="#slide1" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                 <div className='lg:w-[75%] lg:px-20'>
-                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#F57C00]">Inspiration</span></p>
+                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Inspiration</span></p>
                     <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
                       <span>The</span> 
-                      <span className="font-satisfy text-[#F57C00]"> Freedom</span> 
+                      <span className="font-satisfy text-[#92519c]"> Freedom</span> 
                       <span>To Focus On <br/> Improving</span> 
-                      <span className="font-satisfy text-[#F57C00]"> Your </span> 
+                      <span className="font-satisfy text-[#92519c]"> Your </span> 
                       <span>Business Or Idea</span>
                     </h1>
                     <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
                     <div className='flex items-center justify-center gap-10 lg:gap-20'>
-                      <button className="font-sora text-sm lg:text-lg bg-[#F57C00] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
+                      <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                     </div>
                 </div>
                 <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❯</a>
@@ -70,17 +70,17 @@ const Carousel = (props: Props) => {
             <div className=' flex items-center justify-center'>
                 <a href="#slide2" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                 <div className='lg:w-[75%] lg:px-20'>
-                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#F57C00]">Inspiration</span></p>
+                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Inspiration</span></p>
                     <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
                       <span>The</span> 
-                      <span className="font-satisfy text-[#F57C00]"> Freedom</span> 
+                      <span className="font-satisfy text-[#92519c]"> Freedom</span> 
                       <span>To Focus On <br/> Improving</span> 
-                      <span className="font-satisfy text-[#F57C00]"> Your </span> 
+                      <span className="font-satisfy text-[#92519c]"> Your </span> 
                       <span>Business Or Idea</span>
                     </h1>
                     <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
                     <div className='flex items-center justify-center gap-10 lg:gap-20'>
-                      <button className="font-sora text-sm lg:text-lg bg-[#F57C00] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
+                      <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                     </div>
                 </div>
                 <a href="#slide1" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❯</a>

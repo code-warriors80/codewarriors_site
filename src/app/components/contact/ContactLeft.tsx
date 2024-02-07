@@ -6,7 +6,7 @@ const ContactLeft = (props: Props) => {
   return (
     <div className='lg:w-[70.50%] py-10 px-10'>
         <div className='py-10'>            
-            <h4 className="text-[22px] font-syne my-10"><span className="text-[#f57c00]">01.</span> Tell Us About Yourself</h4>
+            <h4 className="text-[22px] font-syne my-10"><span className="text-[#6c4f98]">01.</span> Tell Us About Yourself</h4>
             <div className='grid lg:grid-cols-2 gap-10 w-full'>
                 <div className='border-b-2 brder-gray-200'>
                     <label className='block font-syne text-[16px]'>First Name</label>
@@ -41,7 +41,7 @@ const ContactLeft = (props: Props) => {
         </div>
 
         <div>
-            <h4 className="text-[22px] font-syne my-10"><span className="text-[#f57c00]">02.</span> What Can We Help You With?</h4>
+            <h4 className="text-[22px] font-syne my-10"><span className="text-[#6c4f98]">02.</span> What Can We Help You With?</h4>
             <div className='grid lg:grid-cols-2 gap-10 w-full'>
                 <div className='border-b-2 brder-gray-200'>
                     <label className='block font-syne text-[16px]'>Product Design</label>
@@ -51,7 +51,7 @@ const ContactLeft = (props: Props) => {
         </div>
 
         <div className='space-y-5'>
-            <h4 className="text-[22px] font-syne my-10"><span className="text-[#f57c00]">03.</span> Tell Us About Your Project</h4>
+            <h4 className="text-[22px] font-syne my-10"><span className="text-[#6c4f98]">03.</span> Tell Us About Your Project</h4>
             <div>
                 <div className='w-full border-b-2 brder-gray-200'>
                     <label className='block font-syne text-[16px] mb-5'>Project Description</label>
@@ -64,7 +64,7 @@ const ContactLeft = (props: Props) => {
                 </div>
             </div>
         </div>
-        <button className='w-full border-2 border-[#f57c00] my-10 p-5 rounded-full font-sora text-[16px]'>Submit Now</button>
+        <button className='w-full border-2 border-[#6c4f98] my-10 p-5 rounded-full font-sora text-[16px]'>Submit Now</button>
     </div>
   )
 }
