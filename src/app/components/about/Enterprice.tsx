@@ -10,13 +10,13 @@ const Enterprice = (props: Props) => {
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[30%] lg:block absolute'
                     alt='Decorative Element'
         />
-        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto'>
+        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
             <div>
                     <div className='flex items-center gap-3'>
                         <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                         <span className='font-syne text-[16px]'>For Enterprise</span>
                     </div>
-                    <h2 className='font-syne text-[42px] mt-10'>We Live by <span className='text-[#92519c]'>Powerful</span> Values</h2>
+                    <h2 className='font-syne text-[32px] lg:text-[42px] mt-10'>We Live by <span className='text-[#92519c]'>Powerful</span> Values</h2>
                 </div>
 
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-10 mt-20'>

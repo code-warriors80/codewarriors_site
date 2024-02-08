@@ -11,8 +11,8 @@ const Overview = (props: Props) => {
                     className='w-[150px] lg:w-auto top-0   hidden lg:left-[40%] lg:block absolute'
                     alt='Decorative Element'
         />
-        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto'>
-        <div className='lg:flex items-center justify-between py-32'>
+        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
+        <div className='lg:flex items-center justify-between py-32 space-y-7 lg:space-y-0'>
                 <div className='bg-[#92519c] rounded-full lg:w-[40%] '>
                     <img src='/t3.png' className='w-full rounded-full '/>
                 </div>
@@ -21,9 +21,9 @@ const Overview = (props: Props) => {
                         <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                         <span className='font-syne text-[16px]'>Firm Overview</span>
                     </div>
-                    <h2 className='text-[42px] font-syne text-[#121820]'>We Specialize in <span className='text-[#92519c]'>Transforming Your Idea</span> or Business in The Current Digital Era.</h2>
+                    <h2 className='text-[32px] lg:text-[42px] font-syne text-[#121820]'>We Specialize in <span className='text-[#92519c]'>Transforming Your Idea</span> or Business in The Current Digital Era.</h2>
                     <p className='text-[15px] font-sora text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis</p>
-                    <div className='lg:flex items-end gap-10'>
+                    <div className='lg:flex items-end gap-10 space-y-7 lg:space-y-0'>
                         <ul className='space-y-5'>
                             <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
                             <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>

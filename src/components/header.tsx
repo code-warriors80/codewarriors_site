@@ -12,10 +12,8 @@ const navitem = [
       { text: "About us", path: "/about" },
       { text: "Team", path: "/coming-soon" },
       { text: "Team Member", path: "/coming-soon" },
-      { text: "Careers", path: "/careers" },
-      { text: "Prices", path: "/prices" },
-      { text: "FAQ", path: "/faq" },
-      { text: "Event", path: "/event" },
+      { text: "FAQ", path: "/coming-soon" },
+      { text: "Event", path: "/coming-soon" },
     ],
   },
   {
@@ -24,9 +22,7 @@ const navitem = [
   },
   {
     item: "Services",
-    sub_items: [
-      { text: "Service", path: "/services" },
-    ],
+    path:"/services"
   },
   // {
   //   item: "Solutions",
@@ -62,7 +58,7 @@ const Header = ({ transparent = false }) => {
       } fixed top-0 left-0 right-0 flex justify-between items-center px-4 lg:px-24 z-50`}
       style={{ fontFamily: "Sora", boxShadow: transparent?"none": "0 0 40px 0 rgba(18,24,32,.1)" }}
     >
-      <img src="logo.png" className="w-28"/>
+      <img src="logo2.png" className="w-20 w-32"/>
 
       
       <div className="hidden lg:flex items-center gap-x-12">
@@ -101,7 +97,7 @@ const Header = ({ transparent = false }) => {
         >
             {navitem.map((item, idx) => (
           <div key={item?.item} className="group flex flex-col items-center  w-full">
-            <Link href="" className={`flex items-start gap-x-1 text-sm`}>
+            <Link href={`${item.path}`} className={`flex items-start gap-x-1 text-sm`}>
               {item?.item}
               {item?.sub_items?.length > 0 && (
                 <div className="p-[2px] rounded-full border-2 border-[#F57C00]" />

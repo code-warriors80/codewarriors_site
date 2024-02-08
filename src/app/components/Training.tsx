@@ -4,6 +4,41 @@ import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
 
 type Props = {}
 
+const Trainings = ({image, title1, title2, stars, header, tutor, price}) => {
+    return (
+        <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
+                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                    <img src={image} className='w-full rounded-xl  h-[400px] lg:h-fit object-cover'/>
+                    <div className='flex  items-center justify-between gap-5 py-5 '>
+                        <div className='flex items-center justify-between w-full relative top-1'>
+                            <ul className='flex items-center gap-3'>
+                                <li className='font-sora text-[15px]'>{title1}</li>
+                                <li className='font-sora text-[15px]'>{title2}</li>
+                            </ul>
+                            <p className='font-sora text-[15px]'>{stars}</p>
+                        </div>
+                                            
+                        <div className='flex items-center gap-2'>
+                            <BsStarFill size={18} color='#92519c'/>
+                            <BsStarFill size={18} color='#92519c'/>
+                            <BsStarFill size={18} color='#92519c'/>
+                            <BsStarFill size={18} color='#92519c'/>
+                            <BsStarFill size={18} className='text-zinc-300'/>
+                        </div>
+                    </div>
+                    <div className='mx-auto flex gap-2  '>
+                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
+                            <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
+                    </div>
+
+                    <h4 className='text-[21px] font-syne mt-5'>{header}</h4>
+                    <p className='text-[14px] font-sora text-[#12182066] my-5'>{tutor}</p>
+                    <div className='font-sora text-[20px] lg:text-[17px]'>${price} us</div>
+                </Link>
+            </div>
+    )
+}
+
 const Training = (props: Props) => {
   return (
     <div className='deep_bg relative py-10'>
@@ -34,98 +69,10 @@ const Training = (props: Props) => {
                         </div>
 
                         <div className="carousel carousel-center px-0 p-4 space-x-4 lg:space-x-10 rounded-box w-full mt-20  ">
-                            <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
-                                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                    <img src='/1.jpg' className='w-full rounded-xl  h-[400px] lg:h-fit object-cover'/>
-                                    <div className='flex  items-center justify-between gap-5 py-5 '>
-                                        <div className='flex items-center justify-between w-full relative top-1'>
-                                            <ul className='flex items-center gap-3'>
-                                                <li className='font-sora text-[15px]'>Security</li>
-                                                <li className='font-sora text-[15px]'>Team</li>
-                                            </ul>
-                                            <p className='font-sora text-[15px]'>4.5</p>
-                                        </div>
-                                            
-                                            <div className='flex items-center gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} className='text-zinc-300'/>
-                                        </div>
-                                    </div>
-                                    <div className='mx-auto flex gap-2  '>
-                                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
-                                            <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                                    </div>
-
-                                    <h4 className='text-[21px] font-syne mt-5'>Cibersecurity Premium</h4>
-                                    <p className='text-[14px] font-sora text-[#12182066] my-5'>John Stone</p>
-                                    <div className='font-sora text-[20px] lg:text-[17px]'>$22.99 us</div>
-                                </Link>
-                            </div>
-
-                            <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
-                                 <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                    <img src='/2.jpg' className='w-full rounded-xl h-[400px] lg:h-fit object-cover'/>
-                                    <div className='flex  items-center justify-between gap-5 py-5 '>
-                                        <div className='flex items-center justify-between w-full relative top-1'>
-                                            <ul className='flex items-center gap-3'>
-                                                <li className='font-sora text-[15px]'>Security</li>
-                                                <li className='font-sora text-[15px]'>Team</li>
-                                            </ul>
-                                            <p className='font-sora text-[15px]'>4.5</p>
-                                        </div>
-                                            
-                                            <div className='flex items-center gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} className='text-zinc-300'/>
-                                        </div>
-                                    </div>
-                                    <div className='mx-auto flex gap-2  '>
-                                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
-                                            <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                                    </div>
-
-                                    <h4 className='text-[21px] font-syne mt-5'>Cibersecurity Premium</h4>
-                                    <p className='text-[14px] font-sora text-[#12182066] my-5'>John Stone</p>
-                                    <div className='font-sora text-[20px] lg:text-[17px]'>$22.99 us</div>
-                                </Link>
-                            </div>
-
-                            <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%] group'>
-                            <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                    <img src='/3.jpg' className='w-full rounded-xl h-[400px] lg:h-fit object-cover'/>
-                                    <div className='flex  items-center justify-between gap-5 py-5 '>
-                                        <div className='flex items-center justify-between w-full relative top-1'>
-                                            <ul className='flex items-center gap-3'>
-                                                <li className='font-sora text-[15px]'>Security</li>
-                                                <li className='font-sora text-[15px]'>Team</li>
-                                            </ul>
-                                            <p className='font-sora text-[15px]'>4.5</p>
-                                        </div>
-                                            
-                                            <div className='flex items-center gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} className='text-zinc-300'/>
-                                        </div>
-                                    </div>
-                                    <div className='mx-auto flex gap-2  '>
-                                            <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
-                                            <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                                    </div>
-
-                                    <h4 className='text-[21px] font-syne mt-5'>Cibersecurity Premium</h4>
-                                    <p className='text-[14px] font-sora text-[#12182066] my-5'>John Stone</p>
-                                    <div className='font-sora text-[20px] lg:text-[17px]'>$22.99 us</div>
-                                </Link>
-                            </div>
+                            <Trainings image='1.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
+                            <Trainings image='2.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
+                            <Trainings image='3.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
+                            <Trainings image='1.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
                         </div>
                 </div>
     </div>

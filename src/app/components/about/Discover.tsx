@@ -4,14 +4,14 @@ type Props = {}
 
 const Discover = (props: Props) => {
   return (
-    <div className='py-32'>
+    <div className='py-32 px-10 lg:px-0'>
         <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto'>
                 <div>
                     <div className='flex items-center gap-3'>
                         <div className='bg-[#92519c] w-[7px] h-[7px] rounded-full'></div>
                         <span className='font-syne text-[16px]'>Discover Our Company</span>
                     </div>
-                    <h2 className='font-syne text-[42px] mt-10'>Why Work With Us</h2>
+                    <h2 className='font-syne text-[32px] lg:text-[42px] mt-10'>Why Work With Us</h2>
                 </div>
 
                 <div>

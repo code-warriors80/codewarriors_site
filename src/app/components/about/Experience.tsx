@@ -10,18 +10,18 @@ const Experience = (props: Props) => {
                     className='w-[150px] lg:w-auto top-0   hidden lg:left-[30%] lg:block absolute'
                     alt='Decorative Element'
         />
-        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto'>
+        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
                 <div className='lg:flex items-center justify-between space-y-10 lg:space-y-0'>
                     <div className='space-y-10 lg:w-[45%]'>
                         <div>
                                 <div className='font-syne text-[60px]'>8<span className='text-[#92519c]'>+</span></div>
                                 <h6 className='font-syne text-[16px]'>Years Experience</h6>
                         </div>
-                        <h2 className='font-syne text-[42px]'>We Run All Kinds of IT Services That Vow Your Success</h2>
+                        <h2 className='font-syne text-[32px] lg:text-[42px]'>We Run All Kinds of IT Services That Vow Your Success</h2>
                     </div>
                     <div className='space-y-10 lg:w-[45%]'>
                     <h3 className='font-syne text-[26px]'>Accelerate <span className='text-[#92519c]'>Innovation</span> with world class tech teams We’ll match you to an entire <span className='text-[#92519c]'>Remote Technology</span></h3>
-                    <div className='lg:grid lg:grid-cols-2 w-fit gap-10 w-full'>
+                    <div className='lg:grid lg:grid-cols-2 gap-10 w-full space-y-7 lg:space-y-0'>
 
                         <div>
                             <h6 className='text-[16px] font-syne mb-5'><span className='text-[#92519c]  '>16+</span>&nbsp; Software Development</h6>

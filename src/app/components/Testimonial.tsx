@@ -3,6 +3,33 @@ import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
 
 type Props = {}
 
+const Testimonials= ({image, name, position ,description}) => {
+    return (
+    <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
+        <div className='overflow-hidden'>
+            <div className='flex gap-5'>
+                <img src='/11.svg' className=''/>
+                <div className='flex gap-2'>
+                    <BsStarFill size={18} color='#92519c'/>
+                    <BsStarFill size={18} color='#92519c'/>
+                    <BsStarFill size={18} color='#92519c'/>
+                    <BsStarFill size={18} color='#92519c'/>
+                    <BsStarFill size={18} color='#92519c'/>
+                </div>
+            </div>
+                <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>{description}</p>
+                <div className='flex items-center gap-5'>
+                    <img src={image} className='w-12 h-12 rounded-full tran_filter'/>
+                    <div>
+                        <h6 className='font-sora text-[16px]'>{name}</h6>
+                        <p className='text-[#12182066] font-syne text-[13px]'>{position}</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    )
+}
+
 const Testimonial = (props: Props) => {
   return (
     <div className='deep_bg relative py-10'>
@@ -33,143 +60,7 @@ const Testimonial = (props: Props) => {
                         </div>
 
                         <div className='carousel carousel-center px-0 p-4 space-x-4 lg:space-x-14 rounded-box w-full mt-20'>
-                                <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
-                                    <div className='overflow-hidden'>
-                                        <div className='flex gap-5'>
-                                                <img src='/11.svg' className=''/>
-                                                <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                </div>
-                                            </div>
-                                            <p className='font-sora text-[#12182066] py-5  text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div className='flex items-center'>
-                                                <img src='/17.jpg' className='w-12 h-12 rounded-full tran_filter'/>
-                                                <div>
-                                                    <h6 className='font-sora text-[16px]'>Tamzyn French</h6>
-                                                    <p className='text-[#12182066] font-syne text-[13px]'>Web developer</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
-                                    <div className='overflow-hidden'>
-                                        <div className='flex gap-5'>
-                                            <img src='/11.svg' className=''/>
-                                            <div className='flex gap-2'>
-                                                <BsStarFill size={18} color='#92519c'/>
-                                                <BsStarFill size={18} color='#92519c'/>
-                                                <BsStarFill size={18} color='#92519c'/>
-                                                <BsStarFill size={18} color='#92519c'/>
-                                                <BsStarFill size={18} color='#92519c'/>
-                                            </div>
-                                        </div>
-                                            <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div className='flex items-center gap-5'>
-                                                <img src='/18.jpg' className='w-12 h-12 rounded-full tran_filter'/>
-                                                <div>
-                                                    <h6 className='font-sora text-[16px]'>Tamzyn French</h6>
-                                                    <p className='text-[#12182066] font-syne text-[13px]'>Web developer</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
-                                    <div className='overflow-hidden'>
-                                        <div className='flex gap-5'>
-                                                <img src='/11.svg' className=''/>
-                                                <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                </div>
-                                            </div>
-                                            <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div className='flex items-center gap-5'>
-                                                <img src='/18.jpg' className='w-12 h-12 rounded-full tran_filter'/>
-                                                <div>
-                                                    <h6 className='font-sora text-[16px]'>Tamzyn French</h6>
-                                                    <p className='text-[#12182066] font-syne text-[13px]'>Web developer</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div className='carousel-item w-[99%] md:w-[48.50%] text-[18px] lg:lg:w-[30.50%]'>
-                                    <div className='overflow-hidden'>
-                                            <div className='flex gap-5'>
-                                                <img src='/11.svg' className=''/>
-                                                <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                </div>
-                                            </div>
-                                            <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div className='flex items-center gap-5'>
-                                                <img src='/18.jpg' className='w-12 h-12 rounded-full tran_filter'/>
-                                                <div>
-                                                    <h6 className='font-sora text-[16px]'>Tamzyn French</h6>
-                                                    <p className='text-[#12182066] font-syne text-[13px]'>Web developer</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
-                                    <div className='overflow-hidden'>
-                                        <div className='flex gap-5'>
-                                                <img src='/11.svg' className=''/>
-                                                <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                </div>
-                                            </div>
-                                            <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div className='flex items-center gap-5'>
-                                                <img src='/18.jpg' className='w-12 h-12 rounded-full tran_filter'/>
-                                                <div>
-                                                    <h6 className='font-sora text-[16px]'>Tamzyn French</h6>
-                                                    <p className='text-[#12182066] font-syne text-[13px]'>Web developer</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
-                                    <div className='overflow-hidden'>
-                                        <div className='flex gap-5'>
-                                                <img src='/11.svg' className=''/>
-                                                <div className='flex gap-2'>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                    <BsStarFill size={18} color='#92519c'/>
-                                                </div>
-                                            </div>
-                                            <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div className='flex items-center gap-5'>
-                                                <img src='/18.jpg' className='w-12 h-12 rounded-full tran_filter'/>
-                                                <div>
-                                                    <h6 className='font-sora text-[16px]'>Tamzyn French</h6>
-                                                    <p className='text-[#12182066] font-syne text-[13px]'>Web developer</p>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
+                                <Testimonials description='It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' image='/17.jpg' name='Tamzyn French' position='Web developer'/>
                         </div>
         </div>
     </div>
