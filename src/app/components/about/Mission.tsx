@@ -12,7 +12,7 @@ const Mission = (props: Props) => {
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[20%] lg:block absolute'
                     alt='Decorative Element'
         />
-         <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
+         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
             <div className='lg:flex items-center justify-between py-32 space-y-7 lg:space-y-0'>
                     <div className='bg-[#92519c] rounded-full lg:w-[40%] w-full'>
                         <img src='/t2.png' className='w-full rounded-full '/>

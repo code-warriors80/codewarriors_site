@@ -10,7 +10,7 @@ const Experience = (props: Props) => {
                     className='w-[150px] lg:w-auto top-0   hidden lg:left-[30%] lg:block absolute'
                     alt='Decorative Element'
         />
-        <div className='xl:w-[65%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
+        <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
                 <div className='lg:flex items-center justify-between space-y-10 lg:space-y-0'>
                     <div className='space-y-10 lg:w-[45%]'>
                         <div>

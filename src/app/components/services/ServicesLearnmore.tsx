@@ -9,10 +9,10 @@ const Learnmore = (props: Props) => {
     <div className='relative py-10'>
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 '>
 
-        <div className='lg:flex items-center justify-between py-20 lg:py-36 space-y-10 lg:space-y-0 '>
+        <div className='lg:flex items-center justify-between py-10 lg:py-20 space-y-10 lg:space-y-0 '>
             <p className='text-[22px] font-syne lg:w-[45.50%]'>Lorem ipsum dolor sit amet, <span className='text-[#92519c]'>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labor aliqua.</p>
             <div className='lg:flex items-center lg:justify-center gap-10 lg:gap-20 lg:w-[500px]'>
-                <button className="font-sora text-sm lg:text-lg border-2 border-[#92519c] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font-base">Talk To an Expert</button>
+                <button className="font-sora text-sm lg:text-lg border-2 border-[#92519c] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font ease-in-out duration-300 hover:border-[3px]">Talk To an Expert</button>
             </div>
         </div>
 
@@ -28,7 +28,7 @@ const Learnmore = (props: Props) => {
                         <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
                         <li className='font-syne  text-[15px]'>Services and Solutions</li>
                     </ul>
-                    <h2 className=' font-syne text-[42px] mt-5'>Our SaaS Development Services Let You Win Big</h2>
+                    <h2 className=' font-syne text-[32px] lg:text-[42px] mt-5'>Our SaaS Development Services Let You Win Big</h2>
                 </div>
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center justify-between gap-20 my-20'>
@@ -40,7 +40,7 @@ const Learnmore = (props: Props) => {
                             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                         </div>
                     </div>
-                    <h6 className='font-syne text-[28px] text-[#121820]'>SaaS Development Consulting</h6>
+                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>SaaS Development Consulting</h4>
                     <p className='font-sora text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
                 
@@ -51,7 +51,7 @@ const Learnmore = (props: Props) => {
                             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                         </div>
                     </div>
-                    <h6 className='font-syne text-[28px] text-[#121820]'>SaaS Design and Prototyping</h6>
+                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>SaaS Design and Prototyping</h4>
                     <p className='font-sora text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
 
@@ -62,7 +62,7 @@ const Learnmore = (props: Props) => {
                             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                         </div>
                     </div>
-                    <h6 className='font-syne text-[28px] text-[#121820]'>End-to-End SaaS Development</h6>
+                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>End-to-End SaaS Development</h4>
                     <p className='font-sora text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
 
@@ -73,7 +73,7 @@ const Learnmore = (props: Props) => {
                             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                         </div>
                     </div>
-                    <h6 className='font-syne text-[25px] text-[#121820]'>Migration to SaaS</h6>
+                    <h6 className='font-syne text-[22px] text-[#121820] mb-2'>Migration to SaaS</h6>
                     <p className='font-sora text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
 
@@ -84,7 +84,7 @@ const Learnmore = (props: Props) => {
                             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                         </div>
                     </div>
-                    <h6 className='font-syne text-[25px] text-[#121820]'>Third Party Integrations</h6>
+                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>Third Party Integrations</h4>
                     <p className='font-sora text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
 
@@ -95,11 +95,11 @@ const Learnmore = (props: Props) => {
                             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                         </div>
                     </div>
-                    <h6 className='font-syne text-[25px] text-[#121820]'>SaaS Support and Maintenance</h6>
+                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>SaaS Support and Maintenance</h4>
                     <p className='font-sora text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
             </div>
-            <Link href='' className='border-2  border-[#92519c] px-20 py-5 font-sora text-[16px] rounded-full'>Tell us about your project</Link>
+            <Link href='' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px]'>Tell us about your project</Link>
         </div>
     </div>
   )

@@ -14,7 +14,7 @@ const Discovery = ({image, title, description}) => {
                 </div>
                 <h6 className='font-syne text-[22px] text-[#121820]'>{title}</h6>
             </div>
-            <p className='font-sora text-[15px] text-[#12182066]'>{description}</p>
+            <p className='font-sora text-[14px] text-[#12182066]'>{description}</p>
         </div>
     )
 }
@@ -48,11 +48,15 @@ const Discover = (props: Props) => {
                         </div>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-between mt-20'>
-                        <Discovery image='/s1.svg' title='Thinking Big' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' />
-                        <Discovery image='/s2.svg' title='Starting Small' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' />
-                        <Discovery image='/s3.svg' title='Creating Fast' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' />
-                        <Discovery image='/s4.svg' title='Innovating Scale' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' />
+                    <div className='flex flex-wrap items-center justify-between mt-20 space-y-10 lg:space-y-0'>
+                        <Discovery image='/s1.svg' title='Thinking Big' 
+                        description='we believe in thinking big. We start by understanding your overarching goals and vision. Through strategic discussions and careful analysis, we envision a comprehensive solution that aligns with your long-term objectives. We encourage ambitious thinking to pave the way for innovative and scalable solutions.' />
+                        <Discovery image='/s2.svg' title='Starting Small' 
+                        description='Our collaborative process begins with a practical approach - starting small. We break down complex projects into manageable phases, allowing for focused attention and incremental progress. This iterative approach ensures that each step is executed with precision, leading to tangible results and building a strong foundation for future growth.' />
+                        <Discovery image='/s3.svg' title='Creating Fast' 
+                        description='Speed is a key element of our collaborative philosophy. We believe in creating fast, delivering solutions promptly without compromising quality. Our agile methodology allows for quick adaptation to changing requirements, ensuring that your projects are not only efficient but also responsive to market dynamics.' />
+                        <Discovery image='/s4.svg' title='Innovating Scale' 
+                        description='Innovation is at the core of our collaborative ethos. As we progress from initial concepts to full-scale implementation, we consistently seek opportunities for innovation. Our commitment to staying at the forefront of technology and industry trends ensures that the solutions we deliver are not only scalable but also incorporate the latest advancements.' />
                     </div>
 
                     <div className='flex justify-between items-center flex-wrap lg:mt-20'>

@@ -25,7 +25,7 @@ const Skill = (props: Props) => {
                                     <h2 className='font-syne text-[29px] lg:text-[42px] text-[#121820] '>Business <span className='text-[#92519c]'>Success</span> With Technology</h2>
                             </div>
                             <div className='lg:w-[40.50%]'>
-                                <p className='font-sora text-[15px] text-[#12182066]'>It is a long established fact that a reader will be distracted by the readable
+                                <p className='font-sora text-[15px] text-[#12182066] mt-5 lg:mt-0'>It is a long established fact that a reader will be distracted by the readable
                                      content of a page when looking at its layout. The point of using Lorem Ipsum is 
                                      that it has a more-or-less normal distribution of letters, as opposed to using content here.</p>
                             </div>

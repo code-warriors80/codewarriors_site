@@ -7,7 +7,7 @@ const ServicesSafeguard = () => {
     <div className='overflow-hidden px-5 lg:px-0'>
         <div className='xl:w-[75%]  md:w-[90%] mx-auto'>
         <div className='font-syne '>
-            <p className='font-syne text-center text-[42px]'>
+            <p className='font-syne text-center text-[32px] lg:text-[42px]'>
                 Ready To Take The Next Step?
             </p>
         </div>
@@ -23,7 +23,7 @@ const ServicesSafeguard = () => {
                         In on my jointure horrible margaret suitable he followed speedily.
                         Indeed vanity excuse or mr lovers of on.
                     </p>
-                    <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0'>
+                    <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 font'>
                                     Request a Free Demo
                                     <div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
                                         <BsArrowRight size={20} color='white'/>
@@ -43,7 +43,7 @@ const ServicesSafeguard = () => {
                         In on my jointure horrible margaret suitable he followed speedily.
                         Indeed vanity excuse or mr lovers of on.
                     </p>
-                    <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 '>
+                    <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 font'>
                                     Request a Free Demo
                                     <div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
                                         <BsArrowRight size={20} color='white'/>
@@ -79,7 +79,7 @@ const ServicesSafeguard = () => {
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>01</span>Tech Stack Choice</h5>
+                                    <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>01</span>Tech Stack Choice</h4>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -93,7 +93,7 @@ const ServicesSafeguard = () => {
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>02</span>Multi Tenant Architecture</h5>
+                                    <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>02</span>Multi Tenant Architecture</h4>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -107,7 +107,7 @@ const ServicesSafeguard = () => {
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>03</span>  External Services Integration</h5>
+                                    <h4 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>03</span>  External Services Integration</h4>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -123,7 +123,7 @@ const ServicesSafeguard = () => {
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>04</span>Scalability On Demand</h5>
+                                    <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>04</span>Scalability On Demand</h4>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -137,7 +137,7 @@ const ServicesSafeguard = () => {
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>05</span>Security Audit</h5>
+                                    <h4 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>05</span>Security Audit</h4>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>
@@ -151,7 +151,7 @@ const ServicesSafeguard = () => {
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
-                                    <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>06</span>Smooth Deployment</h5>
+                                    <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>06</span>Smooth Deployment</h4>
                                     <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
                                          molestias ad </p>
                                 </div>

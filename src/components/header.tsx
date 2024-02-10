@@ -58,7 +58,7 @@ const Header = ({ transparent = false }) => {
       } fixed top-0 left-0 right-0 flex justify-between items-center px-4 lg:px-24 z-50`}
       style={{ fontFamily: "Sora", boxShadow: transparent?"none": "0 0 40px 0 rgba(18,24,32,.1)" }}
     >
-      <img src="logo2.png" className="w-20 w-32"/>
+      <img src="logo2.png" className="w-24 lg:w-32"/>
 
       
       <div className="hidden lg:flex items-center gap-x-12">

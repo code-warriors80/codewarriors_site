@@ -12,7 +12,7 @@ const Service = ({image, index, title, description}) => {
                 </div>
                         <div className='lg:flex gap-20 lg:px-7 py-10'>
                                 <div className='relative w-fit'>
-                                    <img src={image} className='relative lg:w-[80px] z-10' alt='Main Image' />
+                                    <img src={image} className='relative lg:w-[90px] z-10' alt='Main Image' />
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                                 <div className='mt-5'>
@@ -33,16 +33,22 @@ const Services = (props: Props) => {
             <div className='lg:flex justify-between'>
                 <div className='w-full xl:w-[45%]'>
                     <h4 className='font-syne text-[21px] text-[#121820] py-10 font-bold'>IT Services</h4>
-                    <Service image='1.svg' index={'01'} title='Dedicated Team' description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibusmolestias ad'/>
-                    <Service image='2.svg' index={'02'} title='QA and Testing' description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibusmolestias ad'/>
-                    <Service image='3.svg' index={'03'} title='SaaS' description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibusmolestias ad'/>
+                    <Service image='1.svg' index={'01'} title='Dedicated Team' 
+                    description='Empower your projects with our dedicated team of skilled professionals. From developers to project managers, we assemble a tailored team to meet your specific needs. Benefit from a cohesive unit working exclusively on your project, ensuring focused expertise and efficient collaboration.'/>
+                    <Service image='2.svg' index={'02'} title='QA and Testing' 
+                    description='Quality assurance is at the heart of our services. Our dedicated QA and testing team meticulously assesses every aspect of your software, ensuring it meets the highest standards of functionality, reliability, and performance. Trust us to deliver solutions that exceed expectations.'/>
+                    <Service image='3.svg' index={'03'} title='SaaS (Software as a Service)' 
+                    description='Elevate your business with our SaaS solutions. We specialize in developing scalable and user-friendly software delivered as a service. Experience the flexibility and efficiency of cloud-based applications designed to enhance your operational processes.'/>
                 </div>
 
                 <div className='xl:w-[45%]'>
                     <h4 className='font-syne text-[21px] py-10 font-bold'>IT Solutions</h4>
-                    <Service image='4.svg' index={'04'} title='Blockchain' description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibusmolestias ad'/>
-                    <Service image='5.svg' index={'05'} title='Artificial Intelligence' description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibusmolestias ad'/>
-                    <Service image='9.svg' index={'06'} title='Internet of Things' description='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibusmolestias ad'/>
+                    <Service image='4.svg' index={'04'} title='Blockchain' 
+                    description='Unlock the potential of blockchain technology with our expertise. From decentralized applications (DApps) to smart contracts, we offer comprehensive blockchain solutions. Ensure transparency, security, and efficiency in your transactions and data management.'/>
+                    <Service image='5.svg' index={'05'} title='Artificial Intelligence' 
+                    description='Transform your business with the power of Artificial Intelligence. Our AI solutions leverage machine learning and deep learning to provide insights, automate processes, and enhance decision-making. Stay ahead in the era of intelligent automation with our cutting-edge AI services.'/>
+                    <Service image='9.svg' index={'06'} title='Internet of Things' 
+                    description='Connect and control your devices seamlessly with our IoT solutions. From smart homes to industrial automation, we enable efficient communication and data exchange between devices. Embrace the future of interconnected systems with our IoT expertise.'/>
                 </div>
             </div>
             <div className='mx-auto flex gap-2  mt-20'>

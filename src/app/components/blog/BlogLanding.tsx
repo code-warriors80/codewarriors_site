@@ -7,7 +7,7 @@ const Landing = (props: Props) => {
     <div className='relative w-full overflow-hidden mil_db'>
         <img src='/map.png' className='absolute w-full h-full top-0 left-0 object-cover z-0'/>
           <div className='relative z-10 bg-[#1218200D] px-10 lg:px-0'>
-            <div className='flex items-center justify-between h-[500px]  xl:w-[65%]  lg:w-[100%] md:w-[90%]  mx-auto'>
+            <div className='flex items-center justify-between h-[500px]  xl:w-[75%]  lg:w-[100%] md:w-[90%]  mx-auto'>
               <div>
                   <ul className='flex items-center gap-5 font-sora'>
                     <li className='text-[15px]'>Home</li>
