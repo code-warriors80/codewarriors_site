@@ -97,7 +97,7 @@ const Header = ({ transparent = false }) => {
         >
             {navitem.map((item, idx) => (
           <div key={item?.item} className="group flex flex-col items-center  w-full">
-            <Link href={`${item.path}`} className={`flex items-start gap-x-1 text-sm`}>
+            <Link href={``} className={`flex items-start gap-x-1 text-sm`}>
               {item?.item}
               {item?.sub_items?.length > 0 && (
                 <div className="p-[2px] rounded-full border-2 border-[#F57C00]" />

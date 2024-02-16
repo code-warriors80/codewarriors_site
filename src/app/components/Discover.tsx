@@ -48,20 +48,20 @@ const Discover = (props: Props) => {
                         </div>
                     </div>
 
-                    <div className='flex flex-wrap items-center justify-between mt-20 space-y-10 lg:space-y-0'>
+                    <div className='flex flex-wrap items-start justify-between mt-20 space-y-10 lg:space-y-0'>
                         <Discovery image='/s1.svg' title='Thinking Big' 
-                        description='we believe in thinking big. We start by understanding your overarching goals and vision. Through strategic discussions and careful analysis, we envision a comprehensive solution that aligns with your long-term objectives. We encourage ambitious thinking to pave the way for innovative and scalable solutions.' />
+                        description='Embracing ambitious goals, we begin by grasping your vision. Through strategic analysis, we craft comprehensive solutions that align with your long-term objectives, fostering innovation and scalability..' />
                         <Discovery image='/s2.svg' title='Starting Small' 
-                        description='Our collaborative process begins with a practical approach - starting small. We break down complex projects into manageable phases, allowing for focused attention and incremental progress. This iterative approach ensures that each step is executed with precision, leading to tangible results and building a strong foundation for future growth.' />
+                        description='We start small, breaking down complex projects into manageable phases. This focused, incremental approach ensures precision and tangible results, laying a strong foundation for future growth.' />
                         <Discovery image='/s3.svg' title='Creating Fast' 
-                        description='Speed is a key element of our collaborative philosophy. We believe in creating fast, delivering solutions promptly without compromising quality. Our agile methodology allows for quick adaptation to changing requirements, ensuring that your projects are not only efficient but also responsive to market dynamics.' />
+                        description='We prioritize speed, delivering solutions promptly without compromising quality. Our agile methodology enables quick adaptation to changing requirements, ensuring efficiency and responsiveness to market dynamics.' />
                         <Discovery image='/s4.svg' title='Innovating Scale' 
-                        description='Innovation is at the core of our collaborative ethos. As we progress from initial concepts to full-scale implementation, we consistently seek opportunities for innovation. Our commitment to staying at the forefront of technology and industry trends ensures that the solutions we deliver are not only scalable but also incorporate the latest advancements.' />
+                        description='Innovation drives us. From concepts to implementation, we seek innovation. Staying at the forefront of tech and trends ensures our solutions are scalable and cutting-edge.' />
                     </div>
 
                     <div className='flex justify-between items-center flex-wrap lg:mt-20'>
                         <Link href='/' className='flex gap-3 items-center font-syne text-[16px] mt-5 lg:mt-0  font group'>View All Casses<div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
-                        <Link href='' className='border-2 border-[#92519c] px-20 py-5 rounded-full font-sora text-[16px] hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>Get Started</Link>
+                        <Link href='/contact' className='border-2 border-[#92519c] px-20 py-5 rounded-full font-sora text-[16px] hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>Get Started</Link>
                     </div>
         </div>
         <img

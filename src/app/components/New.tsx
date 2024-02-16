@@ -42,7 +42,7 @@ const New = (props: Props) => {
                                                 <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
                                                 <div className='font-sora text-[15px] my-2'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                             </div>
-                                            <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] lg:w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
+                                            <p className='font-sora lg:text-[15px] text-[#12182066] lg:w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                         </div>
                                 </Link>
                             </div>
@@ -56,7 +56,7 @@ const New = (props: Props) => {
                                     <img src='/12.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <div className='lg:hidden'>
                                         <h4 className='font-syne text-[22px] my-5'>Print 3d Technology &amp; Simple Design</h4>
-                                        <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
+                                        <p className='font-sora lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
                                     </div>
                                 </Link>
                             </div>
@@ -65,7 +65,7 @@ const New = (props: Props) => {
                                 <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <img src='/6.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <h4 className='font-syne text-[22px] my-5'>Sed iaculis massa est, nec rutrum magna</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis incidunt, nesciunt earum officiis soluta nisi delectus laboriosam?</p>
+                                    <p className='font-sora lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis incidunt, nesciunt earum officiis soluta nisi delectus laboriosam?</p>
                                 </Link>
                             </div>
 
@@ -77,7 +77,7 @@ const New = (props: Props) => {
                                                 <h4 className='font-syne text-[22px]'>Easy And Most Powerful Platform</h4>
                                                 <div className='font-sora text-[15px]  my-3'>by: <span className='text-[#92519c]'>Jane Meldrun</span></div>
                                             </div>
-                                            <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] lg:w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
+                                            <p className='font-sora lg:text-[15px] text-[#12182066] lg:w-[400px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!</p>
                                         </div>
                                 </Link>
                             </div>
@@ -86,12 +86,12 @@ const New = (props: Props) => {
                                 <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <div className='hidden lg:block'>
                                         <h4 className='font-syne text-[22px] '>Print 3d Technology &amp; Simple Design</h4>
-                                        <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
+                                        <p className='font-sora lg:text-[15px] text-[#12182066] my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
                                     </div>
                                     <img src='/4.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <div className='lg:hidden'>
                                         <h4 className='font-syne text-[22px] my-5'>Print 3d Technology &amp; Simple Design</h4>
-                                        <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
+                                        <p className='font-sora lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
                                     </div>
                                 </Link>
                             </div>
@@ -100,7 +100,7 @@ const New = (props: Props) => {
                                 <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <img src='/3.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <h4 className='font-syne text-[22px] my-5'>Sed iaculis massa est, nec rutrum magna</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis incidunt, nesciunt earum officiis soluta nisi delectus laboriosam?</p>
+                                    <p className='font-sora lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis incidunt, nesciunt earum officiis soluta nisi delectus laboriosam?</p>
                                 </Link>
                             </div>
                         </div>

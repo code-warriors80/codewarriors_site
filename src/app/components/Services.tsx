@@ -17,7 +17,7 @@ const Service = ({image, index, title, description}) => {
                                 </div>
                                 <div className='mt-5'>
                                     <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>{index}</span> {title}</h5>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>{description}</p>
+                                    <p className='font-sora lg:text-[15px] text-[#12182066] '>{description}</p>
                                 </div>
                         </div>
         </div>
@@ -39,16 +39,21 @@ const Services = (props: Props) => {
                     description='Quality assurance is at the heart of our services. Our dedicated QA and testing team meticulously assesses every aspect of your software, ensuring it meets the highest standards of functionality, reliability, and performance. Trust us to deliver solutions that exceed expectations.'/>
                     <Service image='3.svg' index={'03'} title='SaaS (Software as a Service)' 
                     description='Elevate your business with our SaaS solutions. We specialize in developing scalable and user-friendly software delivered as a service. Experience the flexibility and efficiency of cloud-based applications designed to enhance your operational processes.'/>
+                    <Service image='9.svg' index={'04'} title='Internet of Things' 
+                    description='Connect and control your devices seamlessly with our IoT solutions. From smart homes to industrial automation, we enable efficient communication and data exchange between devices. Embrace the future of interconnected systems with our IoT expertise.'/>
                 </div>
 
                 <div className='xl:w-[45%]'>
                     <h4 className='font-syne text-[21px] py-10 font-bold'>IT Solutions</h4>
-                    <Service image='4.svg' index={'04'} title='Blockchain' 
+                    <Service image='4.svg' index={'05'} title='Blockchain' 
                     description='Unlock the potential of blockchain technology with our expertise. From decentralized applications (DApps) to smart contracts, we offer comprehensive blockchain solutions. Ensure transparency, security, and efficiency in your transactions and data management.'/>
-                    <Service image='5.svg' index={'05'} title='Artificial Intelligence' 
-                    description='Transform your business with the power of Artificial Intelligence. Our AI solutions leverage machine learning and deep learning to provide insights, automate processes, and enhance decision-making. Stay ahead in the era of intelligent automation with our cutting-edge AI services.'/>
-                    <Service image='9.svg' index={'06'} title='Internet of Things' 
-                    description='Connect and control your devices seamlessly with our IoT solutions. From smart homes to industrial automation, we enable efficient communication and data exchange between devices. Embrace the future of interconnected systems with our IoT expertise.'/>
+                    <Service image='5.svg' index={'06'} title='Artificial Intelligence' 
+                    description='Transform your business with the power of Artificial Intelligence. Our AI solutions leverage machine learning and deep learning to provide insights, automate processes, and enhance decision-making. Stay ahead in the era of intelligent automation with our cutting-edge AI services.'/>  
+                    <Service image='21.svg' index={'07'} title='Software Development' 
+                    description='Our software development services bring your ideas to life with diverse technologies and methodologies. From concept to final product, we deliver custom solutions, leveraging our expertise in various languages and frameworks for projects of any scale or complexity.'/>   
+                    <Service image='22.svg' index={'08'} title='Andriod & IOS' 
+                    description='
+                    We specialize in developing user-friendly and innovative mobile apps for Android and iOS. Whether you need a native app or a cross-platform solution, we deliver high-quality applications tailored to your requirements, engaging your audience and driving results.'/>              
                 </div>
             </div>
             <div className='mx-auto flex gap-2  mt-20'>

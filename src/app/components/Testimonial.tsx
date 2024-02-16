@@ -17,7 +17,7 @@ const Testimonials= ({image, name, position ,description}) => {
                     <BsStarFill size={18} color='#92519c'/>
                 </div>
             </div>
-                <p className='font-sora text-[#12182066] py-5 text-[18px] lg:text-[15px]'>{description}</p>
+                <p className='font-sora text-[#12182066] py-5 lg:text-[15px]'>{description}</p>
                 <div className='flex items-center gap-5'>
                     <img src={image} className='w-12 h-12 rounded-full tran_filter'/>
                     <div>

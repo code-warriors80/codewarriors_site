@@ -15,7 +15,7 @@ const Projects = ({image, title, author, description}) => {
                                 <h4 className='font-syne text-[22px]'>{title}</h4>
                                 <div className='font-sora text-[15px] my-2'>Client: <span className='text-[#92519c]'>{author}</span></div>
                         </div>
-                        <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] w-[400px]'>{description}</p>
+                        <p className='font-sora lg:text-[15px] text-[#12182066] w-[400px]'>{description}</p>
                     </div>
             </Link>
         </div>
@@ -54,7 +54,7 @@ const Project = (props: Props) => {
 
             <div className='flex justify-between items-center lg:mt-20 flex-wrap'>
                 <Link href='/' className='flex gap-3 items-center font-syne text-[16px] font group'>Learn More<div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
-                <Link href='' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px]'>How We Work</Link>
+                <Link href='/services' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px]'>How We Work</Link>
             </div>
     </div>
     </div>

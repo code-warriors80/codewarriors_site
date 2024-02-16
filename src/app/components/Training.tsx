@@ -4,7 +4,7 @@ import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
 
 type Props = {}
 
-const Trainings = ({image, title1, title2, stars, header, tutor, price}) => {
+const Trainings = ({image, title1, title2, stars, header, duration, tutor}) => {
     return (
         <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
                 <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
@@ -32,8 +32,10 @@ const Trainings = ({image, title1, title2, stars, header, tutor, price}) => {
                     </div>
 
                     <h4 className='text-[21px] font-syne mt-5'>{header}</h4>
-                    <p className='text-[14px] font-sora text-[#12182066] my-5'>{tutor}</p>
-                    <div className='font-sora text-[20px] lg:text-[17px]'>${price} us</div>
+                    <div className='flex justify-between'>
+                        <p className='text-[14px] font-sora text-[#12182066] my-5'><span className='text-black text-[16px]'>Duration:</span> {duration}</p>
+                        <p className='text-[14px] font-sora text-[#12182066] my-5'><span className='text-black text-[16px]'>Tutor:</span> {tutor}</p>
+                    </div>
                 </Link>
             </div>
     )
@@ -69,10 +71,10 @@ const Training = (props: Props) => {
                         </div>
 
                         <div className="carousel carousel-center px-0 p-4 space-x-4 lg:space-x-10 rounded-box w-full mt-20  ">
-                            <Trainings image='1.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
-                            <Trainings image='2.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
-                            <Trainings image='3.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
-                            <Trainings image='1.jpg' title1='Security' title2='Team' stars={'4.5'} header='Cibersecurity Premium' tutor='John Stone' price={'22.99'}/>
+                            <Trainings image='frontend.jpg' title1='Development' title2='Team' stars={'4.5'} header='Front-End Web Development' duration='3 Months' tutor={'John Shane'}/>
+                            <Trainings image='backend.jpg' title1='Development' title2='Team' stars={'4.5'} header='BackEnd Web Development' duration='3 Months' tutor={'John Shane'}/>
+                            <Trainings image='uiux.jpg' title1='Design' title2='Team' stars={'4.5'} header='UI/UX Design' duration='3 Months' tutor={'John Shane'}/>
+                            <Trainings image='funder.jpg' title1='Security' title2='Team' stars={'4.5'} header='Computer Fundermentals' duration='3 Months' tutor={'John Shane'}/>
                         </div>
                 </div>
     </div>
