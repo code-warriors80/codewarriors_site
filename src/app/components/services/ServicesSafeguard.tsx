@@ -7,21 +7,21 @@ const ServicesSafeguard = () => {
     <div className='overflow-hidden px-5 lg:px-0'>
         <div className='xl:w-[75%]  md:w-[90%] mx-auto'>
         <div className='font-syne '>
+            <ul className='flex flex-row items-center justify-center gap-3 mb-10'>
+                        <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
+                        <li className='font-syne  text-[15px]'>Safeguard Modern</li>
+            </ul>
             <p className='font-syne text-center text-[32px] lg:text-[42px]'>
                 Ready To Take The Next Step?
             </p>
         </div>
         <div className='lg:mx-auto py-16 mx-auto grid lg:grid-cols-2 gap-20 items-center '>
-            <div className='border-2 p-10 hover:border-[#92519c]'>
+            <div className='border-2 p-16 hover:border-[#92519c] rounded-lg'>
                 <div>
                     <h2 className="text-[22px] font-syne">Get a Live Demo</h2>
-                    <p className='font-sora text-[16px] py-5 text-[#12182066]'>
-                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
-                        In on my jointure horrible margaret suitable he followed speedily.
-                        Indeed vanity excuse or mr lovers of on. <br/>
-                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
-                        In on my jointure horrible margaret suitable he followed speedily.
-                        Indeed vanity excuse or mr lovers of on.
+                    <p className='font-sora text-[16px] py-10 text-[#12182066]'>
+                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible 
+                    margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on
                     </p>
                     <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 font'>
                                     Request a Free Demo
@@ -32,16 +32,11 @@ const ServicesSafeguard = () => {
                 </div>
             </div>
 
-            <div className='border-2 p-10 hover:border-[#92519c]'>
+            <div className='border-2 p-16 hover:border-[#92519c] rounded-lg'>
                 <div>
                     <h2 className="text-[22px] font-syne">Start now</h2>
-                    <p className='font-sora text-[16px] py-5 text-[#12182066]'>
-                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
-                        In on my jointure horrible margaret suitable he followed speedily.
-                        Indeed vanity excuse or mr lovers of on. <br/>
-                        Dissuade ecstatic and properly saw entirely sir why laughter endeavor.
-                        In on my jointure horrible margaret suitable he followed speedily.
-                        Indeed vanity excuse or mr lovers of on.
+                    <p className='font-sora text-[16px] py-10 text-[#12182066]'>
+                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on
                     </p>
                     <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 font'>
                                     Request a Free Demo
@@ -80,8 +75,9 @@ const ServicesSafeguard = () => {
                                 </div>
                                 <div className='mt-5'>
                                     <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>01</span>Tech Stack Choice</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
-                                         molestias ad </p>
+                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>
+                                    Make informed decisions on your tech stack with our expert guidance, ensuring compatibility, efficiency, and future scalability.
+                                    </p>
                                 </div>
                         </div>
                     </div>
@@ -94,8 +90,7 @@ const ServicesSafeguard = () => {
                                 </div>
                                 <div className='mt-5'>
                                     <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>02</span>Multi Tenant Architecture</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
-                                         molestias ad </p>
+                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'> Implement a scalable and efficient multi-tenant architecture that optimizes resource utilization and enhances user experiences. </p>
                                 </div>
                         </div>
                     </div>
@@ -108,8 +103,7 @@ const ServicesSafeguard = () => {
                                 </div>
                                 <div className='mt-5'>
                                     <h4 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>03</span>  External Services Integration</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
-                                         molestias ad </p>
+                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Seamlessly integrate external services into your system, expanding functionality and improving overall performance. </p>
                                 </div>
                         </div>
                     </div>
@@ -124,8 +118,7 @@ const ServicesSafeguard = () => {
                                 </div>
                                 <div className='mt-5'>
                                     <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>04</span>Scalability On Demand</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
-                                         molestias ad </p>
+                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Scale your system effortlessly to meet growing demands, ensuring optimal performance and user satisfaction.</p>
                                 </div>
                         </div>
                     </div>
@@ -138,8 +131,7 @@ const ServicesSafeguard = () => {
                                 </div>
                                 <div className='mt-5'>
                                     <h4 className='text-[22px]  font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>05</span>Security Audit</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
-                                         molestias ad </p>
+                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] '>Conduct thorough security audits to identify and mitigate potential vulnerabilities, safeguarding your system and data against threats.</p>
                                 </div>
                         </div>
                     </div>
@@ -152,8 +144,7 @@ const ServicesSafeguard = () => {
                                 </div>
                                 <div className='mt-5'>
                                     <h4 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>06</span>Smooth Deployment</h4>
-                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti tenetur provident fuga fugit nobis voluptatibus
-                                         molestias ad </p>
+                                    <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066]'> Ensure a smooth deployment process with our expert guidance and support, minimizing downtime and ensuring a seamless transition.</p>
                                 </div>
                         </div>
                     </div>

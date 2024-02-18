@@ -15,7 +15,7 @@ const Mission = (props: Props) => {
          <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
             <div className='lg:flex items-center justify-between py-32 space-y-7 lg:space-y-0'>
                     <div className='bg-[#92519c] rounded-full lg:w-[40%] w-full'>
-                        <img src='/t2.png' className='w-full rounded-full '/>
+                        <img src='/t4.png' className='w-full rounded-full '/>
                     </div>
                     <div className='space-y-10 lg:w-[47.50%]'>
                         <div className='flex items-center gap-3'>

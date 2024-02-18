@@ -9,7 +9,7 @@ type SkillProgressProps = {
 const SkillProgress: React.FC<SkillProgressProps> = ({ skill, progress }) => {
   return (
     <div className="w-full lg:w-[300px]">
-      <h3 className="text-sm font-syne text-[15px]">{skill}</h3>
+      <h3 className="text-sm font-syne text-[16px] font">{skill}</h3>
       <div className="relative pt-1">
         <div className="flex mb-2 items-center justify-between">
           <div>

@@ -32,11 +32,11 @@ const Discover = (props: Props) => {
                     <h2 className='font-syne text-[32px] lg:text-[42px] mt-10'>Why Work With Us</h2>
                 </div>
 
-                <Things image='6.svg' title={'Top Expertise'} description={'Et iusto odio dignissim qui blandit praesent luptatum zzril delenit. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.'}/>
-                <Things image='10.svg' title={'Quality Management'} description={'Et iusto odio dignissim qui blandit praesent luptatum zzril delenit. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.'}/>
-                <Things image='2.svg' title={'Utmost Flexibility'} description={'Et iusto odio dignissim qui blandit praesent luptatum zzril delenit. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.'}/>
-                <Things image='4.svg' title={'Agility'} description={'Et iusto odio dignissim qui blandit praesent luptatum zzril delenit. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.'}/>
-                <Things image='5.svg' title={'Innovation'} description={'Et iusto odio dignissim qui blandit praesent luptatum zzril delenit. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.'}/>
+                <Things image='6.svg' title={'Top Expertise'} description={'We boast top-notch expertise in our field, ensuring that our team is equipped with the knowledge and skills to tackle even the most challenging projects.'}/>
+                <Things image='10.svg' title={'Quality Management'} description={'Our commitment to quality management ensures that every project is executed with precision and attention to detail, delivering high-quality results that meet and exceed expectations.'}/>
+                <Things image='2.svg' title={'Utmost Flexibility'} description={'We understand that every client and project is unique. Thats why we offer utmost flexibility, adapting our approach to suit your specific needs and requirements.'}/>
+                <Things image='4.svg' title={'Agility'} description={'In todays fast-paced world, agility is key. We pride ourselves on our ability to quickly adapt to changes and challenges, ensuring that your project stays on track and on schedule.'}/>
+                <Things image='5.svg' title={'Innovation'} description={'Innovation is at the heart of everything we do. We continuously seek out new ideas and technologies to bring fresh and innovative solutions to our clients, helping them stay ahead of the curve.'}/>
                 
                 <div className='mx-auto flex gap-2  my-20'>
                         <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>

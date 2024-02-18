@@ -8,7 +8,7 @@ const Trainings = ({image, title1, title2, stars, header, duration, tutor}) => {
     return (
         <div className='carousel-item w-[99%] md:w-[48.80%] lg:w-[30.50%]'>
                 <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                    <img src={image} className='w-full rounded-xl  h-[400px] lg:h-fit object-cover'/>
+                    <img src={image} className='w-full rounded-xl  h-[400px] lg:h-[350px] object-cover'/>
                     <div className='flex  items-center justify-between gap-5 py-5 '>
                         <div className='flex items-center justify-between w-full relative top-1'>
                             <ul className='flex items-center gap-3'>

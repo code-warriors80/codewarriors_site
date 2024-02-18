@@ -10,7 +10,7 @@ const navitem = [
     sub_items: [
       { text: "Home V2", path: "/" },
       { text: "About us", path: "/about" },
-      { text: "Team", path: "/coming-soon" },
+      { text: "Team", path: "/team" },
       { text: "Team Member", path: "/coming-soon" },
       { text: "FAQ", path: "/coming-soon" },
       { text: "Event", path: "/coming-soon" },
