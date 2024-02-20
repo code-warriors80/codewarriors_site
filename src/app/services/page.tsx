@@ -9,6 +9,7 @@ const Service = () => {
       <ServicesLanding/>
       <ServicesLearnmore/>
       <ServicesSafeguard/>
+      <ServicesFooter/>
     </section>
   );
 };
