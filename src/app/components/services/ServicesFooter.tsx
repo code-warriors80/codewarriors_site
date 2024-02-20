@@ -9,46 +9,51 @@ const ServicesFooter = () => {
         <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[200px] hidden lg:block left-auto absolute '/>
         <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl lg:text-center">
+                <div className="mx-auto max-w-2xl lg:text-center mb-10">
                     <h2 className="text-base font-semibold font-syne leading-7 text-white">Always The Best</h2>
                     <p className="mt-2 text-3xl font-bold font-syne tracking-tight text-white sm:text-4xl">
-                        Types Of <span className='text-[#F57C00]'>SaaS Applications</span> We Deliver
+                        Types Of <span className='text-[#92519c]'>SaaS Applications</span> We Deliver
                     </p>
                     <p className="mt-6 text-lg leading-8 font-syne text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.
+                        This applications are typically used for data analysis, 
+                        statistical modeling, data visualization, 
+                        and reporting in various industries such as healthcare, education, 
+                        finance, retail, and telecommunications.
                     </p>
                 </div>
 
-
-                {/* <div className=" lg:grid mt-8 lg:grid-cols-4 justify-center align-middle gap-4">
+                <div className=" lg:grid mt-8 lg:grid-cols-3 mx-auto mt-10 justify-center align-middle gap-4">
                     <div className='flex'>
-                        <img src='/14.svg' className='relative bg-white rounded lg:w-[35px] z-10' alt='Main Image' />
-                        <h1 className='text-white'>1</h1>
+                        <h1 className='text-white text-2xl font-bold font-syne'>Hospital Billing Systems</h1>
                     </div>
                     <div>
-                        <h1 className='text-white'>2</h1>
+                        <h1 className='text-white text-2xl font-bold font-syne'>School Management Systems</h1>
                     </div>
                     <div>
-                        <h1 className='text-white'>3</h1>
+                        <h1 className='text-white text-2xl font-bold font-syne'>Eventory Management Systems</h1>
                     </div>
-                    <div>
-                        <h1 className='text-white'>4</h1>
-                    </div>
-                </div> */}
+                </div>
 
 
             </div>
         </div>
 
         <div className='mx-auto flex gap-2 mb-20  mt-10'>
-                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                 <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
         </div>
         <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm sm:text-center font-syne text-white">© 2023 <a href="https://flowbite.com/" className="hover:underline">Code warriors™</a>. All Rights Reserved.
             </span>
+
+            <a href="#" className="text-white font-syne  hover:text-gray-900 dark:hover:text-white">
+                <p>Terms & Conditions</p>
+            </a>
+            <a href="#" className="text-white font-syne hover:text-gray-900 dark:hover:text-white">
+                <p>FAQ</p>
+            </a>
+
             <div className="flex mt-4 font-syne sm:justify-center sm:mt-0">
                 <a href="#" className="text-white hover:text-gray-700">
                     <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
