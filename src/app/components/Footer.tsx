@@ -7,9 +7,9 @@ const footer = () => {
       <div className="mx-auto max-w-screen-xl p-4 py-6 lg:py-8"></div>
       <div className="mx-auto max-w-screen-xl p-4 py-6 lg:py-8">
             <div className='mx-auto flex gap-2 mb-20  mt-10'>
-                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                 <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
-                <div className='w-[30px] h-[2px] bg-[#F57C00]  rounded-full'></div>
+                <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
             </div>
         <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm sm:text-center font-syne text-white">© 2023 <a href="https://flowbite.com/" className="hover:underline">Code warriors™</a>. All Rights Reserved.
