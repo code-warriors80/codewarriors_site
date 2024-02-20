@@ -14,14 +14,14 @@ const footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm sm:text-center font-syne text-white">© 2023 <a href="https://flowbite.com/" className="hover:underline">Code warriors™</a>. All Rights Reserved.
             </span>
-            <div className=' flex'>
-                  <a href="#" className="text-white hover:text-gray-700">
+            
+                  <a href="#" className="text-white font-syne hover:text-gray-700">
                     <p>Terms & Conditions</p>
                   </a>
-                  <a href="#" className="text-white hover:text-gray-700">
+                  <a href="#" className="text-white font-syne hover:text-gray-700">
                     <p>FAQ</p>
                   </a>
-              </div>
+      
             <div className="flex mt-4 font-syne sm:justify-center sm:mt-0">
                 <a href="#" className="text-white hover:text-gray-700">
                     <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
