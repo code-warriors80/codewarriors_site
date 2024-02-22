@@ -6,7 +6,7 @@ type Props = {}
 const Discuss = (props: Props) => {
   return (
     <div className='relative overflow-hidden'>
-        <img src='15.jpg' alt='' className='absolute w-full object-cover z-0'/>
+        <img src='15.jpg' alt='' className='absolute w-full h-full object-cover z-0'/>
         <div className='relative bg-[#121820CC] z-10 py-20'>
             <div className='xl:w-[75%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 lg:flex justify-between'>
                 <div className="col-lg-6 mil-mb-30 space-y-3 mb-20 lg:mb-0">

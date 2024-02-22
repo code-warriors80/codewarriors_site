@@ -6,17 +6,11 @@ type Props = {}
 const Description = (props: Props) => {
   return (
     <div >
-        <div className='grid grid-cols-2 py-20'>
-            <div className=' flex items-center gap-5'>
-                <div className='relative w-fit'>
-                            <img src={'16.svg'} className='relative z-10' alt='Main Image' />
-                            <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
-                </div>
-                <h5 className='font-syne text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    <span className="mil-accent">aliqu quis ipsum suspendisse</span> ultrices gravida.
-                </h5>
+          <div className='lg:flex items-center justify-between py-10 lg:py-20 space-y-10 lg:space-y-0 '>
+            <p className='text-[22px] font-syne lg:w-[45.50%]'>Connect with one of our <span className='text-[#92519c]'>experienced experts</span> who can provide personalized guidance and insights tailored to your needs.</p>
+            <div className='lg:flex items-center lg:justify-center gap-10 lg:gap-20 lg:w-[500px]'>
+                <Link href={''} className="font-sora text-sm lg:text-lg border-2 border-[#92519c] text-[#121820]  px-5 lg:px-10 py-4 rounded-full font ease-in-out duration-300 hover:border-[3px]">Hire UI/UX Designers</Link>
             </div>
-            <Link href='' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px]'>Hire UI/UX Designer</Link>
         </div>
 
         <div className='mx-auto flex gap-2  mt-20'>
