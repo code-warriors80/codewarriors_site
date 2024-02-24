@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { transporter, mailOptions } from "@/config/nodemailer";
+import { NextRequest, NextResponse } from "next/server";
 
 type RequestBody = {
   email: string;
@@ -7,40 +8,30 @@ type RequestBody = {
   name: string;
 };
 
-export default async function handler(
-  request: NextApiRequest,
-  response: NextApiResponse
-) {
-  if (request.method === "POST") {
-    const { email, message, subject } = await request.body();
+export async function POST(request: Request) {
+  const { email, message, subject } = await request.json();
+  if (!email || !subject || !message) {
+    return NextResponse.json({
+      status: 400,
+      message: "Email and Message are required",
+    });
+  }
 
-    if (!email || !subject || !message) {
-      return response.status(400).json({
-        status: 400,
-        message: "Email and Message are required",
-      });
-    }
-    try {
-      const info = await transporter.sendMail({
-        ...mailOptions,
-        subject,
-        html: "",
-      });
+  try {
+    const info = await transporter.sendMail({
+      ...mailOptions,
+      subject,
+      html: "<h1>Code warriors website</h1>",
+    });
 
-      console.log("Message sent: %s", info.messageId);
-      response.status(200).json({ message: "Email sent successfully!" });
-    } catch (error) {
-      return response.status(400).json({
-        status: 400,
-        message: "error.message",
-      });
-    }
-  } else {
-    console.log(
-      "heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
-    );
-    response.setHeader("Allow", ["POST"]);
-    response.status(405).send(`Method ${request.method} Not Allowed`);
+    console.log();
+    return NextResponse.json({
+      message: `Message sent: %s, ${info.messageId}`,
+    });
+  } catch (error) {
+    return NextResponse.json({
+      status: 400,
+      message: error.message,
+    });
   }
 }
-
