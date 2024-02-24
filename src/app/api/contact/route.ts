@@ -22,6 +22,7 @@ export async function POST(request: Request) {
       ...mailOptions,
       subject,
       html: "<h1>Code warriors website</h1>",
+      text: message,
     });
 
     console.log();
