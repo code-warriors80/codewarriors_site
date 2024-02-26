@@ -12,9 +12,9 @@ const team = [
   },
   {
     id: 2,
-    image: 'team2.jpg',
-    name: 'Jane Meldrum',
-    position: 'Designer'
+    image: 'cto.jpg',
+    name: 'Ogala Mohammed',
+    position: 'Software Developer'
   },
   {
     id: 3,
@@ -38,11 +38,11 @@ const team = [
 
 const TeamMate = ({image, name, position}) => (
   <Link href='' className='text-center group relative h-fit ease-in-out duration-200 tran_filter'>
-    <img src={image} alt='team' className='rounded-full mx-auto'/>
+    <img src={image} alt='team' className='rounded-full w-[350px] h-[350px] mx-auto object-cover'/>
     <h4 className="text-[22px] font-syne my-5">{name}</h4>
     <p className="text-[15px] font-sora text-[#12182066] group-hover:text-[#92519c] ease-in-out duration-200">{position}</p>
     <div className=' absolute top-0 left-0 w-full h-full bottom-2'>
-      <div className='h-[150px] w-[150px] bg-[#92519c] absolute bottom-20 right-5 rounded-full ease-in-out invisible  duration-300 group-hover:visible group-hover:translate-x-10'></div>
+      <div className='h-[150px] w-[150px] bg-[#92519c] absolute bottom-20 right-10 lg:right-5 rounded-full ease-in-out invisible  duration-300 group-hover:visible group-hover:translate-x-10'></div>
     </div>
   </Link>
 )

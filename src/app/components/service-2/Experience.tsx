@@ -18,7 +18,9 @@ const Experience = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h4 className="font-syne text-[22px]">User Research</h4>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    We start by understanding your users through in-depth research, including interviews, surveys, and data analysis, to uncover insights that inform our design decisions.
+                </p>
             </div>
 
             <div className='space-y-7'>
@@ -27,7 +29,9 @@ const Experience = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h4 className="font-syne text-[22px]">Prototyping</h4>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Using industry-standard tools, we create interactive prototypes that allow you to visualize and test the user experience before development begins.
+                </p>
             </div>
 
             <div className='space-y-7'>
@@ -36,7 +40,9 @@ const Experience = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h4 className="font-syne text-[22px]">UX Design</h4>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Our UX designers focus on creating seamless user journeys, information architecture, and content strategy to ensure a cohesive and intuitive user experience.
+                </p>
             </div>
 
             <div className='space-y-7'>
@@ -45,7 +51,9 @@ const Experience = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h4 className="font-syne text-[22px]">UI Design</h4>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Our UI designers bring prototypes to life with visually appealing interfaces that align with your brand identity and enhance usability.
+                </p>
             </div>
 
             <div className='space-y-7'>
@@ -54,7 +62,9 @@ const Experience = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h4 className="font-syne text-[22px]">UI/UX Audit and Consulting</h4>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    We evaluate existing designs against best practices and industry standards, providing actionable insights and recommendations for improvement.
+                </p>
             </div>
 
             <div className='space-y-7'>
@@ -63,7 +73,9 @@ const Experience = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h4 className="font-syne text-[22px]">Usability Testing</h4>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Through user testing sessions, we gather feedback on the usability of your product, allowing us to make data-driven design decisions and iterate for optimal results.
+                </p>
             </div>
         </div>
     </div>

@@ -24,14 +24,14 @@ const Values = (props: Props) => {
 
         <div className='lg:flex justify-between space-y-5'>
             <h2 className='text-[32px] lg:text-[42px] font-syne text-center'>Values that <span className="text-[#92519c]">Lead Us</span></h2>
-            <p className='text-[15px] text-[#12182066] font-sora lg:w-[35%] text-center lg:text-left'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p className='text-[15px] text-[#12182066] font-sora lg:w-[35%] text-center lg:text-left'>These values are the foundation of our culture and guide our decisions and actions every day, helping us to deliver exceptional results for our clients.</p>
         </div>
 
         <div className='grid md:grid-cols-2 lg:grid-cols-4 mt-20 gap-16'>
-            <OurValues index={'01'} title={'Productivity'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore magna aliqua.'}/>
-            <OurValues index={'02'} title={'Transparency'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore magna aliqua.'}/>
-            <OurValues index={'03'} title={'Personality'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore magna aliqua.'}/>
-            <OurValues index={'04'} title={'Volition'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore magna aliqua.'}/>
+            <OurValues index={'01'} title={'Productivity'} description={'We prioritize productivity, ensuring that we deliver high-quality work efficiently and effectively.'}/>
+            <OurValues index={'02'} title={'Transparency'} description={'Transparency is key to our approach. We believe in open and honest communication, both internally and with our clients, to build trust and foster strong relationships.'}/>
+            <OurValues index={'03'} title={'Personality'} description={' We celebrate the unique personalities and talents of our team members, recognizing that diversity enhances our creativity and innovation.'}/>
+            <OurValues index={'04'} title={'Volition'} description={'We are driven by a strong sense of purpose and determination. We approach challenges with a proactive mindset, taking initiative to achieve our goals.'}/>
         </div>
     </div>
   )
