@@ -6,9 +6,9 @@ type Props = {}
 const team = [
   {
     id: 1,
-    image: 'team1.jpg',
-    name: 'Andrew Kazantzis',
-    position: 'CEO ITSulu'
+    image: 'ceo.jpg',
+    name: 'Abdulrahman Sadiq',
+    position: 'CEO & Founder'
   },
   {
     id: 2,
