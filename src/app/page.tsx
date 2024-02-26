@@ -9,16 +9,25 @@ import New from './components/New'
 import Testimonial from './components/Testimonial'
 import Project from './components/Project'
 import Discover from './components/Discover'
+import Skill from './components/Skill'
+import Contact from './components/Contact'
+import Header from '@/components/header'
+import Footer from './components/Footer'
+
 
 export default function Home() {
   return (
     <main className="f">
+      <Header/>
       <Carousel />
       <Services />
       <Project />
       <Discover />
+      <Skill />
+      <Training />
       <New />
       <Testimonial />
+      <Contact />
     </main>
   )
 }

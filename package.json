@@ -14,6 +14,7 @@
     "@fontsource/sora": "^5.0.16",
     "@fontsource/syne": "^5.0.18",
     "classname": "^0.0.0",
+    "mongoose": "^8.1.3",
     "next": "14.0.4",
     "nodemailer": "^6.9.10",
     "owl.carousel": "^2.3.4",
