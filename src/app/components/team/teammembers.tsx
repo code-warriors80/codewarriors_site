@@ -18,21 +18,27 @@ const team = [
   },
   {
     id: 3,
-    image: 'team3.jpg',
-    name: 'Roy Ellawal',
-    position: 'App Developer'
+    image: 'cfo.jpg',
+    name: 'Abdulrahman Halima',
+    position: 'CFO'
   },
   {
     id: 4,
     image: 'team4.jpg',
-    name: 'James Anderson',
-    position: 'Data Analyst'
+    name: 'Joshua Ogbole',
+    position: 'Software Developer'
   },
   {
     id: 5,
     image: 'team5.jpg',
-    name: 'John Doe',
-    position: 'UI & UX Developer'
+    name: 'Timothy Iliya',
+    position: 'Frontend Developer'
+  },
+  {
+    id: 5,
+    image: 'team5.jpg',
+    name: 'Daniel Elijah',
+    position: 'UI/UX Designer'
   },
 ]
 
@@ -50,7 +56,7 @@ const TeamMate = ({image, name, position}) => (
 const Teammembers = (props: Props) => {
   return (
     <div>
-        <h3 className="text-center text-[26px] font-syne py-28">It is a long established fact that a <span className="text-[#92519c]">reader will be <br/> distracted</span> by the readable content.</h3>
+        <h3 className="text-center text-[26px] font-syne py-28">Our Team of administrators aimed at <span className="text-[#92519c]">pursuing excellence <br/> </span> and delivering the best of services.</h3>
 
         <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center gap-32'>
           {team.map((team, index) => (
