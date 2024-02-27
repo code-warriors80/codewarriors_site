@@ -29,25 +29,25 @@ const ContactLeft = (props: Props) => {
             description,
             budget
         }
-        try {
-            const res = await sendMessage(formData)
-            const data = await res.json()
-            if (res.ok) {
-                setFirstName('');
-                setLastName('');
-                setEmail('');
-                setPhone('');
-                setCompany('');
-                setRole('');
-                setDesign('');
-                setDescription('');
-                setBudget('');
-            } else {
-                setError(data.message)
-            }
-        } catch (error) {
-            console.log(error)
-        }
+        // try {
+        //     const res = await sendMessage(formData)
+        //     const data = await res.json()
+        //     if (res.ok) {
+        //         setFirstName('');
+        //         setLastName('');
+        //         setEmail('');
+        //         setPhone('');
+        //         setCompany('');
+        //         setRole('');
+        //         setDesign('');
+        //         setDescription('');
+        //         setBudget('');
+        //     } else {
+        //         setError(data.message)
+        //     }
+        // } catch (error) {
+        //     console.log(error)
+        // }
     }
 
     return (

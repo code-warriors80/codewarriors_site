@@ -1,8 +1,41 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
+import { sendMessage } from '../actions/contact'
 
 type Props = {}
 
 const Contact = (props: Props) => {
+    const [name, setName] = useState('')
+    const [message, setMessage] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [error, setError] = useState('')
+
+    const SubmitForm = async (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+        e.preventDefault()
+        const formData = {
+            name,
+            message,
+            email,
+            phone,
+
+        }
+        try {
+            const res = await sendMessage(formData)
+            const data = await res.json()
+            if (res.ok) {
+                setName('');
+                setMessage('');
+                setEmail('');
+                setPhone('');
+
+            } else {
+                setError(data.message)
+            }
+        } catch (error) {
+            console.log(error)
+        }
+    }
   return (
     <div className='relative  bg-[#121820] py-10'>
                 <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 '>
@@ -54,7 +87,7 @@ const Contact = (props: Props) => {
                                 </div>
                             </div>
                         </div>
-                        <button className='bg-[#92519c] text-white w-full rounded-full py-5 mt-10 font-sora text-[16px] font-bold'>Send Message Now</button>
+                  <button onClick={SubmitForm} className='bg-[#92519c] text-white w-full rounded-full py-5 mt-10 font-sora text-[16px] font-bold'>Send Message Now</button>
                     </div>
                 </div>
     </div>

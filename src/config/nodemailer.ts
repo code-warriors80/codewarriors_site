@@ -20,38 +20,19 @@ export const mailOptions = {
 
 
 export async function sendMessage(data: {
-  firstName: string;
-  lastName: string;
+  name: string;
+  message: string;
   email: string;
   phone: string;
-  company: string;
-  role: string;
-  design: string;
-  description: string;
-  budget: string;
 }): Promise<string> {
-  const {
-    firstName,
-    lastName,
-    email,
-    phone,
-    company,
-    role,
-    design,
-    description,
-    budget,
-  } = data;
+  const { name, message, email, phone } = data;
   // Compose email message
-  const message = `
-    First Name: ${firstName}
-    Last Name: ${lastName}
+  const messageData = `
+     Name: ${name}
+    Message: ${message}
     Email: ${email}
     Phone: ${phone}
-    Company: ${company}
-    Role: ${role}
-    Design: ${design}
-    Description: ${description}
-    Budget: ${budget}
+   
   `;
 
   // Send email using transporter and mailOptions
@@ -59,7 +40,7 @@ export async function sendMessage(data: {
     const info = await transporter.sendMail({
       ...mailOptions,
       subject: "New Contact Form Submission",
-      html: `<h1>New Contact Form Submission</h1><p>${message}</p>`,
+      html: `<h1>New Contact Form Submission</h1><p>${messageData}</p>`,
       text: message,
     });
 
