@@ -1,3 +1,4 @@
+'use client'
 import { sendMessage } from '@/app/actions/contact'
 import React, { useState } from 'react'
 
