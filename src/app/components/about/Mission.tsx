@@ -26,10 +26,10 @@ const Mission = (props: Props) => {
                         <p className='text-[15px] font-sora text-[#12182066]'>
                               To give professional services and support through technology starting from our local to global society, .</p>
                             <ul className='space-y-5'>
-                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
-                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
-                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
-                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
+                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Empower Businesses with Innovative Digital Solutions</li>
+                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Deliver Tailored Solutions for Unique Needs</li>
+                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Champion User-Centric Design and Experience</li>
+                                <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Build Long-Term Partnerships Based on Trust and Transparency</li>
                             </ul>
                     </div>
             </div>
