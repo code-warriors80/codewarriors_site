@@ -17,7 +17,9 @@ const Analyst = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">Android Platform</h5>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accumsan lacus vel facilisis.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Craft innovative and user-friendly Android apps for various industries, leveraging the latest tools and technologies for robust, scalable solutions.
+                </p>
                 <ul className='flex items-center justify-center gap-5 font-sora font'>
                     <li className='text-[15px]'>Java</li>
                     <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
@@ -31,7 +33,9 @@ const Analyst = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">IOS Platform</h5>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accumsan lacus vel facilisis.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Develop cutting-edge iOS apps for iPhones and iPads, ensuring seamless performance and exceptional user experiences tailored to your needs.    
+                </p>
                 <ul className='flex items-center justify-center gap-5 font-sora font'>
                     <li className='text-[15px]'>Swift</li>
                     <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>
@@ -45,7 +49,9 @@ const Analyst = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">Cross Platform</h5>
-                <p className="text-[15px] font-sora text-[#12182066]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accumsan lacus vel facilisis.</p>
+                <p className="text-[15px] font-sora text-[#12182066]">
+                    Reach a broader audience with apps that run smoothly on iOS, Android, and other platforms, using leading frameworks for consistent performance and native-like experiences
+                </p>
                 <ul className='flex items-center justify-center gap-5 font-sora font'>
                     <li className='text-[15px]'>React Native</li>
                     <li className='w-[10px] h-[10px] rounded-full bg-[#92519c]'></li>

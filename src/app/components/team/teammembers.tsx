@@ -36,7 +36,7 @@ const team = [
   },
   {
     id: 5,
-    image: 'team5.jpg',
+    image: 'ellie.jpg',
     name: 'Daniel Elijah',
     position: 'UI/UX Designer'
   },

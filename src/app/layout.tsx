@@ -1,3 +1,5 @@
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import type { Metadata } from 'next'
 import { Inter, Sora, Syne } from 'next/font/google'
 import '@fontsource/satisfy' // Import the Satisfy font
@@ -26,6 +28,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <ToastContainer />
       </body>
     </html>
   )

@@ -18,8 +18,10 @@ const Delevery = (props: Props) => {
                     <img src={'23.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
-                <h5 className="text-[18px] font-syne font">eCcommerce</h5>
-                <p className='text-[15px] font-sora text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor facilisis</p>
+                <h5 className="text-[18px] font-syne font">E-Commerce</h5>
+                <p className='text-[15px] font-sora text-[#12182066]'>
+                    Create tailored mobile apps for e-commerce, enhancing shopping with easy navigation, secure transactions, and personalized recommendations.
+                </p>
             </div>
 
             <div className='space-y-5'>
@@ -28,7 +30,9 @@ const Delevery = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">Entertainment</h5>
-                <p className='text-[15px] font-sora text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor facilisis</p>    
+                <p className='text-[15px] font-sora text-[#12182066]'>
+                    Develop engaging apps for entertainment, offering streaming, interactive content, and social features.
+                </p>    
             </div>
 
             <div className='space-y-5'>
@@ -37,7 +41,9 @@ const Delevery = (props: Props) => {
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">Enterprise</h5>
-                <p className='text-[15px] font-sora text-[#12182066]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor facilisis</p>
+                <p className='text-[15px] font-sora text-[#12182066]'>
+                    Provide custom apps for businesses, enabling internal communication, project management, and secure access to resources.
+                </p>
             </div>
         </div>
         </div>
