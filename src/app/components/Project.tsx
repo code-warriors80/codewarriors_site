@@ -53,7 +53,7 @@ const Project = (props: Props) => {
             </div>
 
             <div className='flex justify-between items-center lg:mt-20 flex-wrap'>
-                <Link href='/' className='flex gap-3 items-center font-syne text-[16px] font group'>Learn More<div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
+                <Link href='/' className='hidden lg:flex gap-3 items-center font-syne text-[16px] font group'>Learn More<div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'><BsArrowRight size={20} color='white'/></div></Link>   
                 <Link href='/services' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px]'>How We Work</Link>
             </div>
     </div>

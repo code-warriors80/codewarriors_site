@@ -28,7 +28,6 @@ export default function Home() {
       <New />
       <Testimonial />
       <Contact />
-      <Footer/>
     </main>
   )
 }

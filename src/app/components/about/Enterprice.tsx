@@ -2,6 +2,39 @@ import React from 'react'
 
 type Props = {}
 
+const value = [
+    {
+        id: 1,
+        title: 'We Are',
+        description: 'A cohesive collective driven by a shared passion for excellence. Our diverse expertise combines to achieve remarkable results through collaboration and mutual respect.'
+    },
+    {
+        id: 2,
+        title: 'We Deep Dive',
+        description: 'Meticulously analyzing projects, we delve into details to deliver innovative, future-proof solutions, ensuring effectiveness and uniqueness.'
+    },
+    {
+        id: 3,
+        title: 'We Take',
+        description: 'Embodying ownership and accountability, we embrace challenges as opportunities for growth, leading with responsibility and resilience.'
+    },
+    {
+        id: 4,
+        title: 'We Value',
+        description: 'Upholding integrity, honesty, diversity, and collaboration, we foster an inclusive environment where everyone feels valued and respected'
+    },
+    {
+        id: 5,
+        title: 'We Believe',
+        description: 'In the power of teamwork, innovation, and continuous improvement, pushing boundaries to achieve extraordinary outcomes.'
+    },
+    {
+        id: 6,
+        title: 'We Say “We”',
+        description: 'Signifying our unity and collaborative spirit, "we" embodies our shared goals, successes, and commitment to each other and our clients.'
+    },
+]
+
 const Values = ({title, description}) => (
     <div className='space-y-5'>
         <div className='relative w-fit'>
@@ -31,12 +64,9 @@ const Enterprice = (props: Props) => {
                 </div>
 
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-10 mt-20'>
-                    <Values title={'We Are'} description={'A cohesive collective driven by a shared passion for excellence. Our diverse expertise combines to achieve remarkable results through collaboration and mutual respect.'}/>
-                    <Values title={'We Deep Dive'} description={'Meticulously analyzing projects, we delve into details to deliver innovative, future-proof solutions, ensuring effectiveness and uniqueness.'}/>
-                    <Values title={'We Take'} description={'Embodying ownership and accountability, we embrace challenges as opportunities for growth, leading with responsibility and resilience.'}/>
-                    <Values title={'We Value'} description={'Upholding integrity, honesty, diversity, and collaboration, we foster an inclusive environment where everyone feels valued and respected'}/>
-                    <Values title={'We Believe'} description={'In the power of teamwork, innovation, and continuous improvement, pushing boundaries to achieve extraordinary outcomes.'}/>
-                    <Values title={'We Say “We”'} description={'Signifying our unity and collaborative spirit, "we" embodies our shared goals, successes, and commitment to each other and our clients.'}/>
+                    {value.map((value, index) => (
+                        <Values key={index} title={value.title} description={value.description}/>
+                    ))}  
                 </div>
         </div>
     </div>
