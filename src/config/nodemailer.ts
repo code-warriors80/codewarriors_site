@@ -15,9 +15,8 @@ export const transporter = nodemailer.createTransport({
 
 export const mailOptions = {
   from: email,
-  to: email,
+  to: "joshuaadah6@gmail.com",
 };
-
 
 export async function sendMessage(data: {
   name: string;
@@ -27,7 +26,7 @@ export async function sendMessage(data: {
 }): Promise<string> {
   const { name, message, email, phone } = data;
 
-  if (!name || !email || message) {
+  if (!name || !email || !message) {
     throw Error("Name,Email and Message fields are required");
   }
   // Compose email message
