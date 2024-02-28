@@ -27,14 +27,21 @@ export async function POST(request: Request, res: NextApiResponse) {
     });
   } catch (error) {
     if (error instanceof Error) {
-      return NextResponse.json({
-        status: 400,
-        message: error.message,
-      });
+      return NextResponse.json(
+        {
+          status: 400,
+          message: error.message,
+        },
+        {
+          status: 400,
+        }
+      );
     } else {
       return NextResponse.json({
         status: 400,
         message: "Failed to send message: Unknown error occurred",
+      },{
+        status: 400,
       });
     }
   }
