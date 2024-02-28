@@ -8,7 +8,7 @@ const navitem = [
   {
     item: "Enterprise",
     sub_items: [
-      { text: "Home V2", path: "/" },
+      { text: "Home", path: "/" },
       { text: "About us", path: "/about" },
       { text: "Team", path: "/team" },
       { text: "Team Member", path: "/coming-soon" },
@@ -38,7 +38,7 @@ const navitem = [
   // },
   {
     item: "Blog",
-    path: '/blog'
+    path: '/coming-soon'
   },
   {
     item: "Contact Us",
