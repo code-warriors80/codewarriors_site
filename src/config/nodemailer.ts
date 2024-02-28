@@ -26,6 +26,10 @@ export async function sendMessage(data: {
   phone: string;
 }): Promise<string> {
   const { name, message, email, phone } = data;
+
+  if (!name || !email || message) {
+    throw Error("Name,Email and Message fields are required");
+  }
   // Compose email message
   const messageData = `
      Name: ${name}
@@ -35,6 +39,7 @@ export async function sendMessage(data: {
    
   `;
 
+  console.log(messageData);
   // Send email using transporter and mailOptions
   try {
     const info = await transporter.sendMail({

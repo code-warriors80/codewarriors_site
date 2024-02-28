@@ -52,19 +52,30 @@ const Contact = (props: Props) => {
                                     <div className='w-full'>
                                             <label htmlFor='Name' className='text-white font-syne text-[15px]'>Name <span className='text-[#92519c]'>Required</span></label>
                                             <div>
-                                                <input type='text' className='w-full py-5 outline-none form_btm bg-transparent text-white font-sora'/>
+                                  <input
+                                      onChange={e => setName(e.target.value)}
+                                      value={name}
+                                      type='text'
+                                      className='w-full py-5 outline-none form_btm bg-transparent text-white font-sora' />
                                             </div>
                                     </div>
                                     <div className='w-full'>
-                                            <label htmlFor='email ' className='text-white font-syne text-[15px]'>Email <span className='text-[#92519c]'>Required</span></label>
+                              <label htmlFor='email '
+                                  className='text-white font-syne text-[15px]'>Email <span className='text-[#92519c]'>Required</span></label>
                                             <div>
-                                                <input type='email' className='w-full py-5 outline-none form_btm bg-transparent text-white font-sora'/>
+                                  <input type='email'
+                                      value={email}
+                                      onChange={e => setEmail(e.target.value)}
+                                      className='w-full py-5 outline-none form_btm bg-transparent text-white font-sora' />
                                             </div>
                                     </div>
                                     <div className='w-full'>
                                             <label htmlFor='phone' className='text-white font-syne text-[15px]'>Phone <span className='text-[#FFFFFF80]'>Optional</span></label>
                                             <div>
-                                                <input type='text'  className='w-full py-5 outline-none form_btm bg-transparent text-white font-sora'/>
+                                  <input type='text'
+                                      onChange={e => setPhone(e.target.value)}
+                                      value={phone}
+                                      className='w-full py-5 outline-none form_btm bg-transparent text-white font-sora' />
                                             </div>
                                     </div>
                             </div>
@@ -73,7 +84,7 @@ const Contact = (props: Props) => {
                                 <div className=''>
                                     <label htmlFor='message' className='text-white font-syne text-[15px]'>Message <span className='text-[#92519c]'>Required</span></label>
                                     <div className='w-full h-[200px]'>
-                                        <textarea className='w-full h-full outline-none form_btm bg-transparent text-white font-sora'/>
+                                  <textarea value={message} onChange={e => setMessage(e.target.value)} className='w-full h-full outline-none form_btm bg-transparent text-white font-sora' />
                                     </div>
                                 </div>
                                 <div className='mt-10'>

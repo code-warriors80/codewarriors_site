@@ -9,7 +9,7 @@ type RequestBody = {
   name: string;
 };
 
-export async function POST(request: Request) {
+export async function POST(request: Request, res: NextApiResponse) {
   const data = (await request.json()) as FormData;
   // if (!email || !subject || !message) {
   //   return NextResponse.json({
@@ -19,6 +19,7 @@ export async function POST(request: Request) {
   // }
 
   try {
+    console.log(data);
     const formData = request.body;
     const result = await sendMessage(data);
     return NextResponse.json({
