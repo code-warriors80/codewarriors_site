@@ -11,7 +11,7 @@ const Service = ({image, index, title, description}) => {
                     <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
                 </div>
                         <div className='lg:flex items-start gap-20 lg:px-7 py-10'>
-                                <div className='relative'>
+                                <div className='relative w-fit mb-5 lg:mb-0'>
                                     <img src={image} className='z-10' alt='Main Image' />
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
