@@ -8,14 +8,14 @@ type Props = {}
 const Projects = ({image, title, author, description, link}) => {
     return (
         <div className="carousel-item w-full md:w-[48.50%]  lg:w-[47.50%]">
-            <a href={`${link}`} className='overflow-hidden tran_filter ease-in-out duration-300'>
-                    <img src={image} className="w-full object-cover rounded-xl " />
+            <a href={`${link}`} className='overflow-hidden tran_filter ease-in-out duration-300 w-full'>
+                    <img src={image} className="w-full object-cover rounded-xl h-[450px]" />
                     <div className='lg:flex justify-between gap-10 my-5'>
                         <div className='lg:w-[40%]'>
                                 <h4 className='font-syne text-[22px]'>{title}</h4>
                                 <div className='font-sora text-[15px] my-2'>Client: <span className='text-[#92519c]'>{author}</span></div>
                         </div>
-                        <p className='font-sora lg:text-[15px] text-[#12182066] w-[400px]'>{description}</p>
+                        <p className='font-sora lg:text-[15px] text-[#12182066] lg:w-[500px]'>{description}</p>
                     </div>
             </a>
         </div>
@@ -47,9 +47,9 @@ const Project = (props: Props) => {
                     </div>
 
             <div className="carousel w-full space-x-5 lg:space-x-20 mt-20  ">
-                <Projects link={''} image='/school.jpg' title='School Website' author='School' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
-                <Projects link={''} image='/23.jpg' title='Gym & Fitness Website' author='Jane Meldrun' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
-                <Projects link={'www.tinyurl.com/reeskitchen/'} image='/2.jpg' title='Food Ordering Andriod App' author="Ree's Kitchen" description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
+                <Projects link={''} image='/school.jpg' title='School Website' author='School' description='Discover our comprehensive approach to enhancing the digital presence of educational institutions. From intuitive designs that engage students and parents to robust features for managing academic information, events, and resources, '/>
+                <Projects link={'https://code-warriors80.github.io/gym_website/'} image='/gym.png' title='Gym & Fitness Website' author='Jane Meldrun' description='Explore our dynamic gym website projects tailored to amplify fitness brands. Our designs blend functionality and aesthetics, offering seamless membership management, class scheduling, and fitness tracking capabilities'/>
+                <Projects link={'tinyurl.com/reeskitchen/'} image='/2.jpg' title='Food Ordering Andriod App' author="Ree's Kitchen" description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
             </div>
 
             <div className='flex justify-between items-center lg:mt-20 flex-wrap'>
