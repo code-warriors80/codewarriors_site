@@ -16,30 +16,36 @@ const ServicesSafeguard = () => {
             </p>
         </div>
         <div className='lg:mx-auto py-16 mx-auto grid lg:grid-cols-2 gap-20 items-center '>
-            <div className='border-2 p-16 hover:border-[#92519c] rounded-lg'>
+            <div className='border-2 p-16 h-[400px] hover:border-[#92519c] rounded-lg'>
                 <div>
                     <h2 className="text-[22px] font-syne">Get a Live Demo</h2>
                     <p className='font-sora text-[16px] py-10 text-[#12182066]'>
-                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible 
-                    margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on
+                        Discover our comprehensive approach to enhancing our 
+                        digital presence of eductional institution from intuitive design that
+                        engage studens and perents to robust features for managing academic informations
+                        ,events and resources, our School website project redefines 
+                        online educaation experiences.
                     </p>
                     <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 font'>
-                                    Request a Free Demo
-                                    <div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
-                                        <BsArrowRight size={20} color='white'/>
-                                    </div>
+                        View Demo
+                        <div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
+                            <BsArrowRight size={20} color='white'/>
+                        </div>
                     </Link>
                 </div>
             </div>
 
-            <div className='border-2 p-16 hover:border-[#92519c] rounded-lg'>
+            <div className='border-2 h-[400px] p-16 hover:border-[#92519c] rounded-lg'>
                 <div>
                     <h2 className="text-[22px] font-syne">Start now</h2>
                     <p className='font-sora text-[16px] py-10 text-[#12182066]'>
-                    Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on
+                        Beyond business success, we are committed to making a positive 
+                        impact on society and the environment 
+                        through responsible business practices, ethical decision-making, 
+                        and initiatives that contribute to social good and environmental sustainability.
                     </p>
                     <Link href='/' className='flex gap-3 items-center font-syne text-[16px] lg:mt-0 font'>
-                                    Request a Free Demo
+                                    Start now
                                     <div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
                                         <BsArrowRight size={20} color='white'/>
                                     </div>

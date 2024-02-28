@@ -23,4 +23,4 @@ const Expert = (props: Props) => {
   )
 }
 
-export default Expert
+export default Expert;
