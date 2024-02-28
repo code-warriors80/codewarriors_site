@@ -10,12 +10,13 @@ const Service = ({image, index, title, description}) => {
                     <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
                     <div className='w-full h-[2px] bg-zinc-200 rounded-full'></div>
                 </div>
-                        <div className='lg:flex gap-20 lg:px-7 py-10'>
-                                <div className='relative w-fit mb-5'>
-                                    <img src={image} className='lg:w-[100px] z-10' alt='Main Image' />
+                        <div className='lg:flex items-start gap-20 lg:px-7 py-10'>
+                                <div className='relative'>
+                                    <img src={image} className='z-10' alt='Main Image' />
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
-                                <div className=''>
+                            
+                                <div className='w-fit'>
                                     <h5 className='text-[22px] font-syne flex items-center gap-5 mb-5'><span className='text-[#92519c] text-sm'>{index}</span> {title}</h5>
                                     <p className='font-sora lg:text-[15px] text-[#12182066] '>{description}</p>
                                 </div>

@@ -9,8 +9,8 @@ const Discovery = ({image, title, description}) => {
         <div className='w-full md:w-1/2 lg:w-[22.50%]'>
             <div className='flex items-center gap-5 py-5'>
                 <div className='relative w-fit'>
-                <img src={image} className='relative z-10' alt='Main Image' />
-                <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
+                    <img src={image} className='relative z-10' alt='Main Image' />
+                    <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                 </div>
                 <h6 className='font-syne text-[22px] text-[#121820]'>{title}</h6>
             </div>

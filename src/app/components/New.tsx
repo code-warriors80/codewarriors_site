@@ -35,7 +35,7 @@ const New = (props: Props) => {
 
                         <div className='carousel carousel-center px-0 p-4 space-x-4 lg:space-x-10 rounded-box w-full mt-20 '>
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[45.50%] group'>
-                                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                         <img src='/1.jpg' alt='' className='rounded-xl w-full h-[350px] lg:h-[400px] object-cover'/>
                                         <div className='lg:flex justify-between gap-10 my-5'>
                                             <div className='lg:w-[60%]'>
@@ -48,7 +48,7 @@ const New = (props: Props) => {
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[23.95%]'>
-                                <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <div className='hidden lg:block'>
                                         <h4 className='font-syne text-[22px]'>Print 3d Technology &amp; Simple Design</h4>
                                         <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
@@ -62,7 +62,7 @@ const New = (props: Props) => {
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[23.95%]'>
-                                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <img src='/6.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <h4 className='font-syne text-[22px] my-5'>Sed iaculis massa est, nec rutrum magna</h4>
                                     <p className='font-sora lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis incidunt, nesciunt earum officiis soluta nisi delectus laboriosam?</p>
@@ -70,7 +70,7 @@ const New = (props: Props) => {
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[45.50%]'>
-                                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                         <img src='/15.jpg' alt='' className='rounded-xl w-full h-[350px] lg:h-[400px] object-cover'/>
                                         <div className='lg:flex justify-between gap-10 my-5'>
                                             <div className='lg:w-[60%]'>
@@ -83,7 +83,7 @@ const New = (props: Props) => {
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[23.50%] '>
-                                <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <div className='hidden lg:block'>
                                         <h4 className='font-syne text-[22px] '>Print 3d Technology &amp; Simple Design</h4>
                                         <p className='font-sora lg:text-[15px] text-[#12182066] my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque placeat ut illo ratione officiis dolorem impedit pariatur iusto!</p>
@@ -97,7 +97,7 @@ const New = (props: Props) => {
                             </div>
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[23.50%]'>
-                                <Link href='/' className='overflow-hidden tran_filter ease-in-out duration-300'>
+                                <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
                                     <img src='/3.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <h4 className='font-syne text-[22px] my-5'>Sed iaculis massa est, nec rutrum magna</h4>
                                     <p className='font-sora lg:text-[15px] text-[#12182066]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quis incidunt, nesciunt earum officiis soluta nisi delectus laboriosam?</p>

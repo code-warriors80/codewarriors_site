@@ -5,10 +5,10 @@ import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 
 type Props = {}
 
-const Projects = ({image, title, author, description}) => {
+const Projects = ({image, title, author, description, link}) => {
     return (
         <div className="carousel-item w-full md:w-[48.50%]  lg:w-[47.50%]">
-            <Link href='' className='overflow-hidden tran_filter ease-in-out duration-300'>
+            <a href={`${link}`} className='overflow-hidden tran_filter ease-in-out duration-300'>
                     <img src={image} className="w-full object-cover rounded-xl " />
                     <div className='lg:flex justify-between gap-10 my-5'>
                         <div className='lg:w-[40%]'>
@@ -17,7 +17,7 @@ const Projects = ({image, title, author, description}) => {
                         </div>
                         <p className='font-sora lg:text-[15px] text-[#12182066] w-[400px]'>{description}</p>
                     </div>
-            </Link>
+            </a>
         </div>
     )
 }
@@ -47,9 +47,9 @@ const Project = (props: Props) => {
                     </div>
 
             <div className="carousel w-full space-x-5 lg:space-x-20 mt-20  ">
-                <Projects image='/school.jpg' title='Jethro Model Academy Website' author='Jethro Model' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
-                <Projects image='/23.jpg' title='Easy And Most Powerful Platform' author='Jane Meldrun' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
-                <Projects image='/2.jpg' title='Easy And Most Powerful Platform' author='Jane Meldrun' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
+                <Projects link={''} image='/school.jpg' title='School Website' author='School' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
+                <Projects link={''} image='/23.jpg' title='Gym & Fitness Website' author='Jane Meldrun' description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
+                <Projects link={'www.tinyurl.com/reeskitchen/'} image='/2.jpg' title='Food Ordering Andriod App' author="Ree's Kitchen" description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, tenetur inventore praesentium eaque consectetur ullam quod architecto odit!'/>
             </div>
 
             <div className='flex justify-between items-center lg:mt-20 flex-wrap'>

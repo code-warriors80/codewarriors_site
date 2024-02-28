@@ -13,17 +13,17 @@ const Footer = (props: Props) => {
                 <div className='grid lg:grid-cols-3 gap-10 items-center justify-between mx-auto'>
                     <div className="w-full lg:w-[80%] space-y-5">
                         <img src="logo.png" alt="logo" className="w-32" />
-                        <p className="text-[15px] font-sora text-[#FFFFFF80]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <p className="text-[15px] font-sora text-[#FFFFFF80]">To give professional services and support through technology starting from our local to global society, .</p>
                     </div>
                     
                     <div className="w-full lg:w-[80%] space-y-5">
-                        <h3 className="text-[32px] font-syne text-white">Join The <span className="text-[#92519c]">ITSulu</span> <br/>Experience</h3>
+                        <h3 className="text-[32px] font-syne text-white">Join The <span className="text-[#92519c]">Tech</span> <br/>Experience</h3>
                         <p className="text-[15px] font-sora text-[#FFFFFF80]">Lorem ipsum dolor sit amet, consectetuer<br/> adipiscing elit, sed diam nonummy.</p>
                     </div>
 
                     <div className="w-full lg:w-[80%]">
                         <form className='space-y-5'>
-                            <input className="block w-full text-center py-5 rounded-full font-sora text-[16px] outline-none" type="text" placeholder="Your email address" />
+                            <input className="block w-full text-center p-5 rounded-full font-sora text-[16px] outline-none" type="text" placeholder="Your email address" />
                             <button className="block w-full bg-[#92519c] rounded-full py-5 text-white font-sora text-[16px]"><span>Subscribe Now</span></button>
                         </form>
                     </div>
@@ -51,7 +51,7 @@ const Footer = (props: Props) => {
             </div>
             <div className=' text-white bg-[#121820]'>
                 <div className='xl:w-[75%] md:w-[90%] mx-auto flex items-center justify-between py-10 font-sora text-[13px] px-5 lg:px-0'>
-                    <p className="">© ITSulu 2023.</p>
+                    <p className="">© Code Warriors 2024.</p>
                     <p className="mil-text-sm mil-light">All Rights Reserved.</p>
                 </div>
             </div>
