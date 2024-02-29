@@ -24,7 +24,7 @@ const team = [
   },
   {
     id: 4,
-    image: 'team4.jpg',
+    image: 'josh.jpg',
     name: 'Joshua Ogbole',
     position: 'Software Developer'
   },

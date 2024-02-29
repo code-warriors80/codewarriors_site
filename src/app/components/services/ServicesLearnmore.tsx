@@ -4,6 +4,19 @@ import React from 'react'
 
 type Props = {}
 
+const Solution = ({id, title, description}) => (
+    <div className=' '>
+        <div className='flex items-center gap-5 py-5'>
+            <div className='relative w-fit'>
+            <p className=' font-syne text-4xl'>{id}</p>
+                <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
+            </div>
+        </div>
+        <h4 className='font-syne text-[22px] text-[#121820] mb-2'>{title}</h4>
+        <p className='font-sora text-[15px] text-[#12182066]'>{description}</p>
+    </div>
+)
+
 const Learnmore = (props: Props) => {
   return (
     <div className='relative py-10'>
@@ -33,72 +46,12 @@ const Learnmore = (props: Props) => {
                 </div>
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center justify-between gap-20 my-20'>
-
-                <div className=' '>
-                    <div className='flex items-center gap-5 py-5'>
-                        <div className='relative w-fit'>
-                        <p className=' font-syne text-4xl'>01</p>
-                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
-                        </div>
-                    </div>
-                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>SaaS Development Consulting</h4>
-                    <p className='font-sora text-[15px] text-[#12182066]'>Receive tailored guidance to maximize efficiency and scalability in your SaaS journey, ensuring your success in the digital landscape.</p>
-                </div>
-                
-                <div className=''>
-                    <div className='flex items-center gap-5 py-5'>
-                        <div className='relative w-fit'>
-                        <p className=' font-syne text-4xl'>02</p>
-                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
-                        </div>
-                    </div>
-                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>SaaS Design and Prototyping</h4>
-                    <p className='font-sora text-[15px] text-[#12182066]'>Transform your ideas into reality with user-centric interfaces that elevate user experiences, setting your SaaS product apart.</p>
-                </div>
-
-                <div className=''>
-                    <div className='flex items-center gap-5 py-5'>
-                        <div className='relative w-fit'>
-                        <p className=' font-syne text-4xl'>03</p>
-                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
-                        </div>
-                    </div>
-                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>End-to-End SaaS Development</h4>
-                    <p className='font-sora text-[15px] text-[#12182066]'>From concept to product launch, our comprehensive solutions exceed expectations, delivering value and innovation at every stage.</p>
-                </div>
-
-                <div className=''>
-                    <div className='flex items-center gap-5 py-5'>
-                        <div className='relative w-fit'>
-                        <p className=' font-syne text-4xl'>04</p>
-                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
-                        </div>
-                    </div>
-                    <h6 className='font-syne text-[22px] text-[#121820] mb-2'>Migration to SaaS</h6>
-                    <p className='font-sora text-[15px] text-[#12182066]'>Seamlessly transition your data, applications, and processes to the cloud, ensuring a smooth and efficient migration process.</p>
-                </div>
-
-                <div className=''>
-                    <div className='flex items-center gap-5 py-5'>
-                        <div className='relative w-fit'>
-                        <p className=' font-syne text-4xl'>05</p>
-                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
-                        </div>
-                    </div>
-                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>Third Party Integrations</h4>
-                    <p className='font-sora text-[15px] text-[#12182066]'>Enhance the functionality of your SaaS product with seamless integration of third-party services, enriching user experiences and expanding capabilities.</p>
-                </div>
-
-                <div className=''>
-                    <div className='flex items-center gap-5 py-5'>
-                        <div className='relative w-fit'>
-                        <p className=' font-syne text-4xl'>06</p>
-                            <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
-                        </div>
-                    </div>
-                    <h4 className='font-syne text-[22px] text-[#121820] mb-2'>SaaS Support and Maintenance</h4>
-                    <p className='font-sora text-[15px] text-[#12182066]'>Ensure the continuous and optimal performance of your SaaS product with reliable support and maintenance services, minimizing downtime and maximizing productivity.</p>
-                </div>
+                <Solution id={'01'} title={'SaaS Development Consulting'} description={'Receive tailored guidance to maximize efficiency and scalability in your SaaS journey, ensuring your success in the digital landscape.'}/>
+                <Solution id={'02'} title={'SaaS Design and Prototyping'} description={'Transform your ideas into reality with user-centric interfaces that elevate user experiences, setting your SaaS product apart.'}/>
+                <Solution id={'03'} title={'End-to-End SaaS Development'} description={'From concept to product launch, our comprehensive solutions exceed expectations, delivering value and innovation at every stage.'}/>
+                <Solution id={'04'} title={'Migration to SaaS'} description={'Seamlessly transition your data, applications, and processes to the cloud, ensuring a smooth and efficient migration process.'}/>
+                <Solution id={'05'} title={'Third Party Integrations'} description={'Enhance the functionality of your SaaS product with seamless integration of third-party services, enriching user experiences and expanding capabilities.'}/>
+                <Solution id={'06'} title={'SaaS Support and Maintenance'} description={'Ensure the continuous and optimal performance of your SaaS product with reliable support and maintenance services, minimizing downtime and maximizing productivity.'}/>
             </div>
             <Link href='' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px]'>Tell us about your project</Link>
 

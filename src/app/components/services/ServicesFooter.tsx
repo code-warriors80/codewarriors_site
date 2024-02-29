@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Works = ({image, work}) => (
-    <li className='w-fit font-sora text-[15px] flex gap-5'>
+    <li className='w-fit font-sora text-[15px] flex gap-5 items-center'>
         <div className='relative w-fit'>
             <img src={image} className='relative z-10 bg-white p-3 rounded-full' alt='Main Image' />
             <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-6 z-20'></div>

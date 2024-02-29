@@ -13,6 +13,7 @@ import Skill from './components/Skill'
 import Contact from './components/Contact'
 import Header from '@/components/header'
 import Footer from './components/Footer'
+import Partner from './components/Partner'
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <main className="f">
       <Header/>
       <Carousel />
+      <Partner />
       <Services />
       <Project />
       <Discover />
