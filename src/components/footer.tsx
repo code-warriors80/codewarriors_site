@@ -18,7 +18,7 @@ const Footer = (props: Props) => {
                     
                     <div className="w-full lg:w-[80%] space-y-5">
                         <h3 className="text-[32px] font-syne text-white">Join The <span className="text-[#92519c]">Tech</span> <br/>Experience</h3>
-                        <p className="text-[15px] font-sora text-[#FFFFFF80]">Lorem ipsum dolor sit amet, consectetuer<br/> adipiscing elit, sed diam nonummy.</p>
+                        <p className="text-[15px] font-sora text-[#FFFFFF80]"> We strive to champion user-centric design and experience in every project we undertake, ensuring that the end-users have seamless interactions with the digital products we create, resulting in user satisfaction.</p>
                     </div>
 
                     <div className="w-full lg:w-[80%]">

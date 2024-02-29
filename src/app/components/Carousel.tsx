@@ -24,7 +24,7 @@ const Carousel = (props: Props) => {
                           <span className="font-satisfy text-[#92519c]"> Your </span> 
                           <span>Business Or Idea</span>
                         </h1>
-                        <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
+                        <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'> Building custom software solutions, such as web applications, <br /> mobile applications (iOS, Android), desktop applications, and enterprise software. </p>
                         <div className='flex items-center justify-center gap-10 lg:gap-20'>
                           <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                           <div className='flex items-center gap-5'>
@@ -47,13 +47,14 @@ const Carousel = (props: Props) => {
                 <div className='lg:w-[75%] lg:px-20'>
                     <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Inspiration</span></p>
                     <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
-                      <span>The</span> 
-                      <span className="font-satisfy text-[#92519c]"> Freedom</span> 
-                      <span>To Focus On <br/> Improving</span> 
-                      <span className="font-satisfy text-[#92519c]"> Your </span> 
-                      <span>Business Or Idea</span>
+                      <span>Deliver </span> 
+                      <span> Tailored </span>
+                      <span className="font-satisfy text-[#92519c]"> Solutions </span><br/>
+                      <span>for </span>
+                      <span className="font-satisfy text-[#92519c]">Unique </span>
+                      <span>Needs</span>
                     </h1>
-                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
+                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>We are committed to understanding the <br/> unique needs and objectives of each client  and driving tangible business outcomes and success.</p>
                     <div className='flex items-center justify-center gap-10 lg:gap-20'>
                       <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                     </div>
@@ -72,13 +73,12 @@ const Carousel = (props: Props) => {
                 <div className='lg:w-[75%] lg:px-20'>
                     <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Inspiration</span></p>
                     <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
-                      <span>The</span> 
-                      <span className="font-satisfy text-[#92519c]"> Freedom</span> 
-                      <span>To Focus On <br/> Improving</span> 
-                      <span className="font-satisfy text-[#92519c]"> Your </span> 
-                      <span>Business Or Idea</span>
+                      <span > Empower  Businesses with </span> 
+                      <span className="font-satisfy text-[#92519c]"> <br/> Innovative</span> 
+                      <span className="font-satisfy text-[#92519c]"> Digital </span> 
+                      <span>Solutions</span>
                     </h1>
-                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse <br /> molestie consequat, vel illum dolore eu feugiat nulla. </p>
+                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'> with innovative and cutting-edge digital solutions,<br /> we including websites and software, that enhance efficiency, productivity, and competitiveness in today's digital landscape. </p>
                     <div className='flex items-center justify-center gap-10 lg:gap-20'>
                       <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                     </div>
@@ -92,4 +92,4 @@ const Carousel = (props: Props) => {
   )
 }
 
-export default Carousel
+export default Carousel;

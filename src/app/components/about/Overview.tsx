@@ -31,7 +31,7 @@ const Overview = (props: Props) => {
                             <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Data Analytics and Reporting</li>
                         </ul>
                         <div className='flex items-center gap-5'>
-                            <img src='/17.jpg' className='w-12 h-12 rounded-full tran_filter'/>
+                            <img src='/ceo.jpg' className='w-12 h-12 rounded-full tran_filter'/>
                             <div>
                                 <h4 className='text-[22px] text-[#92519c]'>Abdulrahman Sadiq</h4>
                                 <p className='font-sora text-[13px] text-[#12182066]'>CEO & Co-Founder</p>

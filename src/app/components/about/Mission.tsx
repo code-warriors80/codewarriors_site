@@ -38,4 +38,4 @@ const Mission = (props: Props) => {
   )
 }
 
-export default Mission
+export default Mission;
