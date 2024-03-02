@@ -14,7 +14,7 @@ const team = [
     id: 2,
     image: 'cto.jpg',
     name: 'Ogala Mohammed',
-    position: 'Software Developer'
+    position: 'Software Developer & Co-Founder'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const team = [
   },
   {
     id: 5,
-    image: 'team5.jpg',
+    image: 'nox.jpg',
     name: 'Timothy Iliya',
     position: 'Frontend Developer'
   },

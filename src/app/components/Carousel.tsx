@@ -48,13 +48,13 @@ const Carousel = (props: Props) => {
                     <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Inspiration</span></p>
                     <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
                       <span>Deliver </span> 
-                      <span> Tailored </span>
-                      <span className="font-satisfy text-[#92519c]"> Solutions </span><br/>
+                      <span> Tailored </span><br />
+                      <span className="font-satisfy text-[#92519c]"> Solutions </span>
                       <span>for </span>
                       <span className="font-satisfy text-[#92519c]">Unique </span>
                       <span>Needs</span>
                     </h1>
-                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>We are committed to understanding the <br/> unique needs and objectives of each client  and driving tangible business outcomes and success.</p>
+                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'>We are committed to understanding the unique needs and objectives of each client <br /> and driving tangible business outcomes and success.</p>
                     <div className='flex items-center justify-center gap-10 lg:gap-20'>
                       <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                     </div>
@@ -71,11 +71,10 @@ const Carousel = (props: Props) => {
             <div className=' flex items-center justify-center'>
                 <a href="#slide2" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                 <div className='lg:w-[75%] lg:px-20'>
-                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Inspiration</span></p>
+                    <p className='text-center mb-10 text-white text-[18px] font-syne'>Our <span className=" text-[#92519c]">Drive</span></p>
                     <h1 className='font-syne text-center text-white text-4xl lg:text-6xl font-medium px-10 mil_1'>
                       <span > Empower  Businesses with </span> 
-                      <span className="font-satisfy text-[#92519c]"> <br/> Innovative</span> 
-                      <span className="font-satisfy text-[#92519c]"> Digital </span> 
+                      <span className="font-satisfy text-[#92519c]">  Innovative Digital</span>  <br />
                       <span>Solutions</span>
                     </h1>
                     <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'> with innovative and cutting-edge digital solutions,<br /> we including websites and software, that enhance efficiency, productivity, and competitiveness in today's digital landscape. </p>

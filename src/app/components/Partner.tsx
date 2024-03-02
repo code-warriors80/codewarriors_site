@@ -4,7 +4,7 @@ type Props = {}
 
 const Partner = (props: Props) => {
   return (
-    <div className='none lg:block'>
+    <div className='hidden lg:block'>
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-12 px-5 sm:px-16 md:px-0'>
             <div className='flex gap-10'>
                 <img src='bluefox.png' alt='' className='w-[150px] rounded-full'/>
