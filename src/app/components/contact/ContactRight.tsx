@@ -34,9 +34,12 @@ const ContactRight = (props: Props) => {
                 <div className='w-[10px] h-[10px] rounded-full bg-[#6c4f98]'></div>
                 <h5 className='font-syne text-[18px] text-[#121820]'>Need Help?</h5>
             </div>
-            <p className='py-7 font-sora text-[15px] text-[#12182066]'>
+            <p className='pt-7 pb-3 font-sora text-[15px] text-[#12182066]'>
                 For technical questions or billing questions, please contact Customer Care.
             </p>
+            <div>
+                <p className='my-3 font-sora text-[15px] text-[#12182066]'>+234 0907-2233-771</p>
+            </div>
         </div>
         <div>
             <div className='relative w-fit mb-10'>
@@ -50,6 +53,9 @@ const ContactRight = (props: Props) => {
             <p className='py-7 font-sora text-[15px] text-[#12182066]'>
                 For technical questions or billing questions, please contact Customer Care.
             </p>
+            <div>
+                <p className='my-3 font-sora text-[15px] text-[#12182066]'>codewarriors02@gmail.com</p>
+            </div>
         </div>
 
         <div className='mx-auto flex gap-2  my-10'>

@@ -25,15 +25,15 @@ const Overview = (props: Props) => {
                     <p className='text-[15px] font-sora text-[#12182066]'>We specialize in transforming your ideas or business to thrive in the current digital era. Our expertise lies in leveraging cutting-edge technologies and innovative strategies to bring your vision to life, helping you stay ahead of the competition and achieve your goals in the digital landscape.</p>
                     <div className='lg:flex items-end gap-10 space-y-7 lg:space-y-0'>
                         <ul className='space-y-5'>
-                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
-                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
-                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
-                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Quis suspendisse ultrices gravida</li>
+                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Maintenance and Support</li>
+                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> SEO and Digital Marketing</li>
+                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Consulting and Strategy</li>
+                            <li className='flex items-center gap-3 font-sora text-[15px]'><BsCheck2Circle size={20}/> Data Analytics and Reporting</li>
                         </ul>
                         <div className='flex items-center gap-5'>
-                            <img src='/17.jpg' className='w-12 h-12 rounded-full tran_filter'/>
+                            <img src='/ceo.jpg' className='w-12 h-12 rounded-full tran_filter object-cover'/>
                             <div>
-                                <h4 className='text-[22px] text-[#92519c]'>Jane Meldrum</h4>
+                                <h4 className='text-[22px] text-[#92519c]'>Abdulrahman Sadiq</h4>
                                 <p className='font-sora text-[13px] text-[#12182066]'>CEO & Co-Founder</p>
                             </div>
                         </div>
@@ -45,4 +45,4 @@ const Overview = (props: Props) => {
   )
 }
 
-export default Overview
+export default Overview;

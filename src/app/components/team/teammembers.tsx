@@ -14,7 +14,7 @@ const team = [
     id: 2,
     image: 'cto.jpg',
     name: 'Ogala Mohammed',
-    position: 'Software Developer'
+    position: 'Software Developer & Co-Founder'
   },
   {
     id: 3,
@@ -24,19 +24,19 @@ const team = [
   },
   {
     id: 4,
-    image: 'team4.jpg',
+    image: 'josh.jpg',
     name: 'Joshua Ogbole',
     position: 'Software Developer'
   },
   {
     id: 5,
-    image: 'team5.jpg',
+    image: 'nox.jpg',
     name: 'Timothy Iliya',
     position: 'Frontend Developer'
   },
   {
     id: 5,
-    image: 'team5.jpg',
+    image: 'ellie.jpg',
     name: 'Daniel Elijah',
     position: 'UI/UX Designer'
   },

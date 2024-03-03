@@ -8,7 +8,7 @@ const navitem = [
   {
     item: "Enterprise",
     sub_items: [
-      { text: "Home V2", path: "/" },
+      { text: "Home", path: "/" },
       { text: "About us", path: "/about" },
       { text: "Team", path: "/team" },
       { text: "Team Member", path: "/coming-soon" },
@@ -24,8 +24,8 @@ const navitem = [
     item: "Services",
     sub_items: [
       { text: "SaaS", path: "/services" },
-      { text: "UI&UX Des", path: "/service-2" },
-      { text: "Mobile Dev", path: "/service-3" },
+      { text: "UI & UX", path: "/service-2" },
+      { text: "Mobile", path: "/service-3" },
     ],
   },
   // {
@@ -38,7 +38,7 @@ const navitem = [
   // },
   {
     item: "Blog",
-    path: '/blog'
+    path: '/coming-soon'
   },
   {
     item: "Contact Us",
@@ -62,7 +62,7 @@ const Header = ({ transparent = false }) => {
       } fixed top-0 left-0 right-0 flex justify-between items-center px-4 lg:px-24 z-50`}
       style={{ fontFamily: "Sora", boxShadow: transparent?"none": "0 0 40px 0 rgba(18,24,32,.1)" }}
     >
-      <img src="logo2.png" className="w-20 lg:w-30"/>
+      <img src="logo2.png" className="w-20 lg:w-36"/>
 
       
       <div className="hidden lg:flex items-center gap-x-12">

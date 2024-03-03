@@ -7,8 +7,9 @@ const skillsData = [
   { skill: 'Software Development', progress: 65 },
   { skill: 'Web Development', progress: 95 },
   { skill: 'UI / UX Development', progress: 50 },
-  { skill: 'App Development', progress: 90 },
+  { skill: 'Mobile App Development', progress: 90 },
   { skill: 'Database Administration', progress: 60 },
+  { skill: 'Saas (Software as a Service)', progress: 50 },
 ];
 
 
@@ -32,7 +33,7 @@ const Skill = (props: Props) => {
                             </div>
                     </div>
 
-                    <div className="lg:flex items-center justify-between space-y-5 lg:space-y-0 flex-wrap gap-7  my-24 gap-y-10">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 lg:space-y-0 flex-wrap gap-7  my-24 gap-y-10">
                         {skillsData.map((skill, index) => (
                           <SkillProgress key={index} skill={skill.skill} progress={skill.progress} />
                         ))}

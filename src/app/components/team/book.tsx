@@ -16,7 +16,7 @@ const Book = (props: Props) => {
                 <h2 className="text-[32px] lg:text-[42px] font-syne">Let’s <span className="text-[#92519c]">Open the World</span> of IT to You</h2>
                 <p className="text-[15px] font-sora text-[#FFFFFF80] mb-5">Discover a new world of possibilities with our IT solutions. We offer innovative and <br /> cutting-edge technology services to help you unlock your full potential in the digital landscape</p>
                 <div className='py-10'>
-                    <a href="/services" className="text-[16px] px-[60px] py-5 rounded-full font-sora border-2 border-[#92519c] font"><span>Book an Appointment</span></a>
+                    <a href="/contact" className="text-[16px] px-[60px] py-5 rounded-full font-sora border-2 border-[#92519c] font"><span>Book an Appointment</span></a>
                 </div>
                 
             </div>
