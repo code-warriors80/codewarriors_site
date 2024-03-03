@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
-import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
 
-type Props = {}
+interface ThingsProps {
+    image: string; // Assuming image is a string. Adjust the type as needed.
+    title: string;
+    description: string;
+}
 
-const Discovery = ({image, title, description}) => {
+const Discovery: React.FC<ThingsProps> = ({image, title, description}) => {
     return (
         <div className='w-full md:w-1/2 lg:w-[22.50%]'>
             <div className='flex items-center gap-5 py-5'>
@@ -19,7 +23,7 @@ const Discovery = ({image, title, description}) => {
     )
 }
 
-const Discover = (props: Props) => {
+const Discover = () => {
   return (
     <div className='deep_bg relative py-10'>
          <img
