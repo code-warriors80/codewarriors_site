@@ -11,14 +11,10 @@ const navitem = [
       { text: "Home", path: "/" },
       { text: "About us", path: "/about" },
       { text: "Team", path: "/team" },
-      { text: "Team Member", path: "/coming-soon" },
+      { text: "Contact Us", path: "/contact" },
       { text: "FAQ", path: "/coming-soon" },
       { text: "Event", path: "/coming-soon" },
     ],
-  },
-  {
-    item: "About Us",
-    path: '/about'
   },
   {
     item: "Services",
@@ -101,7 +97,7 @@ const Header = ({ transparent = false }) => {
         >
             {navitem.map((item, idx) => (
           <div key={item?.item} className="group flex flex-col items-center  w-full">
-            <Link href={``} className={`flex items-start gap-x-1 text-sm`}>
+            <Link href={!item.sub_items ? `${item.path}` : ``} className={`flex items-start gap-x-1 text-sm`}>
               {item?.item}
               {item?.sub_items?.length > 0 && (
                 <div className="p-[2px] rounded-full border-2 border-[#F57C00]" />
