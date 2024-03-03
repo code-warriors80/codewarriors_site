@@ -15,7 +15,7 @@ export const transporter = nodemailer.createTransport({
 
 export const mailOptions = {
   from: email,
-  to: "joshuaadah6@gmail.com",
+  to: "codewarriors02@gmail.com",
 };
 
 export async function sendMessage(data: {
@@ -24,6 +24,7 @@ export async function sendMessage(data: {
   email: string;
   phone: string;
 }): Promise<string> {
+
   const { name, message, email, phone } = data;
 
   if (!name || !email || !message) {
@@ -31,7 +32,7 @@ export async function sendMessage(data: {
   }
   // Compose email message
   const messageData = `
-     Name: ${name}
+    Name: ${name}
     Message: ${message}
     Email: ${email}
     Phone: ${phone}

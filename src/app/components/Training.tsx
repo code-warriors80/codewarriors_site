@@ -71,10 +71,10 @@ const Training = (props: Props) => {
                         </div>
 
                         <div className="carousel carousel-center px-0 p-4 space-x-4 lg:space-x-10 rounded-box w-full mt-20  ">
-                            <Trainings image='frontend.jpg' title1='Development' title2='Team' stars={'4.5'} header='Front-End Web Development' duration='3 Months' tutor={'John Shane'}/>
-                            <Trainings image='backend.jpg' title1='Development' title2='Team' stars={'4.5'} header='BackEnd Web Development' duration='3 Months' tutor={'John Shane'}/>
-                            <Trainings image='uiux.jpg' title1='Design' title2='Team' stars={'4.5'} header='UI/UX Design' duration='3 Months' tutor={'John Shane'}/>
-                            <Trainings image='funder.jpg' title1='Security' title2='Team' stars={'4.5'} header='Computer Fundermentals' duration='3 Months' tutor={'John Shane'}/>
+                            <Trainings image='frontend.jpg' title1='Development' title2='Team' stars={'4.5'} header='Front-End Web Development' duration='3 Months' tutor={'Abdulrahman Sadiq'}/>
+                            <Trainings image='backend.jpg' title1='Development' title2='Team' stars={'4.5'} header='BackEnd Web Development' duration='3 Months' tutor={'Joshua Ogbole'}/>
+                            <Trainings image='uiux.jpg' title1='Design' title2='Team' stars={'4.5'} header='UI/UX Design' duration='3 Months' tutor={'Daniel Elijah'}/>
+                            <Trainings image='funder.jpg' title1='Technical' title2='Team' stars={'4.5'} header='Computer Fundermentals' duration='3 Months' tutor={'Ogala Muctar'}/>
                         </div>
                 </div>
     </div>

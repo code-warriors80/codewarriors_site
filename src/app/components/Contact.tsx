@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { sendMessage } from '../actions/contact'
+import { toast } from 'react-toastify';
 
 type Props = {}
 
@@ -10,6 +11,7 @@ const Contact = (props: Props) => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [error, setError] = useState('')
+    const [loading, setLoading] = useState(false)
 
     const SubmitForm = async (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         e.preventDefault()
@@ -18,19 +20,30 @@ const Contact = (props: Props) => {
             message,
             email,
             phone,
-
         }
+
+        if(!name || !message || !email || !phone)
+        {
+            toast.error('Please fill in all required fields');
+            return;
+        }
+
+        setLoading(true);
+
         try {
             const res = await sendMessage(formData)
             const data = await res.json()
+
+            setLoading(false);
+
             if (res.ok) {
                 setName('');
                 setMessage('');
                 setEmail('');
                 setPhone('');
-
+                toast.success('Message Sent')
             } else {
-                setError(data.message)
+                toast.error(data.message)
             }
         } catch (error) {
             console.log(error)
@@ -98,7 +111,9 @@ const Contact = (props: Props) => {
                                 </div>
                             </div>
                         </div>
-                  <button onClick={SubmitForm} className='bg-[#92519c] text-white w-full rounded-full py-5 mt-10 font-sora text-[16px] font-bold'>Send Message Now</button>
+                  <button onClick={SubmitForm} className='bg-[#92519c] text-white w-full rounded-full py-5 mt-10 font-sora text-[16px] font-bold'>
+                    {loading ? 'Sending....' : 'Send Message'}
+                  </button>
                     </div>
                 </div>
     </div>

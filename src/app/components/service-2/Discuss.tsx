@@ -13,7 +13,7 @@ const Discuss = (props: Props) => {
                     <h3 className="text-white font-syne text-[26px]">Let’s Discuss <span className="text-[#92519c]">Your</span> Digital <span className="text-[#92519c]">Opportunity.</span></h3>
                     <p className="text-[#FFFFFF80] text-[15px] font-sora">Unlock your digital transformation opportunities now!</p>
                 </div>
-                <Link href='' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px] text-white'>Get Started</Link>
+                <Link href='/contact' className='border-2  border-[#92519c] px-10 lg:px-20 py-5 font-sora text-[16px] rounded-full font ease-in-out duration-300 hover:border-[3px] text-white'>Get Started</Link>
             </div>
         </div>
     </div>

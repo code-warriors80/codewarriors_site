@@ -37,10 +37,10 @@ const Footer = (props: Props) => {
 
                 <div className='text-white text-center lg:flex items-center justify-between py-10'>
                     <ul className='flex items-center gap-5 font-sora text-[15px]'>
-                        <li><Link href={''} target='blank'>Facebook</Link></li>
+                        <li><Link href={'https://web.facebook.com/codewariors02'} target='blank'>Facebook</Link></li>
                         <li><Link href={''} target='blank'>Instagram</Link></li>
                         <li><Link href={'https://x.com/codewarriors?t=PK1eiadVBA9gtxt3XZ7b9w&s=09'} target='blank'>Twitter</Link></li>
-                        <li><Link href={''} target='blank'>Github</Link></li>
+                        <li><Link href={'https://github.com/Code-Warriors-Tech'} target='blank'>Github</Link></li>
                     </ul>
                     <ul className='flex items-center gap-5 font-sora text-[15px]'>
                         <li><Link href={''}>Terms & Condition</Link></li>
