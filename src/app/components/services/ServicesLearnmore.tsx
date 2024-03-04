@@ -42,7 +42,7 @@ const Learnmore = (props: Props) => {
                         <li className='font-syne  text-[15px]'>Services and Solutions</li>
                     </ul>
                     <h2 className=' font-syne text-[32px] lg:text-[42px] mt-5'>Our SaaS Development Services Let You Win Big</h2>
-                    <p className="text-[15px] font-sora mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et dolore magna.</p>
+                    <p className="text-[15px] font-sora mt-5">We empower you to achieve greatness, delivering innovative solutions that drive <br/> success and growth. Let's build something incredible together</p>
                 </div>
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center justify-between gap-20 my-20'>
