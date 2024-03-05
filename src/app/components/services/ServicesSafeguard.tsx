@@ -14,7 +14,7 @@ const Performance: React.FC<PerformanceProps> = ({image, id, title, description}
     <div className=''>
         <div className='lg:flex gap-20 lg:px-7 py-10'>
                 <div className='relative w-fit'>
-                    <Image width={500} height={500} src={image} className='relative lg:w-[80px] z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={image} className='relative lg:w-[80px] z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                 </div>
                 <div className='mt-5'>
