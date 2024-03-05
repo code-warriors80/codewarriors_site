@@ -1,8 +1,4 @@
-import Image from 'next/image'
 import Carousel from './components/Carousel'
-import Plans from './components/Plans'
-import Power from './components/Power'
-import Solutions from './components/Solutions'
 import Training from './components/Training'
 import Services from './components/Services'
 import New from './components/New'
@@ -12,7 +8,6 @@ import Discover from './components/Discover'
 import Skill from './components/Skill'
 import Contact from './components/Contact'
 import Header from '@/components/header'
-import Footer from './components/Footer'
 import Partner from './components/Partner'
 
 
