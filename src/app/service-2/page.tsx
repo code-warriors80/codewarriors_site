@@ -4,7 +4,7 @@ import Experience from '../components/service-2/Experience'
 import Tools from '../components/service-2/Tools'
 import Discuss from '../components/service-2/Discuss'
 import Contact from '../components/Contact'
-import Description from '../components/service-2/description'
+import Description from '../components/service-2/Description'
 
 type Props = {}
 

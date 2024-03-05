@@ -66,14 +66,14 @@ const Header = ({ transparent = false }) => {
       
       <div className="hidden lg:flex items-center gap-x-12">
         {navitem.map((item, idx) => (
-          <div key={item?.item} className="group py-10">
+          <div key={idx} className="group py-10">
             <Link href={`${item.path}`} className={`flex items-start gap-x-1 text-sm`}>
               {item?.item}
-              {item?.sub_items?.length > 0 && (
+              {item.sub_items && item.sub_items.length > 0 && (
                 <div className="p-[2px] rounded-full border-2 border-[#92519c]" />
               )}
             </Link>
-            {item?.sub_items?.length > 0 && (
+            {item.sub_items && item.sub_items.length > 0 && (
               <div
                 className={`hidden group-hover:block absolute -ml-14 top-[105px] w-[180px] px-8 py-6 bg-white`}
                 style={{ boxShadow: "0 0 40px 0 rgba(18,24,32,.1)" }}
@@ -102,11 +102,11 @@ const Header = ({ transparent = false }) => {
           <div key={item?.item} className="group flex flex-col items-center  w-full">
             <Link href={!item.sub_items ? `${item.path}` : ``} className={`flex items-start gap-x-1 text-sm`}>
               {item?.item}
-              {item?.sub_items?.length > 0 && (
+              {item.sub_items && item.sub_items.length > 0 && (
                 <div className="p-[2px] rounded-full border-2 border-[#F57C00]" />
               )}
             </Link>
-            {item?.sub_items?.length > 0 && (
+            {item.sub_items && item.sub_items.length > 0 && (
               <div
                 className={`hidden group-hover:block transition duration-700 border-y border-[#e5e5e5] px-8 py-6 mt-4 w-full bg-[#121820] bg-opacity-20`}
               >
