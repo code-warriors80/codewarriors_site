@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
@@ -12,15 +13,15 @@ const RecentPost = (props: Props) => {
 
         <div className='space-y-5'>
                     <div className='flex items-center gap-3'>
-                        <img src='/15.jpg' className='w-16 h-16 rounded-full tran_filter'/>
+                        <Image alt='' width={500} height={500} src='/15.jpg' className='w-16 h-16 rounded-full tran_filter'/>
                         <h6 className='font-syne text-[16px]'>The World’s Fastest 2 Qubit Qate</h6>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src='/4.jpg' className='w-16 h-16 rounded-full tran_filter'/>
+                        <Image alt='' width={500} height={500} src='/4.jpg' className='w-16 h-16 rounded-full tran_filter'/>
                         <h6 className='font-syne text-[16px]'>Build Your Money Machine, Take Control</h6>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src='/6.jpg' className='w-16 h-16 rounded-full tran_filter'/>
+                        <Image alt='' width={500} height={500} src='/6.jpg' className='w-16 h-16 rounded-full tran_filter'/>
                         <h6 className='font-syne text-[16px]'>Android App For Shaving Products Drive</h6>
                     </div>
         </div>

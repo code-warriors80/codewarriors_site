@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
@@ -9,7 +10,7 @@ const BlogPosts = (props: Props) => {
     <div className='lg:w-[65%] mt-16 lg:my-20 space-y-10  px-10 mb-10 '>
         <div className='w-full mx-auto mb-10 '>
             <Link href='' className='tran_filter ease-in-out duration-300'>
-                <img src='/1.jpg' alt='' className='rounded-xl w-full object-cover h-[350px] lg:h-[500px]'/>
+                <Image width={500} height={500} src='/1.jpg' alt='' className='rounded-xl w-full object-cover h-[350px] lg:h-[500px]'/>
                 <div className='lg:flex justify-between my-5 gap-10'>
                     <div className='mb-5 lg:mb-0'>
                         <ul className='flex items-center gap-5 font-sora mb-5'>
@@ -26,7 +27,7 @@ const BlogPosts = (props: Props) => {
 
         <div className='w-full mx-auto mb-10'>
                 <Link href='' className='w-full mx-auto tran_filter ease-in-out duration-300'>
-                    <img src='/12.jpg' alt='' className='rounded-xl w-full object-cover h-[350px] lg:h-[500px]'/>
+                    <Image width={500} height={500} src='/12.jpg' alt='' className='rounded-xl w-full object-cover h-[350px] lg:h-[500px]'/>
                     <div className='lg:flex justify-between my-5 gap-10'>
                         <div className='mb-5 lg:mb-0'>
                             <ul className='flex items-center gap-5 font-sora mb-5'>
@@ -43,7 +44,7 @@ const BlogPosts = (props: Props) => {
 
         <div className='w-full mx-auto mb-10'>
             <Link href='' className='tran_filter  ease-in-out duration-300'>
-                <img src='/3.jpg' alt='' className='rounded-xl w-full object-cover h-[350px] lg:h-[500px]'/>
+                <Image width={500} height={500} src='/3.jpg' alt='' className='rounded-xl w-full object-cover h-[350px] lg:h-[500px]'/>
                 <div className='lg:flex justify-between my-5 gap-10'>
                     <div className='mb-5 lg:mb-0'>
                         <ul className='flex items-center gap-5 font-sora mb-5'>

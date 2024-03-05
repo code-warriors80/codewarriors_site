@@ -28,7 +28,7 @@ const ContactRight = (props: Props) => {
         </div>
         <div>
             <div className='relative w-fit mb-10'>
-                <Image src='/27.svg' className='relative z-10' alt='Main Image' />
+                <Image width={40} height={40} src='/27.svg' className='relative z-10' alt='Main Image' />
                 <div className='bg-[#6c4f98] w-[20px] h-[20px] rounded-full absolute -right-1 top-6 z-0'></div>
             </div>
             <div className='flex items-center gap-5'>
@@ -44,7 +44,7 @@ const ContactRight = (props: Props) => {
         </div>
         <div>
             <div className='relative w-fit mb-10'>
-                <Image src='/9.svg' className='relative z-10' alt='Main Image' />
+                <Image width={40} height={40} src='/9.svg' className='relative z-10' alt='Main Image' />
                 <div className='bg-[#6c4f98] w-[20px] h-[20px] rounded-full absolute -right-1 top-6 z-0'></div>
             </div>
             <div className='flex items-center gap-5'>

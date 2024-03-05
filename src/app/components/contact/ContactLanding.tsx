@@ -6,7 +6,7 @@ type Props = {}
 const ContactLanding = (props: Props) => {
   return (
     <div className='relative w-full mt-0 overflow-hidden mil_db '>
-        <Image alt='' src='/map.png' className='absolute w-full h-full top-0 left-0 object-cover z-0'/>
+        <Image alt='' width={500} height={500} src='/map.png' className='absolute w-full h-full top-0 left-0 object-cover z-0'/>
       <div className='relative z-10 bg-[#1218200D] px-10 lg:px-0'>
         <div className='flex items-center justify-between h-[500px]  xl:w-[75%]  lg:w-[100%] md:w-[90%]  mx-auto'>
           <div>
@@ -17,7 +17,7 @@ const ContactLanding = (props: Props) => {
               </ul>
                 <h2 className='font-syne text-[32px] lg:text-[42px] mt-10 uppercase'>LET’S DISCUSS YOUR OPPORTUNITY</h2>
             </div>
-            <Image alt='' src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[200px] hidden lg:block '/>
+            <Image alt='' width={500} height={500} src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[200px] hidden lg:block '/>
         </div>
       </div>
     </div>
