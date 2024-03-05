@@ -1,7 +1,5 @@
 import React from 'react'
 
-type Props = {}
-
 const Tool = [
     {
         id: 1,
@@ -53,13 +51,17 @@ const Tool = [
     },
 ]
 
-const Stacks = ({tool}) => (
+interface StacksProps {
+    tool: string;
+}
+
+const Stacks: React.FC<StacksProps> = ({tool}) => (
     <div className='border-2 text-center py-10 hover:shadow-2xl ease-in-out duration-300'>
         <h6>{tool}</h6>
     </div>
 )
 
-const Tools = (props: Props) => {
+const Tools = () => {
   return (
     <div className='py-20'>
         <ul className='flex flex-row items-center gap-3'>

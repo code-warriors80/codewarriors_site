@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import { BsArrowRight, BsPlayFill } from 'react-icons/bs'
 
@@ -10,9 +11,9 @@ const Carousel = (props: Props) => {
 <div className="carousel w-full h-screen">
 
   <div id="slide1" className="carousel-item relative w-screen">
-        <img src="/bg6.jpg" className="w-full h-full object-cover" />
+        <Image alt='' width={500} height={500} src="/bg6.jpg" className="w-full h-full object-cover" />
         <div className='w-full h-full absolute bg-[#121820CC] flex justify-center'>
-            <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
+            <Image alt='' width={500} height={500} src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
             <div className='flex items-center justify-center'>
                 <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                     <div className='lg:w-[75%] lg:px-20'>
@@ -39,9 +40,9 @@ const Carousel = (props: Props) => {
   </div>
 
   <div id="slide2" className="carousel-item relative w-screen">
-        <img src="/bg5.jpg" className="w-full h-full object-cover" />
+        <Image alt='' width={500} height={500} src="/bg5.jpg" className="w-full h-full object-cover" />
         <div className='w-full h-full absolute bg-[#121820CC] flex justify-center '>
-            <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
+            <Image alt='' width={500} height={500} src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] object-cover top-0 left-[200px] hidden lg:block  absolute'/>
             <div className=' flex items-center justify-center'>
                 <a href="#slide1" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                 <div className='lg:w-[75%] lg:px-20'>
@@ -65,9 +66,9 @@ const Carousel = (props: Props) => {
   </div>
 
   <div id="slide3" className="carousel-item relative w-screen">
-        <img src="/bg4.jpg" className="w-full h-full object-cover" />
+        <Image alt=''  width={500} height={500} src="/bg4.jpg" className="w-full h-full object-cover" />
         <div className='w-full h-full absolute bg-[#121820CC] flex justify-center '>
-            <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
+            <Image alt='' width={500} height={500} src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] object-cover top-0 left-[200px] hidden lg:block  absolute'/>
             <div className=' flex items-center justify-center'>
                 <a href="#slide2" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                 <div className='lg:w-[75%] lg:px-20'>
@@ -77,7 +78,7 @@ const Carousel = (props: Props) => {
                       <span className="font-satisfy text-[#92519c]">  Innovative Digital</span>  <br />
                       <span>Solutions</span>
                     </h1>
-                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'> with innovative and cutting-edge digital solutions,<br /> we including websites and software, that enhance efficiency, productivity, and competitiveness in today's digital landscape. </p>
+                    <p className='font-sora text-xs md:text-xl lg:text-sm text-[#FFFFFF80] text-center py-12 px-5'> with innovative and cutting-edge digital solutions,<br /> we including websites and software, that enhance efficiency, productivity, and competitiveness in todays digital landscape. </p>
                     <div className='flex items-center justify-center gap-10 lg:gap-20'>
                       <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                     </div>

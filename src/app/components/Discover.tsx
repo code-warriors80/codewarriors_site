@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
@@ -13,7 +14,7 @@ const Discovery: React.FC<ThingsProps> = ({image, title, description}) => {
         <div className='w-full md:w-1/2 lg:w-[22.50%]'>
             <div className='flex items-center gap-5 py-5'>
                 <div className='relative w-fit'>
-                    <img src={image} className='relative z-10' alt='Main Image' />
+                    <Image src={image} className='relative z-10' alt='Main Image' width={20} height={20}/>
                     <div className='bg-[#92519c] w-[15px] h-[15px] rounded-full absolute -right-1 top-4 z-0'></div>
                 </div>
                 <h6 className='font-syne text-[22px] text-[#121820]'>{title}</h6>
@@ -26,10 +27,10 @@ const Discovery: React.FC<ThingsProps> = ({image, title, description}) => {
 const Discover = () => {
   return (
     <div className='deep_bg relative py-10'>
-         <img
+         <Image
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[40%] lg:block absolute'
-                    alt='Decorative Element'
+                    alt='Decorative Element' width={500} height={500}
         />
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 '>
                      <div className='lg:flex items-end justify-between flex-wrap'>
@@ -68,10 +69,10 @@ const Discover = () => {
                         <Link href='/contact' className='border-2 border-[#92519c] px-20 py-5 rounded-full font-sora text-[16px] hidden lg:block font ease-in-out duration-300 hover:border-[3px]'>Get Started</Link>
                     </div>
         </div>
-        <img
+        <Image
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[40%] lg:block absolute'
-                    alt='Decorative Element'
+                    alt='Decorative Element' width={500} height={500}
         />
     </div>
   )

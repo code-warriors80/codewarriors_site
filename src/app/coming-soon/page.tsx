@@ -1,6 +1,4 @@
 import React from 'react'
-import Header from './header'
-import MaxWidthWrapper from '../components/MaxWidthWrapper'
 import Image from 'next/image'
 import { BiArrowToRight } from 'react-icons/bi'
 import { FaArrowRight } from 'react-icons/fa'
@@ -8,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa'
 function page() {
     return (
         <div className='w-full text-white font-syne'>
-            <img src='/30.jpg' className='w-full h-screen absolute z-0'/>
+            <Image src='/30.jpg' alt='' className='w-full h-screen absolute z-0'/>
             <div className="h-screen bg-[#121820CC] flex items-center relative z-10 px-5">
                 <div className='grid lg:grid-cols-2 items-center  xl:w-[75%] md:w-[90%] mx-auto space-y-5 gap-10'>
                     <div>

@@ -3,18 +3,21 @@
 import "@fontsource/sora";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navitem = [
   {
     item: "Enterprise",
     sub_items: [
       { text: "Home", path: "/" },
-      { text: "About us", path: "/about" },
       { text: "Team", path: "/team" },
-      { text: "Contact Us", path: "/contact" },
       { text: "FAQ", path: "/coming-soon" },
       { text: "Event", path: "/coming-soon" },
     ],
+  },
+  {
+    item: "About Us",
+    path: '/about'
   },
   {
     item: "Services",
@@ -58,7 +61,7 @@ const Header = ({ transparent = false }) => {
       } fixed top-0 left-0 right-0 flex justify-between items-center px-4 lg:px-24 z-50`}
       style={{ fontFamily: "Sora", boxShadow: transparent?"none": "0 0 40px 0 rgba(18,24,32,.1)" }}
     >
-      <img src="logo2.png" className="w-20 lg:w-36"/>
+      <Image alt="" width={500} height={500} src="/logo2.png" className="w-20 lg:w-36"/>
 
       
       <div className="hidden lg:flex items-center gap-x-12">

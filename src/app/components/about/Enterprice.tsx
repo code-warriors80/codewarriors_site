@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 type Props = {}
@@ -35,10 +36,15 @@ const value = [
     },
 ]
 
-const Values = ({title, description}) => (
+interface ValuesProps {
+    title: string;
+    description: string;
+}
+
+const Values: React.FC<ValuesProps> = ({title, description}) => (
     <div className='space-y-5'>
         <div className='relative w-fit'>
-                <img src='/10.svg' className='relative z-10' alt='Main Image' />
+                <Image src='/10.svg' className='relative z-10' alt='Main Image' width={40} height={40}/>
                 <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-6 z-0'></div>
         </div>
         <h4 className='font-syne text-[22px]'>{title}</h4>
@@ -49,10 +55,10 @@ const Values = ({title, description}) => (
 const Enterprice = (props: Props) => {
   return (
     <div className='relative bg-[#1218200D] py-32'>
-        <img
+        <Image
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[30%] lg:block absolute'
-                    alt='Decorative Element'
+                    alt='Decorative Element' width={100} height={100}
         />
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
             <div>

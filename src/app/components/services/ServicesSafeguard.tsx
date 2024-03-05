@@ -1,12 +1,20 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import {BsArrowRight} from 'react-icons/bs';
 
-const Performance = ({image, id, title, description}) => (
+interface PerformanceProps {
+    image: string
+    id: string; // Assuming image is a string. Adjust the type as needed.
+    title: string;
+    description: string;
+}
+
+const Performance: React.FC<PerformanceProps> = ({image, id, title, description}) => (
     <div className=''>
         <div className='lg:flex gap-20 lg:px-7 py-10'>
                 <div className='relative w-fit'>
-                    <img src={image} className='relative lg:w-[80px] z-10' alt='Main Image' />
+                    <Image width={500} height={500} src={image} className='relative lg:w-[80px] z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                 </div>
                 <div className='mt-5'>

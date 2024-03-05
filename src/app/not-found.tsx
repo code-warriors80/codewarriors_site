@@ -2,12 +2,13 @@ import React from 'react'
 import Header from './coming-soon/header'
 import MaxWidthWrapper from './components/MaxWidthWrapper'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 function notfound() {
     return (
         <div className="  font-sora block">
-            <img src='30.jpg' className='w-full h-screen absolute z-0'/>
+            <Image alt='' width={500} height={500} src='30.jpg' className='w-full h-screen absolute z-0'/>
             <div className='h-screen bg-[#121820CC] flex items-center relative z-10'>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center  xl:w-[75%] md:w-[90%] mx-auto space-y-5'>
                     <div className='text-white text-center space-y-5'>
@@ -22,7 +23,7 @@ function notfound() {
                         </div>
                     </div>
                     <div className=''>
-                        <img src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] hidden md:block mx-auto'/>
+                        <Image alt='' width={500} height={500} src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] hidden md:block mx-auto'/>
                     </div>
                 </div>
             </div>

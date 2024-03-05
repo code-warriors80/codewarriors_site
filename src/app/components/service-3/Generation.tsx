@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -18,7 +19,7 @@ const Generation = (props: Props) => {
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-y-20 mt-20 items-center justify-center font-syne text-[16px] font'>
             <div className='text-center space-y-5'>
                 <div className='relative w-fit mx-auto'>
-                    <img src={'1.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'1.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h6>Cloud</h6>
@@ -26,7 +27,7 @@ const Generation = (props: Props) => {
 
             <div className='text-center space-y-5'>
                 <div className='relative w-fit mx-auto'>
-                    <img src={'30.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'30.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h6>AI / ML</h6>
@@ -34,7 +35,7 @@ const Generation = (props: Props) => {
 
             <div className='text-center space-y-5'>
                 <div className='relative w-fit mx-auto'>
-                    <img src={'2.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'2.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h6>AR / VR</h6>
@@ -42,7 +43,7 @@ const Generation = (props: Props) => {
 
             <div className='text-center space-y-5'>
                 <div className='relative w-fit mx-auto'>
-                    <img src={'23.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'23.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h6>IoT</h6>

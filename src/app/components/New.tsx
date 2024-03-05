@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
@@ -7,10 +8,10 @@ type Props = {}
 const New = (props: Props) => {
   return (
     <div className='relative py-10'>
-        <img
+        <Image
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[150px] lg:w-auto top-0   hidden lg:right-[30%] lg:block absolute'
-                    alt='Decorative Element'
+                    alt='Decorative Element' width={500} height={500}
         />
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0'>
                         <div className='lg:flex items-end justify-between flex-wrap'>
@@ -36,7 +37,7 @@ const New = (props: Props) => {
                         <div className='carousel carousel-center px-0 p-4 space-x-4 lg:space-x-10 rounded-box w-full mt-20 '>
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[45.50%] group'>
                                 <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                        <img src='/ecom.jpg' alt='' className='rounded-xl w-full h-[350px] lg:h-[400px] object-cover'/>
+                                        <Image width={500} height={500} src='/ecom.jpg' alt='' className='rounded-xl w-full h-[350px] lg:h-[400px] object-cover'/>
                                         <div className='lg:flex justify-between gap-10 my-5'>
                                             <div className='lg:w-[60%]'>
                                                 <h4 className='font-syne text-[22px]'>Student E-Commerce Community</h4>
@@ -53,7 +54,7 @@ const New = (props: Props) => {
                                         <h4 className='font-syne text-[22px]'>Student Collaboration Platform</h4>
                                         <p className='font-sora text-[18px] lg:text-[15px] text-[#12182066] my-5'>Collaborate seamlessly with peers on projects and assignments. Share ideas and enhance your learning experience with our Student Collaboration Platform</p>
                                     </div>
-                                    <img src='/collab.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
+                                    <Image width={500} height={500} src='/collab.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <div className='lg:hidden'>
                                         <h4 className='font-syne text-[22px] my-5'>Student Collaboration Platform</h4>
                                         <p className='font-sora lg:text-[15px] text-[#12182066]'>Collaborate seamlessly with peers on projects and assignments. Share ideas and enhance your learning experience with our Student Collaboration Platform</p>
@@ -63,7 +64,7 @@ const New = (props: Props) => {
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[23.95%]'>
                                 <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                    <img src='/6.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
+                                    <Image width={500} height={500} src='/6.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <h4 className='font-syne text-[22px] my-5'>Student Tech & Survey Blog</h4>
                                     <p className='font-sora lg:text-[15px] text-[#12182066]'>Explore the intersection of technology and student life with our Student Tech & Survey Blog. Stay updated on the latest tech trends and insightful surveys.</p>
                                 </Link>
@@ -71,7 +72,7 @@ const New = (props: Props) => {
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[45.50%]'>
                                 <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                        <img src='/hotel.jpg' alt='' className='rounded-xl w-full h-[350px] lg:h-[400px] object-cover'/>
+                                        <Image width={500} height={500} src='/hotel.jpg' alt='' className='rounded-xl w-full h-[350px] lg:h-[400px] object-cover'/>
                                         <div className='lg:flex justify-between gap-10 my-5'>
                                             <div className='lg:w-[60%]'>
                                                 <h4 className='font-syne text-[22px]'>Hotel Booking Platform</h4>
@@ -88,7 +89,7 @@ const New = (props: Props) => {
                                         <h4 className='font-syne text-[22px] '>Automated Customer Service Solutions</h4>
                                         <p className='font-sora lg:text-[15px] text-[#12182066] my-5'> Implement AI-powered chatbots for efficient customer support, reducing response times and enhancing customer experience.</p>
                                     </div>
-                                    <img src='/customer.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
+                                    <Image width={500} height={500} src='/customer.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <div className='lg:hidden'>
                                         <h4 className='font-syne text-[22px] my-5'>Automated Customer Service Solutions</h4>
                                         <p className='font-sora lg:text-[15px] text-[#12182066]'>Implement AI-powered chatbots for efficient customer support, reducing response times and enhancing customer experience.</p>
@@ -98,7 +99,7 @@ const New = (props: Props) => {
 
                             <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[23.50%]'>
                                 <Link href='/coming-soon' className='overflow-hidden tran_filter ease-in-out duration-300'>
-                                    <img src='/chain.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
+                                    <Image width={500} height={500} src='/chain.jpg' alt='' className='rounded-xl w-full h-[350px] object-cover'/>
                                     <h4 className='font-syne text-[22px] my-5'>Supply Chain Management System with IoT Integration</h4>
                                     <p className='font-sora lg:text-[15px] text-[#12182066]'>Integrate IoT devices into a supply chain management system to track inventory, monitor shipments, and optimize logistics for improved efficiency and cost reduction.</p>
                                 </Link>

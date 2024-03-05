@@ -1,6 +1,5 @@
+import Image from 'next/image';
 import React from 'react'
-
-type Props = {}
 
 const ServiceList = [
     {
@@ -41,10 +40,16 @@ const ServiceList = [
     },
 ]
 
-const Services = ({image, title, description}) => (
+interface ServicesProps {
+    image: string;
+    title: string;
+    description: string;
+}
+
+const Services: React.FC<ServicesProps> = ({image, title, description}) => (
     <div className='space-y-7'>
         <div className='relative w-fit'>
-            <img src={image} className='relative z-10' alt='Main Image' />
+            <Image width={40} height={40} src={image} className='relative z-10' alt='Main Image' />
             <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
         </div>
         <h4 className="font-syne text-[22px]">{title}</h4>
@@ -54,7 +59,7 @@ const Services = ({image, title, description}) => (
     </div>
 )
 
-const Experience = (props: Props) => {
+const Experience = () => {
   return (
     <div className='py-20'>
         <ul className='flex flex-row items-center gap-3'>

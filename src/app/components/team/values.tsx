@@ -1,11 +1,16 @@
+import Image from 'next/image';
 import React from 'react'
 
-type Props = {}
+interface OurValuesProps {
+    index: string;
+    title: string;
+    description: string;
+  }
 
-const OurValues = ({index, title, description}) => (
+const OurValues: React.FC<OurValuesProps> = ({index, title, description}) => (
     <div className='text-center space-y-5'>
         <div className='relative w-fit mx-auto'>
-                <img src='5.svg' className='relative z-10' alt='Main Image' />
+                <Image width={40} height={40} src='5.svg' className='relative z-10' alt='Main Image' />
                 <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-6 z-0'></div>
         </div>
         <h5 className="text-[18px] font-syne"><span className="text-[#92519c]">{index}.</span>&nbsp; {title}</h5>
@@ -13,7 +18,7 @@ const OurValues = ({index, title, description}) => (
     </div>
 )
 
-const Values = (props: Props) => {
+const Values = () => {
   return (
     <div className='py-10'>
         <div className='mx-auto flex gap-2  my-20'>

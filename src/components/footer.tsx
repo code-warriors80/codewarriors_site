@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -6,13 +7,13 @@ type Props = {}
 const Footer = (props: Props) => {
   return (
     <div className='relative bg-[#121820]'>
-        <img src='/map.png' className='absolute w-full h-full top-0 left-0 object-cover z-0'/>
+        <Image alt='' width={500} height={500} src='/map.png' className='absolute w-full h-full top-0 left-0 object-cover z-0'/>
         <div className='bg-[#121820CC] w-full relative z-10'>
             <div className='relative bg-[#121820CC]'>
                 <div className='xl:w-[75%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0'>
                 <div className='grid lg:grid-cols-3 gap-10 items-center justify-between mx-auto'>
                     <div className="w-full lg:w-[80%] space-y-5">
-                        <img src="logo.png" alt="logo" className="w-32" />
+                        <Image width={500} height={500} src="/logo.png" alt="logo" className="w-32" />
                         <p className="text-[15px] font-sora text-[#FFFFFF80]">To give professional services and support through technology starting from our local to global society, .</p>
                     </div>
                     

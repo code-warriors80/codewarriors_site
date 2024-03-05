@@ -2,9 +2,14 @@ import Link from 'next/link'
 import React from 'react'
 // import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
 
-type Props = {}
+interface SolutionProps {
+    id: string; // Assuming image is a string. Adjust the type as needed.
+    title: string;
+    description: string;
+}
 
-const Solution = ({id, title, description}) => (
+
+const Solution: React.FC<SolutionProps> = ({id, title, description}) => (
     <div className=' '>
         <div className='flex items-center gap-5 py-5'>
             <div className='relative w-fit'>
@@ -17,7 +22,7 @@ const Solution = ({id, title, description}) => (
     </div>
 )
 
-const Learnmore = (props: Props) => {
+const Learnmore = () => {
   return (
     <div className='relative py-10'>
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0 '>
@@ -42,7 +47,7 @@ const Learnmore = (props: Props) => {
                         <li className='font-syne  text-[15px]'>Services and Solutions</li>
                     </ul>
                     <h2 className=' font-syne text-[32px] lg:text-[42px] mt-5'>Our SaaS Development Services Let You Win Big</h2>
-                    <p className="text-[15px] font-sora mt-5">We empower you to achieve greatness, delivering innovative solutions that drive <br/> success and growth. Let's build something incredible together</p>
+                    <p className="text-[15px] font-sora mt-5">We empower you to achieve greatness, delivering innovative solutions that drive <br/> success and growth. Lets build something incredible together</p>
                 </div>
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center justify-between gap-20 my-20'>

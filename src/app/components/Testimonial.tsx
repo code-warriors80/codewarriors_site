@@ -1,14 +1,20 @@
+import Image from 'next/image';
 import React from 'react'
 import { BsArrowLeft, BsArrowRight, BsStar, BsStarFill } from 'react-icons/bs'
 
-type Props = {}
+interface TestimonialsProps {
+    image: string;
+    name: string;
+    position: string;
+    description: string;
+}
 
-const Testimonials= ({image, name, position ,description}) => {
+const Testimonials: React.FC<TestimonialsProps> = ({image, name, position ,description}) => {
     return (
     <div className='carousel-item w-[99%] md:w-[48.50%] lg:w-[30.50%]'>
         <div className='overflow-hidden'>
             <div className='flex gap-5'>
-                <img src='/11.svg' className=''/>
+                <Image width={40} height={40} alt='' src='/11.svg' className=''/>
                 <div className='flex gap-2'>
                     <BsStarFill size={18} color='#92519c'/>
                     <BsStarFill size={18} color='#92519c'/>
@@ -19,7 +25,7 @@ const Testimonials= ({image, name, position ,description}) => {
             </div>
                 <p className='font-sora text-[#12182066] py-5 lg:text-[15px]'>{description}</p>
                 <div className='flex items-center gap-5'>
-                    <img src={image} className='w-12 h-12 rounded-full tran_filter'/>
+                    <Image width={500} height={500} src={image} className='w-12 h-12 rounded-full tran_filter' alt='vhvhg'/>
                     <div>
                         <h6 className='font-sora text-[16px]'>{name}</h6>
                         <p className='text-[#12182066] font-syne text-[13px]'>{position}</p>
@@ -30,10 +36,10 @@ const Testimonials= ({image, name, position ,description}) => {
     )
 }
 
-const Testimonial = (props: Props) => {
+const Testimonial = () => {
   return (
     <div className='deep_bg relative py-10'>
-        <img
+        <Image width={500} height={500}
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[200px] lg:w-auto top-0   hidden lg:right-[40%] lg:block absolute'
                     alt='Decorative Element'

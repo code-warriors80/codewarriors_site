@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
@@ -15,7 +16,7 @@ const Delevery = (props: Props) => {
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-20'>
             <div className='space-y-5'>
                 <div className='relative w-fit'>
-                    <img src={'23.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'23.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">E-Commerce</h5>
@@ -26,7 +27,7 @@ const Delevery = (props: Props) => {
 
             <div className='space-y-5'>
                 <div className='relative w-fit'>
-                    <img src={'24.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'24.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">Entertainment</h5>
@@ -37,7 +38,7 @@ const Delevery = (props: Props) => {
 
             <div className='space-y-5'>
                 <div className='relative w-fit'>
-                    <img src={'20.svg'} className='relative z-10' alt='Main Image' />
+                    <Image width={40} height={40} src={'20.svg'} className='relative z-10' alt='Main Image' />
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full  absolute -right-1 top-7 z-0'></div>
                 </div>
                 <h5 className="text-[18px] font-syne font">Enterprise</h5>

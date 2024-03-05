@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
@@ -5,10 +6,10 @@ type Props = {}
 const Experience = (props: Props) => {
   return (
     <div className='relative py-32'>
-         <img
+         <Image
                     src='https://itsulu-react.netlify.app/_next/static/media/deco-1.07790e8b.svg'
                     className='w-[150px] lg:w-auto top-0   hidden lg:left-[30%] lg:block absolute'
-                    alt='Decorative Element'
+                    alt='Decorative Element' width={100} height={100}
         />
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto px-10 lg:px-0'>
                 <div className='lg:flex items-center justify-between space-y-10 lg:space-y-0'>

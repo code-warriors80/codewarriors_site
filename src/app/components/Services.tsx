@@ -1,9 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
+interface ServiceProps {
+    image: string;
+    index: string;
+    title: string;
+    description: string;
+}
 
-const Service = ({image, index, title, description}) => {
+const Service: React.FC<ServiceProps> = ({image, index, title, description}) => {
     return (
         <div className=''>
                 <div className='mx-auto flex gap-2 '>
@@ -12,7 +17,7 @@ const Service = ({image, index, title, description}) => {
                 </div>
                         <div className='lg:flex items-start gap-20 lg:px-7 py-10'>
                                 <div className='relative w-fit mb-5 lg:mb-0'>
-                                    <img src={image} className='z-10' alt='Main Image' />
+                                    <Image width={40} height={40} src={image} className='z-10' alt='Main Image' />
                                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-4 z-0'></div>
                                 </div>
                             
@@ -25,7 +30,7 @@ const Service = ({image, index, title, description}) => {
     )
 }
 
-const Services = (props: Props) => {
+const Services = () => {
   return (
     <div>
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto py-16 px-5 sm:px-16 md:px-0'>

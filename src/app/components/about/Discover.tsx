@@ -1,6 +1,5 @@
+import Image from 'next/image';
 import React from 'react'
-
-type Props = {}
 
 
 const Reason = [
@@ -36,7 +35,14 @@ const Reason = [
     },
 ]
 
-const Things = ({image, title, description}) => (
+interface ThingsProps {
+    image: string;
+    title: string;
+    description: string;
+}
+
+
+const Things: React.FC<ThingsProps> = ({image, title, description}) => (
     <div>
         <div className='mx-auto flex gap-2  my-20'>
                         <div className='w-[30px] h-[2px] bg-[#92519c]  rounded-full'></div>
@@ -45,7 +51,7 @@ const Things = ({image, title, description}) => (
         </div>
         <div className='md:flex items-center justify-between space-y-5'>
             <div className='relative w-fit'>
-                    <img src={image} className='relative z-10' alt='Main Image' />
+                    <Image src={image} className='relative z-10' alt='Main Image' width={40} height={40}/>
                     <div className='bg-[#92519c] w-[20px] h-[20px] rounded-full absolute -right-1 top-6 z-0'></div>
             </div>
             <h4 className='font-syne text-[22px]'>{title}</h4>
@@ -54,7 +60,7 @@ const Things = ({image, title, description}) => (
     </div>
 )
 
-const Discover = (props: Props) => {
+const Discover = () => {
   return (
     <div className='py-32 px-10 lg:px-0'>
         <div className='xl:w-[75%]  lg:w-[100%] md:w-[90%] mx-auto'>
