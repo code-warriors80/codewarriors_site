@@ -41,7 +41,7 @@ const ServicesSafeguard = () => {
                 </p>
             </div>
         <div className='lg:mx-auto py-16 mx-auto grid lg:grid-cols-2 gap-20 items-center '>
-            <div className='border-2 p-16 h-[400px] hover:border-[#92519c] rounded-lg'>
+            <div className='border-2 p-10 lg:p-16 lg:h-[400px] hover:border-[#92519c] rounded-lg'>
                 <div>
                     <h2 className="text-[22px] font-syne">Get a Live Demo</h2>
                     <p className='font-sora text-[16px] py-10 text-[#12182066]'>
@@ -60,7 +60,7 @@ const ServicesSafeguard = () => {
                 </div>
             </div>
 
-            <div className='border-2 h-[400px] p-16 hover:border-[#92519c] rounded-lg'>
+            <div className='border-2 lg:h-[400px] p-10 lg:p-16 hover:border-[#92519c] rounded-lg'>
                 <div>
                     <h2 className="text-[22px] font-syne">Start now</h2>
                     <p className='font-sora text-[16px] py-10 text-[#12182066]'>
@@ -106,7 +106,7 @@ const ServicesSafeguard = () => {
             </div>
 
             <div className='flex justify-between items-center lg:mt-20 flex-wrap'>
-                <Link href='/' className='border-2 border-[#92519c] px-20 py-5 rounded-full font-sora text-[16px] my-5 font ease-in-out duration-300 hover:border-[3px]'>Talk To Our SaaS Experts</Link>
+                <Link href='/' className='border-2 border-[#92519c] px-10 lg:px-20 py-5 rounded-full font-sora text-[16px] my-5 font ease-in-out duration-300 hover:border-[3px]'>Talk To Our SaaS Experts</Link>
                 <Link href='/' className='flex gap-3 items-center font-syne text-[16px] font group hidden lg:block'>
                     <div className='bg-[#92519c] p-3 rounded-full relative ease-in-out duration-300 group-hover:left-3'>
                         <BsArrowRight size={20} color='white'/>

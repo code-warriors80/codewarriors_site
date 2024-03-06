@@ -95,7 +95,7 @@ const Header = ({ transparent = false }) => {
       <div className="lg:hidden flex items-center">
         <i className={`bx bx-${isOpen?"x":"menu"} text-3xl`} onClick={ ()=> setOpen(prev=>!prev)} />
 
-      {isOpen &&  <div className="bg-white overflow-hidden transition duration-700 flex flex-col items-center gap-y-5 absolute border top-[100px] left-0 right-0 py-8"
+      {isOpen &&  <div className="bg-white overflow-hidden transition duration-700 flex flex-col items-center gap-y-5 absolute border top-[80px] left-0 right-0 py-8"
         
         >
             {navitem.map((item, idx) => (

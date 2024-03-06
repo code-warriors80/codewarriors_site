@@ -35,19 +35,35 @@ const Tool = [
     },
     {
         id: 9,
-        stack: "MariaDB"
+        stack: "Laravel"
     },
     {
         id: 10,
+        stack: "Mysql"
+    },
+    {
+        id: 11,
+        stack: "MariaDB"
+    },
+    {
+        id: 12,
         stack: "AWS"
     },
     {
-        id: 11,
+        id: 13,
         stack: "React"
     },
     {
-        id: 11,
+        id: 14,
         stack: "React Native"
+    },
+    {
+        id: 15,
+        stack: "Next Js"
+    },
+    {
+        id: 16,
+        stack: "Mongo DB"
     },
 ]
 

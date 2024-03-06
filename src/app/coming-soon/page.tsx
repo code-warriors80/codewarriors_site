@@ -6,11 +6,11 @@ import { FaArrowRight } from 'react-icons/fa'
 function page() {
     return (
         <div className='w-full text-white font-syne'>
-            <Image src='/30.jpg' alt='' className='w-full h-screen absolute z-0'/>
+            <Image width={500} height={500} src='/30.jpg' alt='' className='w-full h-screen absolute z-0'/>
             <div className="h-screen bg-[#121820CC] flex items-center relative z-10 px-5">
                 <div className='grid lg:grid-cols-2 items-center  xl:w-[75%] md:w-[90%] mx-auto space-y-5 gap-10'>
                     <div>
-                        <h1 className='text-[60px] font-syne mb-5'>Coming <span className="text-[#92519c]">Soon</span></h1>
+                        <h1 className='text-[42px] lg:text-[60px] font-syne mb-5'>Coming <span className="text-[#92519c]">Soon</span></h1>
                         <p className='text-[16px] text-[#FFFFFF80] font-sora'>We are working on our website</p>
                     </div>
 

@@ -17,7 +17,7 @@ const Projects: React.FC<ProjectsProps> = ({image, title, author, description, l
     return (
         <div className="carousel-item w-full md:w-[48.50%]  lg:w-[47.50%]">
             <a href={`${link}`} target='blank' className='overflow-hidden tran_filter ease-in-out duration-300 w-full'>
-                    <Image src={image} className="w-full object-cover rounded-xl h-[450px]" alt='' width={500} height={500}/>
+                    <Image src={image} className="w-full object-cover rounded-xl h-[400px] lg:h-[450px]" alt='' width={500} height={500}/>
                     <div className='lg:flex justify-between gap-10 my-5'>
                         <div className='lg:w-[40%]'>
                                 <h4 className='font-syne text-[22px]'>{title}</h4>
