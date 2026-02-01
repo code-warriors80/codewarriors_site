@@ -58,11 +58,10 @@ const Header = ({ transparent = false }) => {
     <nav
       className={`${
         transparent ? "bg-transparent" : "bg-white"
-      } fixed top-0 left-0 right-0 flex justify-between items-center px-4 lg:px-24 z-50`}
+      } fixed top-0 left-0 right-0 flex justify-between items-center lg:px-16 z-50`}
       style={{ fontFamily: "Sora", boxShadow: transparent?"none": "0 0 40px 0 rgba(18,24,32,.1)" }}
     >
-      <Image alt="" width={500} height={500} src="/logo2.png" className="w-20 lg:w-36"/>
-
+      <Image alt="" width={500} height={500} src="/1.png" className="w-20 lg:w-35"/>
       
       <div className="hidden lg:flex items-center gap-x-12">
         {navitem.map((item, idx) => (
@@ -87,9 +86,9 @@ const Header = ({ transparent = false }) => {
             )}
           </div>
         ))}
-        <button>
+        {/* <button>
           <i className="bx bx-search text-2xl" />
-        </button>
+        </button> */}
       </div>
 
       <div className="lg:hidden flex items-center">

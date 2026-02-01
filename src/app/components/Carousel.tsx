@@ -13,7 +13,6 @@ const Carousel = (props: Props) => {
   <div id="slide1" className="carousel-item relative w-screen">
         <Image alt='' width={500} height={500} src="/bg6.jpg" className="w-full h-full object-cover" />
         <div className='w-full h-full absolute bg-[#121820CC] flex justify-center'>
-            <Image alt='' width={500} height={500} src='https://itsulu-react.netlify.app/_next/static/media/deco-2.8cba2eb2.svg' className='w-[220px] top-0 left-[200px] hidden lg:block  absolute'/>
             <div className='flex items-center justify-center'>
                 <a href="#slide3" className="btn btn-circle bg-[#FFFFFF1A] text-white hidden lg:flex">❮</a>
                     <div className='lg:w-[75%] lg:px-20'>
@@ -29,8 +28,8 @@ const Carousel = (props: Props) => {
                         <div className='flex items-center justify-center gap-10 lg:gap-20'>
                           <button className="font-sora text-sm lg:text-lg bg-[#92519c] text-white  px-5 lg:px-10 py-4 rounded-full font-base">Read More</button>
                           <div className='flex items-center gap-5'>
-                              <button className="border-2 border-[#92519c] rounded-full  p-3 lg:p-4"><BsPlayFill size={30} color='white'/></button>
-                              <span className='font-sora text-white text-sm lg:text-sm'>Watch Video</span>
+                              {/* <button className="border-2 border-[#92519c] rounded-full  p-3 lg:p-4"><BsPlayFill size={30} color='white'/></button>
+                              <span className='font-sora text-white text-sm lg:text-sm'>Watch Video</span> */}
                           </div>
                         </div>
                     </div>
